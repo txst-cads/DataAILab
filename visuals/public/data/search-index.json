@@ -1,0 +1,4505 @@
+{
+  "index": [
+    {
+      "id": 1,
+      "title": "Research Paper 1",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 1 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 1 Researcher 1 2020"
+    },
+    {
+      "id": 2,
+      "title": "Research Paper 2",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 2 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 2 Researcher 2 2021"
+    },
+    {
+      "id": 3,
+      "title": "Research Paper 3",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 3 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 3 Researcher 3 2022"
+    },
+    {
+      "id": 4,
+      "title": "Research Paper 4",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 4 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 4 Researcher 4 2023"
+    },
+    {
+      "id": 5,
+      "title": "Research Paper 5",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 5 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 5 Researcher 5 2020"
+    },
+    {
+      "id": 6,
+      "title": "Research Paper 6",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 6 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 6 Researcher 6 2021"
+    },
+    {
+      "id": 7,
+      "title": "Research Paper 7",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 7 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 7 Researcher 7 2022"
+    },
+    {
+      "id": 8,
+      "title": "Research Paper 8",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 8 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 8 Researcher 8 2023"
+    },
+    {
+      "id": 9,
+      "title": "Research Paper 9",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 9 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 9 Researcher 9 2020"
+    },
+    {
+      "id": 10,
+      "title": "Research Paper 10",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 10 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 10 Researcher 10 2021"
+    },
+    {
+      "id": 11,
+      "title": "Research Paper 11",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 11 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 11 Researcher 1 2022"
+    },
+    {
+      "id": 12,
+      "title": "Research Paper 12",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 12 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 12 Researcher 2 2023"
+    },
+    {
+      "id": 13,
+      "title": "Research Paper 13",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 13 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 13 Researcher 3 2020"
+    },
+    {
+      "id": 14,
+      "title": "Research Paper 14",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 14 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 14 Researcher 4 2021"
+    },
+    {
+      "id": 15,
+      "title": "Research Paper 15",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 15 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 15 Researcher 5 2022"
+    },
+    {
+      "id": 16,
+      "title": "Research Paper 16",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 16 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 16 Researcher 6 2023"
+    },
+    {
+      "id": 17,
+      "title": "Research Paper 17",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 17 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 17 Researcher 7 2020"
+    },
+    {
+      "id": 18,
+      "title": "Research Paper 18",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 18 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 18 Researcher 8 2021"
+    },
+    {
+      "id": 19,
+      "title": "Research Paper 19",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 19 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 19 Researcher 9 2022"
+    },
+    {
+      "id": 20,
+      "title": "Research Paper 20",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 20 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 20 Researcher 10 2023"
+    },
+    {
+      "id": 21,
+      "title": "Research Paper 21",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 21 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 21 Researcher 1 2020"
+    },
+    {
+      "id": 22,
+      "title": "Research Paper 22",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 22 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 22 Researcher 2 2021"
+    },
+    {
+      "id": 23,
+      "title": "Research Paper 23",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 23 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 23 Researcher 3 2022"
+    },
+    {
+      "id": 24,
+      "title": "Research Paper 24",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 24 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 24 Researcher 4 2023"
+    },
+    {
+      "id": 25,
+      "title": "Research Paper 25",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 25 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 25 Researcher 5 2020"
+    },
+    {
+      "id": 26,
+      "title": "Research Paper 26",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 26 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 26 Researcher 6 2021"
+    },
+    {
+      "id": 27,
+      "title": "Research Paper 27",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 27 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 27 Researcher 7 2022"
+    },
+    {
+      "id": 28,
+      "title": "Research Paper 28",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 28 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 28 Researcher 8 2023"
+    },
+    {
+      "id": 29,
+      "title": "Research Paper 29",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 29 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 29 Researcher 9 2020"
+    },
+    {
+      "id": 30,
+      "title": "Research Paper 30",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 30 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 30 Researcher 10 2021"
+    },
+    {
+      "id": 31,
+      "title": "Research Paper 31",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 31 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 31 Researcher 1 2022"
+    },
+    {
+      "id": 32,
+      "title": "Research Paper 32",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 32 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 32 Researcher 2 2023"
+    },
+    {
+      "id": 33,
+      "title": "Research Paper 33",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 33 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 33 Researcher 3 2020"
+    },
+    {
+      "id": 34,
+      "title": "Research Paper 34",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 34 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 34 Researcher 4 2021"
+    },
+    {
+      "id": 35,
+      "title": "Research Paper 35",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 35 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 35 Researcher 5 2022"
+    },
+    {
+      "id": 36,
+      "title": "Research Paper 36",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 36 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 36 Researcher 6 2023"
+    },
+    {
+      "id": 37,
+      "title": "Research Paper 37",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 37 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 37 Researcher 7 2020"
+    },
+    {
+      "id": 38,
+      "title": "Research Paper 38",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 38 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 38 Researcher 8 2021"
+    },
+    {
+      "id": 39,
+      "title": "Research Paper 39",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 39 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 39 Researcher 9 2022"
+    },
+    {
+      "id": 40,
+      "title": "Research Paper 40",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 40 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 40 Researcher 10 2023"
+    },
+    {
+      "id": 41,
+      "title": "Research Paper 41",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 41 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 41 Researcher 1 2020"
+    },
+    {
+      "id": 42,
+      "title": "Research Paper 42",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 42 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 42 Researcher 2 2021"
+    },
+    {
+      "id": 43,
+      "title": "Research Paper 43",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 43 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 43 Researcher 3 2022"
+    },
+    {
+      "id": 44,
+      "title": "Research Paper 44",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 44 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 44 Researcher 4 2023"
+    },
+    {
+      "id": 45,
+      "title": "Research Paper 45",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 45 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 45 Researcher 5 2020"
+    },
+    {
+      "id": 46,
+      "title": "Research Paper 46",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 46 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 46 Researcher 6 2021"
+    },
+    {
+      "id": 47,
+      "title": "Research Paper 47",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 47 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 47 Researcher 7 2022"
+    },
+    {
+      "id": 48,
+      "title": "Research Paper 48",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 48 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 48 Researcher 8 2023"
+    },
+    {
+      "id": 49,
+      "title": "Research Paper 49",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 49 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 49 Researcher 9 2020"
+    },
+    {
+      "id": 50,
+      "title": "Research Paper 50",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 50 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 50 Researcher 10 2021"
+    },
+    {
+      "id": 51,
+      "title": "Research Paper 51",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 51 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 51 Researcher 1 2022"
+    },
+    {
+      "id": 52,
+      "title": "Research Paper 52",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 52 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 52 Researcher 2 2023"
+    },
+    {
+      "id": 53,
+      "title": "Research Paper 53",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 53 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 53 Researcher 3 2020"
+    },
+    {
+      "id": 54,
+      "title": "Research Paper 54",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 54 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 54 Researcher 4 2021"
+    },
+    {
+      "id": 55,
+      "title": "Research Paper 55",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 55 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 55 Researcher 5 2022"
+    },
+    {
+      "id": 56,
+      "title": "Research Paper 56",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 56 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 56 Researcher 6 2023"
+    },
+    {
+      "id": 57,
+      "title": "Research Paper 57",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 57 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 57 Researcher 7 2020"
+    },
+    {
+      "id": 58,
+      "title": "Research Paper 58",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 58 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 58 Researcher 8 2021"
+    },
+    {
+      "id": 59,
+      "title": "Research Paper 59",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 59 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 59 Researcher 9 2022"
+    },
+    {
+      "id": 60,
+      "title": "Research Paper 60",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 60 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 60 Researcher 10 2023"
+    },
+    {
+      "id": 61,
+      "title": "Research Paper 61",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 61 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 61 Researcher 1 2020"
+    },
+    {
+      "id": 62,
+      "title": "Research Paper 62",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 62 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 62 Researcher 2 2021"
+    },
+    {
+      "id": 63,
+      "title": "Research Paper 63",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 63 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 63 Researcher 3 2022"
+    },
+    {
+      "id": 64,
+      "title": "Research Paper 64",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 64 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 64 Researcher 4 2023"
+    },
+    {
+      "id": 65,
+      "title": "Research Paper 65",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 65 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 65 Researcher 5 2020"
+    },
+    {
+      "id": 66,
+      "title": "Research Paper 66",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 66 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 66 Researcher 6 2021"
+    },
+    {
+      "id": 67,
+      "title": "Research Paper 67",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 67 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 67 Researcher 7 2022"
+    },
+    {
+      "id": 68,
+      "title": "Research Paper 68",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 68 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 68 Researcher 8 2023"
+    },
+    {
+      "id": 69,
+      "title": "Research Paper 69",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 69 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 69 Researcher 9 2020"
+    },
+    {
+      "id": 70,
+      "title": "Research Paper 70",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 70 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 70 Researcher 10 2021"
+    },
+    {
+      "id": 71,
+      "title": "Research Paper 71",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 71 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 71 Researcher 1 2022"
+    },
+    {
+      "id": 72,
+      "title": "Research Paper 72",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 72 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 72 Researcher 2 2023"
+    },
+    {
+      "id": 73,
+      "title": "Research Paper 73",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 73 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 73 Researcher 3 2020"
+    },
+    {
+      "id": 74,
+      "title": "Research Paper 74",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 74 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 74 Researcher 4 2021"
+    },
+    {
+      "id": 75,
+      "title": "Research Paper 75",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 75 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 75 Researcher 5 2022"
+    },
+    {
+      "id": 76,
+      "title": "Research Paper 76",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 76 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 76 Researcher 6 2023"
+    },
+    {
+      "id": 77,
+      "title": "Research Paper 77",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 77 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 77 Researcher 7 2020"
+    },
+    {
+      "id": 78,
+      "title": "Research Paper 78",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 78 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 78 Researcher 8 2021"
+    },
+    {
+      "id": 79,
+      "title": "Research Paper 79",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 79 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 79 Researcher 9 2022"
+    },
+    {
+      "id": 80,
+      "title": "Research Paper 80",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 80 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 80 Researcher 10 2023"
+    },
+    {
+      "id": 81,
+      "title": "Research Paper 81",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 81 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 81 Researcher 1 2020"
+    },
+    {
+      "id": 82,
+      "title": "Research Paper 82",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 82 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 82 Researcher 2 2021"
+    },
+    {
+      "id": 83,
+      "title": "Research Paper 83",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 83 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 83 Researcher 3 2022"
+    },
+    {
+      "id": 84,
+      "title": "Research Paper 84",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 84 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 84 Researcher 4 2023"
+    },
+    {
+      "id": 85,
+      "title": "Research Paper 85",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 85 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 85 Researcher 5 2020"
+    },
+    {
+      "id": 86,
+      "title": "Research Paper 86",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 86 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 86 Researcher 6 2021"
+    },
+    {
+      "id": 87,
+      "title": "Research Paper 87",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 87 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 87 Researcher 7 2022"
+    },
+    {
+      "id": 88,
+      "title": "Research Paper 88",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 88 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 88 Researcher 8 2023"
+    },
+    {
+      "id": 89,
+      "title": "Research Paper 89",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 89 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 89 Researcher 9 2020"
+    },
+    {
+      "id": 90,
+      "title": "Research Paper 90",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 90 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 90 Researcher 10 2021"
+    },
+    {
+      "id": 91,
+      "title": "Research Paper 91",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 91 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 91 Researcher 1 2022"
+    },
+    {
+      "id": 92,
+      "title": "Research Paper 92",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 92 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 92 Researcher 2 2023"
+    },
+    {
+      "id": 93,
+      "title": "Research Paper 93",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 93 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 93 Researcher 3 2020"
+    },
+    {
+      "id": 94,
+      "title": "Research Paper 94",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 94 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 94 Researcher 4 2021"
+    },
+    {
+      "id": 95,
+      "title": "Research Paper 95",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 95 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 95 Researcher 5 2022"
+    },
+    {
+      "id": 96,
+      "title": "Research Paper 96",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 96 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 96 Researcher 6 2023"
+    },
+    {
+      "id": 97,
+      "title": "Research Paper 97",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 97 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 97 Researcher 7 2020"
+    },
+    {
+      "id": 98,
+      "title": "Research Paper 98",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 98 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 98 Researcher 8 2021"
+    },
+    {
+      "id": 99,
+      "title": "Research Paper 99",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 99 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 99 Researcher 9 2022"
+    },
+    {
+      "id": 100,
+      "title": "Research Paper 100",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 100 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 100 Researcher 10 2023"
+    },
+    {
+      "id": 101,
+      "title": "Research Paper 101",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 101 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 101 Researcher 1 2020"
+    },
+    {
+      "id": 102,
+      "title": "Research Paper 102",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 102 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 102 Researcher 2 2021"
+    },
+    {
+      "id": 103,
+      "title": "Research Paper 103",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 103 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 103 Researcher 3 2022"
+    },
+    {
+      "id": 104,
+      "title": "Research Paper 104",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 104 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 104 Researcher 4 2023"
+    },
+    {
+      "id": 105,
+      "title": "Research Paper 105",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 105 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 105 Researcher 5 2020"
+    },
+    {
+      "id": 106,
+      "title": "Research Paper 106",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 106 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 106 Researcher 6 2021"
+    },
+    {
+      "id": 107,
+      "title": "Research Paper 107",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 107 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 107 Researcher 7 2022"
+    },
+    {
+      "id": 108,
+      "title": "Research Paper 108",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 108 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 108 Researcher 8 2023"
+    },
+    {
+      "id": 109,
+      "title": "Research Paper 109",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 109 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 109 Researcher 9 2020"
+    },
+    {
+      "id": 110,
+      "title": "Research Paper 110",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 110 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 110 Researcher 10 2021"
+    },
+    {
+      "id": 111,
+      "title": "Research Paper 111",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 111 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 111 Researcher 1 2022"
+    },
+    {
+      "id": 112,
+      "title": "Research Paper 112",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 112 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 112 Researcher 2 2023"
+    },
+    {
+      "id": 113,
+      "title": "Research Paper 113",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 113 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 113 Researcher 3 2020"
+    },
+    {
+      "id": 114,
+      "title": "Research Paper 114",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 114 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 114 Researcher 4 2021"
+    },
+    {
+      "id": 115,
+      "title": "Research Paper 115",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 115 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 115 Researcher 5 2022"
+    },
+    {
+      "id": 116,
+      "title": "Research Paper 116",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 116 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 116 Researcher 6 2023"
+    },
+    {
+      "id": 117,
+      "title": "Research Paper 117",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 117 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 117 Researcher 7 2020"
+    },
+    {
+      "id": 118,
+      "title": "Research Paper 118",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 118 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 118 Researcher 8 2021"
+    },
+    {
+      "id": 119,
+      "title": "Research Paper 119",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 119 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 119 Researcher 9 2022"
+    },
+    {
+      "id": 120,
+      "title": "Research Paper 120",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 120 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 120 Researcher 10 2023"
+    },
+    {
+      "id": 121,
+      "title": "Research Paper 121",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 121 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 121 Researcher 1 2020"
+    },
+    {
+      "id": 122,
+      "title": "Research Paper 122",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 122 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 122 Researcher 2 2021"
+    },
+    {
+      "id": 123,
+      "title": "Research Paper 123",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 123 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 123 Researcher 3 2022"
+    },
+    {
+      "id": 124,
+      "title": "Research Paper 124",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 124 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 124 Researcher 4 2023"
+    },
+    {
+      "id": 125,
+      "title": "Research Paper 125",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 125 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 125 Researcher 5 2020"
+    },
+    {
+      "id": 126,
+      "title": "Research Paper 126",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 126 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 126 Researcher 6 2021"
+    },
+    {
+      "id": 127,
+      "title": "Research Paper 127",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 127 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 127 Researcher 7 2022"
+    },
+    {
+      "id": 128,
+      "title": "Research Paper 128",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 128 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 128 Researcher 8 2023"
+    },
+    {
+      "id": 129,
+      "title": "Research Paper 129",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 129 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 129 Researcher 9 2020"
+    },
+    {
+      "id": 130,
+      "title": "Research Paper 130",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 130 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 130 Researcher 10 2021"
+    },
+    {
+      "id": 131,
+      "title": "Research Paper 131",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 131 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 131 Researcher 1 2022"
+    },
+    {
+      "id": 132,
+      "title": "Research Paper 132",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 132 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 132 Researcher 2 2023"
+    },
+    {
+      "id": 133,
+      "title": "Research Paper 133",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 133 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 133 Researcher 3 2020"
+    },
+    {
+      "id": 134,
+      "title": "Research Paper 134",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 134 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 134 Researcher 4 2021"
+    },
+    {
+      "id": 135,
+      "title": "Research Paper 135",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 135 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 135 Researcher 5 2022"
+    },
+    {
+      "id": 136,
+      "title": "Research Paper 136",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 136 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 136 Researcher 6 2023"
+    },
+    {
+      "id": 137,
+      "title": "Research Paper 137",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 137 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 137 Researcher 7 2020"
+    },
+    {
+      "id": 138,
+      "title": "Research Paper 138",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 138 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 138 Researcher 8 2021"
+    },
+    {
+      "id": 139,
+      "title": "Research Paper 139",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 139 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 139 Researcher 9 2022"
+    },
+    {
+      "id": 140,
+      "title": "Research Paper 140",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 140 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 140 Researcher 10 2023"
+    },
+    {
+      "id": 141,
+      "title": "Research Paper 141",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 141 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 141 Researcher 1 2020"
+    },
+    {
+      "id": 142,
+      "title": "Research Paper 142",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 142 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 142 Researcher 2 2021"
+    },
+    {
+      "id": 143,
+      "title": "Research Paper 143",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 143 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 143 Researcher 3 2022"
+    },
+    {
+      "id": 144,
+      "title": "Research Paper 144",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 144 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 144 Researcher 4 2023"
+    },
+    {
+      "id": 145,
+      "title": "Research Paper 145",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 145 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 145 Researcher 5 2020"
+    },
+    {
+      "id": 146,
+      "title": "Research Paper 146",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 146 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 146 Researcher 6 2021"
+    },
+    {
+      "id": 147,
+      "title": "Research Paper 147",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 147 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 147 Researcher 7 2022"
+    },
+    {
+      "id": 148,
+      "title": "Research Paper 148",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 148 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 148 Researcher 8 2023"
+    },
+    {
+      "id": 149,
+      "title": "Research Paper 149",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 149 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 149 Researcher 9 2020"
+    },
+    {
+      "id": 150,
+      "title": "Research Paper 150",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 150 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 150 Researcher 10 2021"
+    },
+    {
+      "id": 151,
+      "title": "Research Paper 151",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 151 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 151 Researcher 1 2022"
+    },
+    {
+      "id": 152,
+      "title": "Research Paper 152",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 152 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 152 Researcher 2 2023"
+    },
+    {
+      "id": 153,
+      "title": "Research Paper 153",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 153 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 153 Researcher 3 2020"
+    },
+    {
+      "id": 154,
+      "title": "Research Paper 154",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 154 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 154 Researcher 4 2021"
+    },
+    {
+      "id": 155,
+      "title": "Research Paper 155",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 155 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 155 Researcher 5 2022"
+    },
+    {
+      "id": 156,
+      "title": "Research Paper 156",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 156 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 156 Researcher 6 2023"
+    },
+    {
+      "id": 157,
+      "title": "Research Paper 157",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 157 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 157 Researcher 7 2020"
+    },
+    {
+      "id": 158,
+      "title": "Research Paper 158",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 158 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 158 Researcher 8 2021"
+    },
+    {
+      "id": 159,
+      "title": "Research Paper 159",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 159 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 159 Researcher 9 2022"
+    },
+    {
+      "id": 160,
+      "title": "Research Paper 160",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 160 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 160 Researcher 10 2023"
+    },
+    {
+      "id": 161,
+      "title": "Research Paper 161",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 161 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 161 Researcher 1 2020"
+    },
+    {
+      "id": 162,
+      "title": "Research Paper 162",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 162 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 162 Researcher 2 2021"
+    },
+    {
+      "id": 163,
+      "title": "Research Paper 163",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 163 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 163 Researcher 3 2022"
+    },
+    {
+      "id": 164,
+      "title": "Research Paper 164",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 164 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 164 Researcher 4 2023"
+    },
+    {
+      "id": 165,
+      "title": "Research Paper 165",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 165 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 165 Researcher 5 2020"
+    },
+    {
+      "id": 166,
+      "title": "Research Paper 166",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 166 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 166 Researcher 6 2021"
+    },
+    {
+      "id": 167,
+      "title": "Research Paper 167",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 167 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 167 Researcher 7 2022"
+    },
+    {
+      "id": 168,
+      "title": "Research Paper 168",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 168 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 168 Researcher 8 2023"
+    },
+    {
+      "id": 169,
+      "title": "Research Paper 169",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 169 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 169 Researcher 9 2020"
+    },
+    {
+      "id": 170,
+      "title": "Research Paper 170",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 170 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 170 Researcher 10 2021"
+    },
+    {
+      "id": 171,
+      "title": "Research Paper 171",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 171 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 171 Researcher 1 2022"
+    },
+    {
+      "id": 172,
+      "title": "Research Paper 172",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 172 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 172 Researcher 2 2023"
+    },
+    {
+      "id": 173,
+      "title": "Research Paper 173",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 173 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 173 Researcher 3 2020"
+    },
+    {
+      "id": 174,
+      "title": "Research Paper 174",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 174 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 174 Researcher 4 2021"
+    },
+    {
+      "id": 175,
+      "title": "Research Paper 175",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 175 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 175 Researcher 5 2022"
+    },
+    {
+      "id": 176,
+      "title": "Research Paper 176",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 176 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 176 Researcher 6 2023"
+    },
+    {
+      "id": 177,
+      "title": "Research Paper 177",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 177 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 177 Researcher 7 2020"
+    },
+    {
+      "id": 178,
+      "title": "Research Paper 178",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 178 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 178 Researcher 8 2021"
+    },
+    {
+      "id": 179,
+      "title": "Research Paper 179",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 179 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 179 Researcher 9 2022"
+    },
+    {
+      "id": 180,
+      "title": "Research Paper 180",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 180 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 180 Researcher 10 2023"
+    },
+    {
+      "id": 181,
+      "title": "Research Paper 181",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 181 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 181 Researcher 1 2020"
+    },
+    {
+      "id": 182,
+      "title": "Research Paper 182",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 182 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 182 Researcher 2 2021"
+    },
+    {
+      "id": 183,
+      "title": "Research Paper 183",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 183 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 183 Researcher 3 2022"
+    },
+    {
+      "id": 184,
+      "title": "Research Paper 184",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 184 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 184 Researcher 4 2023"
+    },
+    {
+      "id": 185,
+      "title": "Research Paper 185",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 185 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 185 Researcher 5 2020"
+    },
+    {
+      "id": 186,
+      "title": "Research Paper 186",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 186 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 186 Researcher 6 2021"
+    },
+    {
+      "id": 187,
+      "title": "Research Paper 187",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 187 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 187 Researcher 7 2022"
+    },
+    {
+      "id": 188,
+      "title": "Research Paper 188",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 188 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 188 Researcher 8 2023"
+    },
+    {
+      "id": 189,
+      "title": "Research Paper 189",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 189 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 189 Researcher 9 2020"
+    },
+    {
+      "id": 190,
+      "title": "Research Paper 190",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 190 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 190 Researcher 10 2021"
+    },
+    {
+      "id": 191,
+      "title": "Research Paper 191",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 191 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 191 Researcher 1 2022"
+    },
+    {
+      "id": 192,
+      "title": "Research Paper 192",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 192 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 192 Researcher 2 2023"
+    },
+    {
+      "id": 193,
+      "title": "Research Paper 193",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 193 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 193 Researcher 3 2020"
+    },
+    {
+      "id": 194,
+      "title": "Research Paper 194",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 194 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 194 Researcher 4 2021"
+    },
+    {
+      "id": 195,
+      "title": "Research Paper 195",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 195 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 195 Researcher 5 2022"
+    },
+    {
+      "id": 196,
+      "title": "Research Paper 196",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 196 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 196 Researcher 6 2023"
+    },
+    {
+      "id": 197,
+      "title": "Research Paper 197",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 197 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 197 Researcher 7 2020"
+    },
+    {
+      "id": 198,
+      "title": "Research Paper 198",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 198 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 198 Researcher 8 2021"
+    },
+    {
+      "id": 199,
+      "title": "Research Paper 199",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 199 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 199 Researcher 9 2022"
+    },
+    {
+      "id": 200,
+      "title": "Research Paper 200",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 200 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 200 Researcher 10 2023"
+    },
+    {
+      "id": 201,
+      "title": "Research Paper 201",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 201 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 201 Researcher 1 2020"
+    },
+    {
+      "id": 202,
+      "title": "Research Paper 202",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 202 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 202 Researcher 2 2021"
+    },
+    {
+      "id": 203,
+      "title": "Research Paper 203",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 203 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 203 Researcher 3 2022"
+    },
+    {
+      "id": 204,
+      "title": "Research Paper 204",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 204 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 204 Researcher 4 2023"
+    },
+    {
+      "id": 205,
+      "title": "Research Paper 205",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 205 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 205 Researcher 5 2020"
+    },
+    {
+      "id": 206,
+      "title": "Research Paper 206",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 206 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 206 Researcher 6 2021"
+    },
+    {
+      "id": 207,
+      "title": "Research Paper 207",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 207 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 207 Researcher 7 2022"
+    },
+    {
+      "id": 208,
+      "title": "Research Paper 208",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 208 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 208 Researcher 8 2023"
+    },
+    {
+      "id": 209,
+      "title": "Research Paper 209",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 209 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 209 Researcher 9 2020"
+    },
+    {
+      "id": 210,
+      "title": "Research Paper 210",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 210 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 210 Researcher 10 2021"
+    },
+    {
+      "id": 211,
+      "title": "Research Paper 211",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 211 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 211 Researcher 1 2022"
+    },
+    {
+      "id": 212,
+      "title": "Research Paper 212",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 212 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 212 Researcher 2 2023"
+    },
+    {
+      "id": 213,
+      "title": "Research Paper 213",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 213 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 213 Researcher 3 2020"
+    },
+    {
+      "id": 214,
+      "title": "Research Paper 214",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 214 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 214 Researcher 4 2021"
+    },
+    {
+      "id": 215,
+      "title": "Research Paper 215",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 215 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 215 Researcher 5 2022"
+    },
+    {
+      "id": 216,
+      "title": "Research Paper 216",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 216 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 216 Researcher 6 2023"
+    },
+    {
+      "id": 217,
+      "title": "Research Paper 217",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 217 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 217 Researcher 7 2020"
+    },
+    {
+      "id": 218,
+      "title": "Research Paper 218",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 218 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 218 Researcher 8 2021"
+    },
+    {
+      "id": 219,
+      "title": "Research Paper 219",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 219 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 219 Researcher 9 2022"
+    },
+    {
+      "id": 220,
+      "title": "Research Paper 220",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 220 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 220 Researcher 10 2023"
+    },
+    {
+      "id": 221,
+      "title": "Research Paper 221",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 221 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 221 Researcher 1 2020"
+    },
+    {
+      "id": 222,
+      "title": "Research Paper 222",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 222 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 222 Researcher 2 2021"
+    },
+    {
+      "id": 223,
+      "title": "Research Paper 223",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 223 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 223 Researcher 3 2022"
+    },
+    {
+      "id": 224,
+      "title": "Research Paper 224",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 224 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 224 Researcher 4 2023"
+    },
+    {
+      "id": 225,
+      "title": "Research Paper 225",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 225 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 225 Researcher 5 2020"
+    },
+    {
+      "id": 226,
+      "title": "Research Paper 226",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 226 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 226 Researcher 6 2021"
+    },
+    {
+      "id": 227,
+      "title": "Research Paper 227",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 227 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 227 Researcher 7 2022"
+    },
+    {
+      "id": 228,
+      "title": "Research Paper 228",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 228 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 228 Researcher 8 2023"
+    },
+    {
+      "id": 229,
+      "title": "Research Paper 229",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 229 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 229 Researcher 9 2020"
+    },
+    {
+      "id": 230,
+      "title": "Research Paper 230",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 230 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 230 Researcher 10 2021"
+    },
+    {
+      "id": 231,
+      "title": "Research Paper 231",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 231 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 231 Researcher 1 2022"
+    },
+    {
+      "id": 232,
+      "title": "Research Paper 232",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 232 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 232 Researcher 2 2023"
+    },
+    {
+      "id": 233,
+      "title": "Research Paper 233",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 233 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 233 Researcher 3 2020"
+    },
+    {
+      "id": 234,
+      "title": "Research Paper 234",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 234 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 234 Researcher 4 2021"
+    },
+    {
+      "id": 235,
+      "title": "Research Paper 235",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 235 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 235 Researcher 5 2022"
+    },
+    {
+      "id": 236,
+      "title": "Research Paper 236",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 236 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 236 Researcher 6 2023"
+    },
+    {
+      "id": 237,
+      "title": "Research Paper 237",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 237 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 237 Researcher 7 2020"
+    },
+    {
+      "id": 238,
+      "title": "Research Paper 238",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 238 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 238 Researcher 8 2021"
+    },
+    {
+      "id": 239,
+      "title": "Research Paper 239",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 239 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 239 Researcher 9 2022"
+    },
+    {
+      "id": 240,
+      "title": "Research Paper 240",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 240 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 240 Researcher 10 2023"
+    },
+    {
+      "id": 241,
+      "title": "Research Paper 241",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 241 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 241 Researcher 1 2020"
+    },
+    {
+      "id": 242,
+      "title": "Research Paper 242",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 242 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 242 Researcher 2 2021"
+    },
+    {
+      "id": 243,
+      "title": "Research Paper 243",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 243 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 243 Researcher 3 2022"
+    },
+    {
+      "id": 244,
+      "title": "Research Paper 244",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 244 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 244 Researcher 4 2023"
+    },
+    {
+      "id": 245,
+      "title": "Research Paper 245",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 245 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 245 Researcher 5 2020"
+    },
+    {
+      "id": 246,
+      "title": "Research Paper 246",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 246 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 246 Researcher 6 2021"
+    },
+    {
+      "id": 247,
+      "title": "Research Paper 247",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 247 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 247 Researcher 7 2022"
+    },
+    {
+      "id": 248,
+      "title": "Research Paper 248",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 248 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 248 Researcher 8 2023"
+    },
+    {
+      "id": 249,
+      "title": "Research Paper 249",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 249 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 249 Researcher 9 2020"
+    },
+    {
+      "id": 250,
+      "title": "Research Paper 250",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 250 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 250 Researcher 10 2021"
+    },
+    {
+      "id": 251,
+      "title": "Research Paper 251",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 251 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 251 Researcher 1 2022"
+    },
+    {
+      "id": 252,
+      "title": "Research Paper 252",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 252 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 252 Researcher 2 2023"
+    },
+    {
+      "id": 253,
+      "title": "Research Paper 253",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 253 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 253 Researcher 3 2020"
+    },
+    {
+      "id": 254,
+      "title": "Research Paper 254",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 254 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 254 Researcher 4 2021"
+    },
+    {
+      "id": 255,
+      "title": "Research Paper 255",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 255 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 255 Researcher 5 2022"
+    },
+    {
+      "id": 256,
+      "title": "Research Paper 256",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 256 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 256 Researcher 6 2023"
+    },
+    {
+      "id": 257,
+      "title": "Research Paper 257",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 257 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 257 Researcher 7 2020"
+    },
+    {
+      "id": 258,
+      "title": "Research Paper 258",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 258 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 258 Researcher 8 2021"
+    },
+    {
+      "id": 259,
+      "title": "Research Paper 259",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 259 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 259 Researcher 9 2022"
+    },
+    {
+      "id": 260,
+      "title": "Research Paper 260",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 260 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 260 Researcher 10 2023"
+    },
+    {
+      "id": 261,
+      "title": "Research Paper 261",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 261 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 261 Researcher 1 2020"
+    },
+    {
+      "id": 262,
+      "title": "Research Paper 262",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 262 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 262 Researcher 2 2021"
+    },
+    {
+      "id": 263,
+      "title": "Research Paper 263",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 263 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 263 Researcher 3 2022"
+    },
+    {
+      "id": 264,
+      "title": "Research Paper 264",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 264 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 264 Researcher 4 2023"
+    },
+    {
+      "id": 265,
+      "title": "Research Paper 265",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 265 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 265 Researcher 5 2020"
+    },
+    {
+      "id": 266,
+      "title": "Research Paper 266",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 266 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 266 Researcher 6 2021"
+    },
+    {
+      "id": 267,
+      "title": "Research Paper 267",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 267 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 267 Researcher 7 2022"
+    },
+    {
+      "id": 268,
+      "title": "Research Paper 268",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 268 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 268 Researcher 8 2023"
+    },
+    {
+      "id": 269,
+      "title": "Research Paper 269",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 269 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 269 Researcher 9 2020"
+    },
+    {
+      "id": 270,
+      "title": "Research Paper 270",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 270 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 270 Researcher 10 2021"
+    },
+    {
+      "id": 271,
+      "title": "Research Paper 271",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 271 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 271 Researcher 1 2022"
+    },
+    {
+      "id": 272,
+      "title": "Research Paper 272",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 272 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 272 Researcher 2 2023"
+    },
+    {
+      "id": 273,
+      "title": "Research Paper 273",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 273 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 273 Researcher 3 2020"
+    },
+    {
+      "id": 274,
+      "title": "Research Paper 274",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 274 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 274 Researcher 4 2021"
+    },
+    {
+      "id": 275,
+      "title": "Research Paper 275",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 275 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 275 Researcher 5 2022"
+    },
+    {
+      "id": 276,
+      "title": "Research Paper 276",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 276 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 276 Researcher 6 2023"
+    },
+    {
+      "id": 277,
+      "title": "Research Paper 277",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 277 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 277 Researcher 7 2020"
+    },
+    {
+      "id": 278,
+      "title": "Research Paper 278",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 278 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 278 Researcher 8 2021"
+    },
+    {
+      "id": 279,
+      "title": "Research Paper 279",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 279 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 279 Researcher 9 2022"
+    },
+    {
+      "id": 280,
+      "title": "Research Paper 280",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 280 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 280 Researcher 10 2023"
+    },
+    {
+      "id": 281,
+      "title": "Research Paper 281",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 281 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 281 Researcher 1 2020"
+    },
+    {
+      "id": 282,
+      "title": "Research Paper 282",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 282 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 282 Researcher 2 2021"
+    },
+    {
+      "id": 283,
+      "title": "Research Paper 283",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 283 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 283 Researcher 3 2022"
+    },
+    {
+      "id": 284,
+      "title": "Research Paper 284",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 284 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 284 Researcher 4 2023"
+    },
+    {
+      "id": 285,
+      "title": "Research Paper 285",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 285 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 285 Researcher 5 2020"
+    },
+    {
+      "id": 286,
+      "title": "Research Paper 286",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 286 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 286 Researcher 6 2021"
+    },
+    {
+      "id": 287,
+      "title": "Research Paper 287",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 287 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 287 Researcher 7 2022"
+    },
+    {
+      "id": 288,
+      "title": "Research Paper 288",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 288 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 288 Researcher 8 2023"
+    },
+    {
+      "id": 289,
+      "title": "Research Paper 289",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 289 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 289 Researcher 9 2020"
+    },
+    {
+      "id": 290,
+      "title": "Research Paper 290",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 290 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 290 Researcher 10 2021"
+    },
+    {
+      "id": 291,
+      "title": "Research Paper 291",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 291 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 291 Researcher 1 2022"
+    },
+    {
+      "id": 292,
+      "title": "Research Paper 292",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 292 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 292 Researcher 2 2023"
+    },
+    {
+      "id": 293,
+      "title": "Research Paper 293",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 293 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 293 Researcher 3 2020"
+    },
+    {
+      "id": 294,
+      "title": "Research Paper 294",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 294 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 294 Researcher 4 2021"
+    },
+    {
+      "id": 295,
+      "title": "Research Paper 295",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 295 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 295 Researcher 5 2022"
+    },
+    {
+      "id": 296,
+      "title": "Research Paper 296",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 296 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 296 Researcher 6 2023"
+    },
+    {
+      "id": 297,
+      "title": "Research Paper 297",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 297 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 297 Researcher 7 2020"
+    },
+    {
+      "id": 298,
+      "title": "Research Paper 298",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 298 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 298 Researcher 8 2021"
+    },
+    {
+      "id": 299,
+      "title": "Research Paper 299",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 299 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 299 Researcher 9 2022"
+    },
+    {
+      "id": 300,
+      "title": "Research Paper 300",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 300 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 300 Researcher 10 2023"
+    },
+    {
+      "id": 301,
+      "title": "Research Paper 301",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 301 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 301 Researcher 1 2020"
+    },
+    {
+      "id": 302,
+      "title": "Research Paper 302",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 302 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 302 Researcher 2 2021"
+    },
+    {
+      "id": 303,
+      "title": "Research Paper 303",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 303 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 303 Researcher 3 2022"
+    },
+    {
+      "id": 304,
+      "title": "Research Paper 304",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 304 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 304 Researcher 4 2023"
+    },
+    {
+      "id": 305,
+      "title": "Research Paper 305",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 305 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 305 Researcher 5 2020"
+    },
+    {
+      "id": 306,
+      "title": "Research Paper 306",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 306 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 306 Researcher 6 2021"
+    },
+    {
+      "id": 307,
+      "title": "Research Paper 307",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 307 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 307 Researcher 7 2022"
+    },
+    {
+      "id": 308,
+      "title": "Research Paper 308",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 308 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 308 Researcher 8 2023"
+    },
+    {
+      "id": 309,
+      "title": "Research Paper 309",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 309 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 309 Researcher 9 2020"
+    },
+    {
+      "id": 310,
+      "title": "Research Paper 310",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 310 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 310 Researcher 10 2021"
+    },
+    {
+      "id": 311,
+      "title": "Research Paper 311",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 311 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 311 Researcher 1 2022"
+    },
+    {
+      "id": 312,
+      "title": "Research Paper 312",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 312 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 312 Researcher 2 2023"
+    },
+    {
+      "id": 313,
+      "title": "Research Paper 313",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 313 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 313 Researcher 3 2020"
+    },
+    {
+      "id": 314,
+      "title": "Research Paper 314",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 314 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 314 Researcher 4 2021"
+    },
+    {
+      "id": 315,
+      "title": "Research Paper 315",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 315 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 315 Researcher 5 2022"
+    },
+    {
+      "id": 316,
+      "title": "Research Paper 316",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 316 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 316 Researcher 6 2023"
+    },
+    {
+      "id": 317,
+      "title": "Research Paper 317",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 317 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 317 Researcher 7 2020"
+    },
+    {
+      "id": 318,
+      "title": "Research Paper 318",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 318 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 318 Researcher 8 2021"
+    },
+    {
+      "id": 319,
+      "title": "Research Paper 319",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 319 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 319 Researcher 9 2022"
+    },
+    {
+      "id": 320,
+      "title": "Research Paper 320",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 320 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 320 Researcher 10 2023"
+    },
+    {
+      "id": 321,
+      "title": "Research Paper 321",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 321 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 321 Researcher 1 2020"
+    },
+    {
+      "id": 322,
+      "title": "Research Paper 322",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 322 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 322 Researcher 2 2021"
+    },
+    {
+      "id": 323,
+      "title": "Research Paper 323",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 323 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 323 Researcher 3 2022"
+    },
+    {
+      "id": 324,
+      "title": "Research Paper 324",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 324 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 324 Researcher 4 2023"
+    },
+    {
+      "id": 325,
+      "title": "Research Paper 325",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 325 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 325 Researcher 5 2020"
+    },
+    {
+      "id": 326,
+      "title": "Research Paper 326",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 326 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 326 Researcher 6 2021"
+    },
+    {
+      "id": 327,
+      "title": "Research Paper 327",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 327 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 327 Researcher 7 2022"
+    },
+    {
+      "id": 328,
+      "title": "Research Paper 328",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 328 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 328 Researcher 8 2023"
+    },
+    {
+      "id": 329,
+      "title": "Research Paper 329",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 329 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 329 Researcher 9 2020"
+    },
+    {
+      "id": 330,
+      "title": "Research Paper 330",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 330 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 330 Researcher 10 2021"
+    },
+    {
+      "id": 331,
+      "title": "Research Paper 331",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 331 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 331 Researcher 1 2022"
+    },
+    {
+      "id": 332,
+      "title": "Research Paper 332",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 332 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 332 Researcher 2 2023"
+    },
+    {
+      "id": 333,
+      "title": "Research Paper 333",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 333 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 333 Researcher 3 2020"
+    },
+    {
+      "id": 334,
+      "title": "Research Paper 334",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 334 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 334 Researcher 4 2021"
+    },
+    {
+      "id": 335,
+      "title": "Research Paper 335",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 335 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 335 Researcher 5 2022"
+    },
+    {
+      "id": 336,
+      "title": "Research Paper 336",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 336 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 336 Researcher 6 2023"
+    },
+    {
+      "id": 337,
+      "title": "Research Paper 337",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 337 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 337 Researcher 7 2020"
+    },
+    {
+      "id": 338,
+      "title": "Research Paper 338",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 338 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 338 Researcher 8 2021"
+    },
+    {
+      "id": 339,
+      "title": "Research Paper 339",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 339 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 339 Researcher 9 2022"
+    },
+    {
+      "id": 340,
+      "title": "Research Paper 340",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 340 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 340 Researcher 10 2023"
+    },
+    {
+      "id": 341,
+      "title": "Research Paper 341",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 341 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 341 Researcher 1 2020"
+    },
+    {
+      "id": 342,
+      "title": "Research Paper 342",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 342 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 342 Researcher 2 2021"
+    },
+    {
+      "id": 343,
+      "title": "Research Paper 343",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 343 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 343 Researcher 3 2022"
+    },
+    {
+      "id": 344,
+      "title": "Research Paper 344",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 344 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 344 Researcher 4 2023"
+    },
+    {
+      "id": 345,
+      "title": "Research Paper 345",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 345 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 345 Researcher 5 2020"
+    },
+    {
+      "id": 346,
+      "title": "Research Paper 346",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 346 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 346 Researcher 6 2021"
+    },
+    {
+      "id": 347,
+      "title": "Research Paper 347",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 347 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 347 Researcher 7 2022"
+    },
+    {
+      "id": 348,
+      "title": "Research Paper 348",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 348 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 348 Researcher 8 2023"
+    },
+    {
+      "id": 349,
+      "title": "Research Paper 349",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 349 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 349 Researcher 9 2020"
+    },
+    {
+      "id": 350,
+      "title": "Research Paper 350",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 350 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 350 Researcher 10 2021"
+    },
+    {
+      "id": 351,
+      "title": "Research Paper 351",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 351 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 351 Researcher 1 2022"
+    },
+    {
+      "id": 352,
+      "title": "Research Paper 352",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 352 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 352 Researcher 2 2023"
+    },
+    {
+      "id": 353,
+      "title": "Research Paper 353",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 353 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 353 Researcher 3 2020"
+    },
+    {
+      "id": 354,
+      "title": "Research Paper 354",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 354 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 354 Researcher 4 2021"
+    },
+    {
+      "id": 355,
+      "title": "Research Paper 355",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 355 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 355 Researcher 5 2022"
+    },
+    {
+      "id": 356,
+      "title": "Research Paper 356",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 356 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 356 Researcher 6 2023"
+    },
+    {
+      "id": 357,
+      "title": "Research Paper 357",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 357 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 357 Researcher 7 2020"
+    },
+    {
+      "id": 358,
+      "title": "Research Paper 358",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 358 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 358 Researcher 8 2021"
+    },
+    {
+      "id": 359,
+      "title": "Research Paper 359",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 359 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 359 Researcher 9 2022"
+    },
+    {
+      "id": 360,
+      "title": "Research Paper 360",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 360 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 360 Researcher 10 2023"
+    },
+    {
+      "id": 361,
+      "title": "Research Paper 361",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 361 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 361 Researcher 1 2020"
+    },
+    {
+      "id": 362,
+      "title": "Research Paper 362",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 362 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 362 Researcher 2 2021"
+    },
+    {
+      "id": 363,
+      "title": "Research Paper 363",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 363 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 363 Researcher 3 2022"
+    },
+    {
+      "id": 364,
+      "title": "Research Paper 364",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 364 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 364 Researcher 4 2023"
+    },
+    {
+      "id": 365,
+      "title": "Research Paper 365",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 365 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 365 Researcher 5 2020"
+    },
+    {
+      "id": 366,
+      "title": "Research Paper 366",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 366 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 366 Researcher 6 2021"
+    },
+    {
+      "id": 367,
+      "title": "Research Paper 367",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 367 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 367 Researcher 7 2022"
+    },
+    {
+      "id": 368,
+      "title": "Research Paper 368",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 368 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 368 Researcher 8 2023"
+    },
+    {
+      "id": 369,
+      "title": "Research Paper 369",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 369 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 369 Researcher 9 2020"
+    },
+    {
+      "id": 370,
+      "title": "Research Paper 370",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 370 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 370 Researcher 10 2021"
+    },
+    {
+      "id": 371,
+      "title": "Research Paper 371",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 371 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 371 Researcher 1 2022"
+    },
+    {
+      "id": 372,
+      "title": "Research Paper 372",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 372 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 372 Researcher 2 2023"
+    },
+    {
+      "id": 373,
+      "title": "Research Paper 373",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 373 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 373 Researcher 3 2020"
+    },
+    {
+      "id": 374,
+      "title": "Research Paper 374",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 374 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 374 Researcher 4 2021"
+    },
+    {
+      "id": 375,
+      "title": "Research Paper 375",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 375 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 375 Researcher 5 2022"
+    },
+    {
+      "id": 376,
+      "title": "Research Paper 376",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 376 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 376 Researcher 6 2023"
+    },
+    {
+      "id": 377,
+      "title": "Research Paper 377",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 377 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 377 Researcher 7 2020"
+    },
+    {
+      "id": 378,
+      "title": "Research Paper 378",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 378 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 378 Researcher 8 2021"
+    },
+    {
+      "id": 379,
+      "title": "Research Paper 379",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 379 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 379 Researcher 9 2022"
+    },
+    {
+      "id": 380,
+      "title": "Research Paper 380",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 380 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 380 Researcher 10 2023"
+    },
+    {
+      "id": 381,
+      "title": "Research Paper 381",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 381 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 381 Researcher 1 2020"
+    },
+    {
+      "id": 382,
+      "title": "Research Paper 382",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 382 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 382 Researcher 2 2021"
+    },
+    {
+      "id": 383,
+      "title": "Research Paper 383",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 383 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 383 Researcher 3 2022"
+    },
+    {
+      "id": 384,
+      "title": "Research Paper 384",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 384 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 384 Researcher 4 2023"
+    },
+    {
+      "id": 385,
+      "title": "Research Paper 385",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 385 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 385 Researcher 5 2020"
+    },
+    {
+      "id": 386,
+      "title": "Research Paper 386",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 386 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 386 Researcher 6 2021"
+    },
+    {
+      "id": 387,
+      "title": "Research Paper 387",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 387 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 387 Researcher 7 2022"
+    },
+    {
+      "id": 388,
+      "title": "Research Paper 388",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 388 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 388 Researcher 8 2023"
+    },
+    {
+      "id": 389,
+      "title": "Research Paper 389",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 389 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 389 Researcher 9 2020"
+    },
+    {
+      "id": 390,
+      "title": "Research Paper 390",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 390 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 390 Researcher 10 2021"
+    },
+    {
+      "id": 391,
+      "title": "Research Paper 391",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 391 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 391 Researcher 1 2022"
+    },
+    {
+      "id": 392,
+      "title": "Research Paper 392",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 392 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 392 Researcher 2 2023"
+    },
+    {
+      "id": 393,
+      "title": "Research Paper 393",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 393 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 393 Researcher 3 2020"
+    },
+    {
+      "id": 394,
+      "title": "Research Paper 394",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 394 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 394 Researcher 4 2021"
+    },
+    {
+      "id": 395,
+      "title": "Research Paper 395",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 395 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 395 Researcher 5 2022"
+    },
+    {
+      "id": 396,
+      "title": "Research Paper 396",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 396 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 396 Researcher 6 2023"
+    },
+    {
+      "id": 397,
+      "title": "Research Paper 397",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 397 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 397 Researcher 7 2020"
+    },
+    {
+      "id": 398,
+      "title": "Research Paper 398",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 398 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 398 Researcher 8 2021"
+    },
+    {
+      "id": 399,
+      "title": "Research Paper 399",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 399 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 399 Researcher 9 2022"
+    },
+    {
+      "id": 400,
+      "title": "Research Paper 400",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 400 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 400 Researcher 10 2023"
+    },
+    {
+      "id": 401,
+      "title": "Research Paper 401",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 401 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 401 Researcher 1 2020"
+    },
+    {
+      "id": 402,
+      "title": "Research Paper 402",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 402 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 402 Researcher 2 2021"
+    },
+    {
+      "id": 403,
+      "title": "Research Paper 403",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 403 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 403 Researcher 3 2022"
+    },
+    {
+      "id": 404,
+      "title": "Research Paper 404",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 404 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 404 Researcher 4 2023"
+    },
+    {
+      "id": 405,
+      "title": "Research Paper 405",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 405 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 405 Researcher 5 2020"
+    },
+    {
+      "id": 406,
+      "title": "Research Paper 406",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 406 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 406 Researcher 6 2021"
+    },
+    {
+      "id": 407,
+      "title": "Research Paper 407",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 407 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 407 Researcher 7 2022"
+    },
+    {
+      "id": 408,
+      "title": "Research Paper 408",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 408 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 408 Researcher 8 2023"
+    },
+    {
+      "id": 409,
+      "title": "Research Paper 409",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 409 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 409 Researcher 9 2020"
+    },
+    {
+      "id": 410,
+      "title": "Research Paper 410",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 410 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 410 Researcher 10 2021"
+    },
+    {
+      "id": 411,
+      "title": "Research Paper 411",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 411 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 411 Researcher 1 2022"
+    },
+    {
+      "id": 412,
+      "title": "Research Paper 412",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 412 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 412 Researcher 2 2023"
+    },
+    {
+      "id": 413,
+      "title": "Research Paper 413",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 413 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 413 Researcher 3 2020"
+    },
+    {
+      "id": 414,
+      "title": "Research Paper 414",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 414 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 414 Researcher 4 2021"
+    },
+    {
+      "id": 415,
+      "title": "Research Paper 415",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 415 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 415 Researcher 5 2022"
+    },
+    {
+      "id": 416,
+      "title": "Research Paper 416",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 416 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 416 Researcher 6 2023"
+    },
+    {
+      "id": 417,
+      "title": "Research Paper 417",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 417 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 417 Researcher 7 2020"
+    },
+    {
+      "id": 418,
+      "title": "Research Paper 418",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 418 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 418 Researcher 8 2021"
+    },
+    {
+      "id": 419,
+      "title": "Research Paper 419",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 419 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 419 Researcher 9 2022"
+    },
+    {
+      "id": 420,
+      "title": "Research Paper 420",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 420 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 420 Researcher 10 2023"
+    },
+    {
+      "id": 421,
+      "title": "Research Paper 421",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 421 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 421 Researcher 1 2020"
+    },
+    {
+      "id": 422,
+      "title": "Research Paper 422",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 422 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 422 Researcher 2 2021"
+    },
+    {
+      "id": 423,
+      "title": "Research Paper 423",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 423 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 423 Researcher 3 2022"
+    },
+    {
+      "id": 424,
+      "title": "Research Paper 424",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 424 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 424 Researcher 4 2023"
+    },
+    {
+      "id": 425,
+      "title": "Research Paper 425",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 425 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 425 Researcher 5 2020"
+    },
+    {
+      "id": 426,
+      "title": "Research Paper 426",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 426 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 426 Researcher 6 2021"
+    },
+    {
+      "id": 427,
+      "title": "Research Paper 427",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 427 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 427 Researcher 7 2022"
+    },
+    {
+      "id": 428,
+      "title": "Research Paper 428",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 428 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 428 Researcher 8 2023"
+    },
+    {
+      "id": 429,
+      "title": "Research Paper 429",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 429 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 429 Researcher 9 2020"
+    },
+    {
+      "id": 430,
+      "title": "Research Paper 430",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 430 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 430 Researcher 10 2021"
+    },
+    {
+      "id": 431,
+      "title": "Research Paper 431",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 431 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 431 Researcher 1 2022"
+    },
+    {
+      "id": 432,
+      "title": "Research Paper 432",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 432 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 432 Researcher 2 2023"
+    },
+    {
+      "id": 433,
+      "title": "Research Paper 433",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 433 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 433 Researcher 3 2020"
+    },
+    {
+      "id": 434,
+      "title": "Research Paper 434",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 434 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 434 Researcher 4 2021"
+    },
+    {
+      "id": 435,
+      "title": "Research Paper 435",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 435 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 435 Researcher 5 2022"
+    },
+    {
+      "id": 436,
+      "title": "Research Paper 436",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 436 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 436 Researcher 6 2023"
+    },
+    {
+      "id": 437,
+      "title": "Research Paper 437",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 437 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 437 Researcher 7 2020"
+    },
+    {
+      "id": 438,
+      "title": "Research Paper 438",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 438 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 438 Researcher 8 2021"
+    },
+    {
+      "id": 439,
+      "title": "Research Paper 439",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 439 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 439 Researcher 9 2022"
+    },
+    {
+      "id": 440,
+      "title": "Research Paper 440",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 440 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 440 Researcher 10 2023"
+    },
+    {
+      "id": 441,
+      "title": "Research Paper 441",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 441 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 441 Researcher 1 2020"
+    },
+    {
+      "id": 442,
+      "title": "Research Paper 442",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 442 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 442 Researcher 2 2021"
+    },
+    {
+      "id": 443,
+      "title": "Research Paper 443",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 443 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 443 Researcher 3 2022"
+    },
+    {
+      "id": 444,
+      "title": "Research Paper 444",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 444 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 444 Researcher 4 2023"
+    },
+    {
+      "id": 445,
+      "title": "Research Paper 445",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 445 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 445 Researcher 5 2020"
+    },
+    {
+      "id": 446,
+      "title": "Research Paper 446",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 446 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 446 Researcher 6 2021"
+    },
+    {
+      "id": 447,
+      "title": "Research Paper 447",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 447 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 447 Researcher 7 2022"
+    },
+    {
+      "id": 448,
+      "title": "Research Paper 448",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 448 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 448 Researcher 8 2023"
+    },
+    {
+      "id": 449,
+      "title": "Research Paper 449",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 449 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 449 Researcher 9 2020"
+    },
+    {
+      "id": 450,
+      "title": "Research Paper 450",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 450 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 450 Researcher 10 2021"
+    },
+    {
+      "id": 451,
+      "title": "Research Paper 451",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 451 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 451 Researcher 1 2022"
+    },
+    {
+      "id": 452,
+      "title": "Research Paper 452",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 452 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 452 Researcher 2 2023"
+    },
+    {
+      "id": 453,
+      "title": "Research Paper 453",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 453 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 453 Researcher 3 2020"
+    },
+    {
+      "id": 454,
+      "title": "Research Paper 454",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 454 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 454 Researcher 4 2021"
+    },
+    {
+      "id": 455,
+      "title": "Research Paper 455",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 455 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 455 Researcher 5 2022"
+    },
+    {
+      "id": 456,
+      "title": "Research Paper 456",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 456 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 456 Researcher 6 2023"
+    },
+    {
+      "id": 457,
+      "title": "Research Paper 457",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 457 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 457 Researcher 7 2020"
+    },
+    {
+      "id": 458,
+      "title": "Research Paper 458",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 458 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 458 Researcher 8 2021"
+    },
+    {
+      "id": 459,
+      "title": "Research Paper 459",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 459 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 459 Researcher 9 2022"
+    },
+    {
+      "id": 460,
+      "title": "Research Paper 460",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 460 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 460 Researcher 10 2023"
+    },
+    {
+      "id": 461,
+      "title": "Research Paper 461",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 461 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 461 Researcher 1 2020"
+    },
+    {
+      "id": 462,
+      "title": "Research Paper 462",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 462 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 462 Researcher 2 2021"
+    },
+    {
+      "id": 463,
+      "title": "Research Paper 463",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 463 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 463 Researcher 3 2022"
+    },
+    {
+      "id": 464,
+      "title": "Research Paper 464",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 464 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 464 Researcher 4 2023"
+    },
+    {
+      "id": 465,
+      "title": "Research Paper 465",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 465 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 465 Researcher 5 2020"
+    },
+    {
+      "id": 466,
+      "title": "Research Paper 466",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 466 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 466 Researcher 6 2021"
+    },
+    {
+      "id": 467,
+      "title": "Research Paper 467",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 467 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 467 Researcher 7 2022"
+    },
+    {
+      "id": 468,
+      "title": "Research Paper 468",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 468 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 468 Researcher 8 2023"
+    },
+    {
+      "id": 469,
+      "title": "Research Paper 469",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 469 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 469 Researcher 9 2020"
+    },
+    {
+      "id": 470,
+      "title": "Research Paper 470",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 470 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 470 Researcher 10 2021"
+    },
+    {
+      "id": 471,
+      "title": "Research Paper 471",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 471 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 471 Researcher 1 2022"
+    },
+    {
+      "id": 472,
+      "title": "Research Paper 472",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 472 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 472 Researcher 2 2023"
+    },
+    {
+      "id": 473,
+      "title": "Research Paper 473",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 473 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 473 Researcher 3 2020"
+    },
+    {
+      "id": 474,
+      "title": "Research Paper 474",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 474 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 474 Researcher 4 2021"
+    },
+    {
+      "id": 475,
+      "title": "Research Paper 475",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 475 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 475 Researcher 5 2022"
+    },
+    {
+      "id": 476,
+      "title": "Research Paper 476",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 476 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 476 Researcher 6 2023"
+    },
+    {
+      "id": 477,
+      "title": "Research Paper 477",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 477 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 477 Researcher 7 2020"
+    },
+    {
+      "id": 478,
+      "title": "Research Paper 478",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 478 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 478 Researcher 8 2021"
+    },
+    {
+      "id": 479,
+      "title": "Research Paper 479",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 479 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 479 Researcher 9 2022"
+    },
+    {
+      "id": 480,
+      "title": "Research Paper 480",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 480 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 480 Researcher 10 2023"
+    },
+    {
+      "id": 481,
+      "title": "Research Paper 481",
+      "researcher": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "content": "Research Paper 481 by Researcher 1 (2020)",
+      "searchable_text": "Research Paper 481 Researcher 1 2020"
+    },
+    {
+      "id": 482,
+      "title": "Research Paper 482",
+      "researcher": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "content": "Research Paper 482 by Researcher 2 (2021)",
+      "searchable_text": "Research Paper 482 Researcher 2 2021"
+    },
+    {
+      "id": 483,
+      "title": "Research Paper 483",
+      "researcher": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "content": "Research Paper 483 by Researcher 3 (2022)",
+      "searchable_text": "Research Paper 483 Researcher 3 2022"
+    },
+    {
+      "id": 484,
+      "title": "Research Paper 484",
+      "researcher": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "content": "Research Paper 484 by Researcher 4 (2023)",
+      "searchable_text": "Research Paper 484 Researcher 4 2023"
+    },
+    {
+      "id": 485,
+      "title": "Research Paper 485",
+      "researcher": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "content": "Research Paper 485 by Researcher 5 (2020)",
+      "searchable_text": "Research Paper 485 Researcher 5 2020"
+    },
+    {
+      "id": 486,
+      "title": "Research Paper 486",
+      "researcher": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "content": "Research Paper 486 by Researcher 6 (2021)",
+      "searchable_text": "Research Paper 486 Researcher 6 2021"
+    },
+    {
+      "id": 487,
+      "title": "Research Paper 487",
+      "researcher": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "content": "Research Paper 487 by Researcher 7 (2022)",
+      "searchable_text": "Research Paper 487 Researcher 7 2022"
+    },
+    {
+      "id": 488,
+      "title": "Research Paper 488",
+      "researcher": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "content": "Research Paper 488 by Researcher 8 (2023)",
+      "searchable_text": "Research Paper 488 Researcher 8 2023"
+    },
+    {
+      "id": 489,
+      "title": "Research Paper 489",
+      "researcher": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "content": "Research Paper 489 by Researcher 9 (2020)",
+      "searchable_text": "Research Paper 489 Researcher 9 2020"
+    },
+    {
+      "id": 490,
+      "title": "Research Paper 490",
+      "researcher": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "content": "Research Paper 490 by Researcher 10 (2021)",
+      "searchable_text": "Research Paper 490 Researcher 10 2021"
+    },
+    {
+      "id": 491,
+      "title": "Research Paper 491",
+      "researcher": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "content": "Research Paper 491 by Researcher 1 (2022)",
+      "searchable_text": "Research Paper 491 Researcher 1 2022"
+    },
+    {
+      "id": 492,
+      "title": "Research Paper 492",
+      "researcher": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "content": "Research Paper 492 by Researcher 2 (2023)",
+      "searchable_text": "Research Paper 492 Researcher 2 2023"
+    },
+    {
+      "id": 493,
+      "title": "Research Paper 493",
+      "researcher": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "content": "Research Paper 493 by Researcher 3 (2020)",
+      "searchable_text": "Research Paper 493 Researcher 3 2020"
+    },
+    {
+      "id": 494,
+      "title": "Research Paper 494",
+      "researcher": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "content": "Research Paper 494 by Researcher 4 (2021)",
+      "searchable_text": "Research Paper 494 Researcher 4 2021"
+    },
+    {
+      "id": 495,
+      "title": "Research Paper 495",
+      "researcher": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "content": "Research Paper 495 by Researcher 5 (2022)",
+      "searchable_text": "Research Paper 495 Researcher 5 2022"
+    },
+    {
+      "id": 496,
+      "title": "Research Paper 496",
+      "researcher": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "content": "Research Paper 496 by Researcher 6 (2023)",
+      "searchable_text": "Research Paper 496 Researcher 6 2023"
+    },
+    {
+      "id": 497,
+      "title": "Research Paper 497",
+      "researcher": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "content": "Research Paper 497 by Researcher 7 (2020)",
+      "searchable_text": "Research Paper 497 Researcher 7 2020"
+    },
+    {
+      "id": 498,
+      "title": "Research Paper 498",
+      "researcher": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "content": "Research Paper 498 by Researcher 8 (2021)",
+      "searchable_text": "Research Paper 498 Researcher 8 2021"
+    },
+    {
+      "id": 499,
+      "title": "Research Paper 499",
+      "researcher": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "content": "Research Paper 499 by Researcher 9 (2022)",
+      "searchable_text": "Research Paper 499 Researcher 9 2022"
+    },
+    {
+      "id": 500,
+      "title": "Research Paper 500",
+      "researcher": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "content": "Research Paper 500 by Researcher 10 (2023)",
+      "searchable_text": "Research Paper 500 Researcher 10 2023"
+    }
+  ],
+  "total_items": 500
+}

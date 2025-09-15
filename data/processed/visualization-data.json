@@ -1,0 +1,4599 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "title": "Research Paper 1",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 37.454011884736246,
+      "y": 95.07143064099162
+    },
+    {
+      "id": 2,
+      "title": "Research Paper 2",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 73.1993941811405,
+      "y": 59.86584841970366
+    },
+    {
+      "id": 3,
+      "title": "Research Paper 3",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 15.601864044243651,
+      "y": 15.599452033620265
+    },
+    {
+      "id": 4,
+      "title": "Research Paper 4",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 5.8083612168199465,
+      "y": 86.61761457749351
+    },
+    {
+      "id": 5,
+      "title": "Research Paper 5",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 60.11150117432088,
+      "y": 70.80725777960456
+    },
+    {
+      "id": 6,
+      "title": "Research Paper 6",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 2.0584494295802447,
+      "y": 96.99098521619943
+    },
+    {
+      "id": 7,
+      "title": "Research Paper 7",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 83.24426408004217,
+      "y": 21.233911067827616
+    },
+    {
+      "id": 8,
+      "title": "Research Paper 8",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 18.182496720710063,
+      "y": 18.34045098534338
+    },
+    {
+      "id": 9,
+      "title": "Research Paper 9",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 30.42422429595377,
+      "y": 52.475643163223786
+    },
+    {
+      "id": 10,
+      "title": "Research Paper 10",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 43.194501864211574,
+      "y": 29.122914019804192
+    },
+    {
+      "id": 11,
+      "title": "Research Paper 11",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 61.18528947223795,
+      "y": 13.949386065204184
+    },
+    {
+      "id": 12,
+      "title": "Research Paper 12",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 29.214464853521815,
+      "y": 36.63618432936917
+    },
+    {
+      "id": 13,
+      "title": "Research Paper 13",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 45.606998421703594,
+      "y": 78.51759613930136
+    },
+    {
+      "id": 14,
+      "title": "Research Paper 14",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 19.967378215835975,
+      "y": 51.42344384136116
+    },
+    {
+      "id": 15,
+      "title": "Research Paper 15",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 59.24145688620425,
+      "y": 4.645041271999773
+    },
+    {
+      "id": 16,
+      "title": "Research Paper 16",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 60.75448519014384,
+      "y": 17.052412368729154
+    },
+    {
+      "id": 17,
+      "title": "Research Paper 17",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 6.505159298527952,
+      "y": 94.88855372533332
+    },
+    {
+      "id": 18,
+      "title": "Research Paper 18",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 96.56320330745594,
+      "y": 80.83973481164611
+    },
+    {
+      "id": 19,
+      "title": "Research Paper 19",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 30.46137691733707,
+      "y": 9.767211400638388
+    },
+    {
+      "id": 20,
+      "title": "Research Paper 20",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 68.42330265121569,
+      "y": 44.01524937396013
+    },
+    {
+      "id": 21,
+      "title": "Research Paper 21",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 12.203823484477883,
+      "y": 49.51769101112702
+    },
+    {
+      "id": 22,
+      "title": "Research Paper 22",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 3.4388521115218396,
+      "y": 90.9320402078782
+    },
+    {
+      "id": 23,
+      "title": "Research Paper 23",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 25.87799816000169,
+      "y": 66.2522284353982
+    },
+    {
+      "id": 24,
+      "title": "Research Paper 24",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 31.171107608941096,
+      "y": 52.00680211778108
+    },
+    {
+      "id": 25,
+      "title": "Research Paper 25",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 54.67102793432797,
+      "y": 18.485445552552704
+    },
+    {
+      "id": 26,
+      "title": "Research Paper 26",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 96.95846277645586,
+      "y": 77.51328233611146
+    },
+    {
+      "id": 27,
+      "title": "Research Paper 27",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 93.9498941564189,
+      "y": 89.48273504276489
+    },
+    {
+      "id": 28,
+      "title": "Research Paper 28",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 59.78999788110851,
+      "y": 92.18742350231169
+    },
+    {
+      "id": 29,
+      "title": "Research Paper 29",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 8.84925020519195,
+      "y": 19.59828624191452
+    },
+    {
+      "id": 30,
+      "title": "Research Paper 30",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 4.522728891053807,
+      "y": 32.53303307632643
+    },
+    {
+      "id": 31,
+      "title": "Research Paper 31",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 38.8677289689482,
+      "y": 27.134903177389592
+    },
+    {
+      "id": 32,
+      "title": "Research Paper 32",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 82.87375091519293,
+      "y": 35.67533266935893
+    },
+    {
+      "id": 33,
+      "title": "Research Paper 33",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 28.093450968738075,
+      "y": 54.26960831582485
+    },
+    {
+      "id": 34,
+      "title": "Research Paper 34",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 14.092422497476264,
+      "y": 80.21969807540397
+    },
+    {
+      "id": 35,
+      "title": "Research Paper 35",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 7.455064367977082,
+      "y": 98.68869366005173
+    },
+    {
+      "id": 36,
+      "title": "Research Paper 36",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 77.22447692966574,
+      "y": 19.87156815341724
+    },
+    {
+      "id": 37,
+      "title": "Research Paper 37",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 0.5522117123602399,
+      "y": 81.54614284548342
+    },
+    {
+      "id": 38,
+      "title": "Research Paper 38",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 70.68573438476172,
+      "y": 72.90071680409874
+    },
+    {
+      "id": 39,
+      "title": "Research Paper 39",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 77.12703466859458,
+      "y": 7.4044651734090365
+    },
+    {
+      "id": 40,
+      "title": "Research Paper 40",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 35.84657285442726,
+      "y": 11.586905952512971
+    },
+    {
+      "id": 41,
+      "title": "Research Paper 41",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 86.31034258755935,
+      "y": 62.329812682755794
+    },
+    {
+      "id": 42,
+      "title": "Research Paper 42",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 33.08980248526492,
+      "y": 6.355835028602364
+    },
+    {
+      "id": 43,
+      "title": "Research Paper 43",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 31.09823217156622,
+      "y": 32.518332202674706
+    },
+    {
+      "id": 44,
+      "title": "Research Paper 44",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 72.96061783380641,
+      "y": 63.75574713552131
+    },
+    {
+      "id": 45,
+      "title": "Research Paper 45",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 88.72127425763266,
+      "y": 47.22149251619493
+    },
+    {
+      "id": 46,
+      "title": "Research Paper 46",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 11.959424593830171,
+      "y": 71.3244787222995
+    },
+    {
+      "id": 47,
+      "title": "Research Paper 47",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 76.07850486168974,
+      "y": 56.127719756949624
+    },
+    {
+      "id": 48,
+      "title": "Research Paper 48",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 77.0967179954561,
+      "y": 49.379559636439076
+    },
+    {
+      "id": 49,
+      "title": "Research Paper 49",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 52.27328293819941,
+      "y": 42.75410183585496
+    },
+    {
+      "id": 50,
+      "title": "Research Paper 50",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 2.541912674409519,
+      "y": 10.789142699330444
+    },
+    {
+      "id": 51,
+      "title": "Research Paper 51",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 3.142918568673425,
+      "y": 63.64104112637804
+    },
+    {
+      "id": 52,
+      "title": "Research Paper 52",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 31.435598107632668,
+      "y": 50.85706911647028
+    },
+    {
+      "id": 53,
+      "title": "Research Paper 53",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 90.7566473926093,
+      "y": 24.929222914887493
+    },
+    {
+      "id": 54,
+      "title": "Research Paper 54",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 41.038292303562976,
+      "y": 75.55511385430486
+    },
+    {
+      "id": 55,
+      "title": "Research Paper 55",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 22.879816549162246,
+      "y": 7.697990982879299
+    },
+    {
+      "id": 56,
+      "title": "Research Paper 56",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 28.9751452913768,
+      "y": 16.122128725400444
+    },
+    {
+      "id": 57,
+      "title": "Research Paper 57",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 92.96976523425731,
+      "y": 80.8120379564417
+    },
+    {
+      "id": 58,
+      "title": "Research Paper 58",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 63.34037565104234,
+      "y": 87.14605901877177
+    },
+    {
+      "id": 59,
+      "title": "Research Paper 59",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 80.36720768991145,
+      "y": 18.657005888603585
+    },
+    {
+      "id": 60,
+      "title": "Research Paper 60",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 89.25589984899777,
+      "y": 53.93422419156507
+    },
+    {
+      "id": 61,
+      "title": "Research Paper 61",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 80.74401551640625,
+      "y": 89.60912999234932
+    },
+    {
+      "id": 62,
+      "title": "Research Paper 62",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 31.800347497186387,
+      "y": 11.005192452767677
+    },
+    {
+      "id": 63,
+      "title": "Research Paper 63",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 22.793516254194166,
+      "y": 42.71077886262563
+    },
+    {
+      "id": 64,
+      "title": "Research Paper 64",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 81.80147659224932,
+      "y": 86.07305832563435
+    },
+    {
+      "id": 65,
+      "title": "Research Paper 65",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 0.6952130531190703,
+      "y": 51.07473025775657
+    },
+    {
+      "id": 66,
+      "title": "Research Paper 66",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 41.7411003148779,
+      "y": 22.210781047073024
+    },
+    {
+      "id": 67,
+      "title": "Research Paper 67",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 11.98653673336828,
+      "y": 33.7615171403628
+    },
+    {
+      "id": 68,
+      "title": "Research Paper 68",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 94.29097039125192,
+      "y": 32.320293202075526
+    },
+    {
+      "id": 69,
+      "title": "Research Paper 69",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 51.87906217433661,
+      "y": 70.30189588951778
+    },
+    {
+      "id": 70,
+      "title": "Research Paper 70",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 36.3629602379294,
+      "y": 97.17820827209607
+    },
+    {
+      "id": 71,
+      "title": "Research Paper 71",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 96.24472949421113,
+      "y": 25.178229582536417
+    },
+    {
+      "id": 72,
+      "title": "Research Paper 72",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 49.72485058923854,
+      "y": 30.087830981676966
+    },
+    {
+      "id": 73,
+      "title": "Research Paper 73",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 28.484049437746762,
+      "y": 3.6886947354532795
+    },
+    {
+      "id": 74,
+      "title": "Research Paper 74",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 60.956433397989684,
+      "y": 50.26790232288615
+    },
+    {
+      "id": 75,
+      "title": "Research Paper 75",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 5.147875124998935,
+      "y": 27.864646423661142
+    },
+    {
+      "id": 76,
+      "title": "Research Paper 76",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 90.82658859666537,
+      "y": 23.95618906669724
+    },
+    {
+      "id": 77,
+      "title": "Research Paper 77",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 14.48948720912231,
+      "y": 48.9452760277563
+    },
+    {
+      "id": 78,
+      "title": "Research Paper 78",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 98.56504541106007,
+      "y": 24.20552715115004
+    },
+    {
+      "id": 79,
+      "title": "Research Paper 79",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 67.21355474058785,
+      "y": 76.16196153287176
+    },
+    {
+      "id": 80,
+      "title": "Research Paper 80",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 23.763754399239968,
+      "y": 72.82163486118596
+    },
+    {
+      "id": 81,
+      "title": "Research Paper 81",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 36.77831327192532,
+      "y": 63.23058305935795
+    },
+    {
+      "id": 82,
+      "title": "Research Paper 82",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 63.35297107608947,
+      "y": 53.57746840747585
+    },
+    {
+      "id": 83,
+      "title": "Research Paper 83",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 9.02897700544083,
+      "y": 83.5302495589238
+    },
+    {
+      "id": 84,
+      "title": "Research Paper 84",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 32.07800649717358,
+      "y": 18.651851039985424
+    },
+    {
+      "id": 85,
+      "title": "Research Paper 85",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 4.077514155476392,
+      "y": 59.08929431882418
+    },
+    {
+      "id": 86,
+      "title": "Research Paper 86",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 67.75643618422824,
+      "y": 1.6587828927856152
+    },
+    {
+      "id": 87,
+      "title": "Research Paper 87",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 51.2093058299281,
+      "y": 22.649577519793795
+    },
+    {
+      "id": 88,
+      "title": "Research Paper 88",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 64.51727904094498,
+      "y": 17.436642900499145
+    },
+    {
+      "id": 89,
+      "title": "Research Paper 89",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 69.09377381024659,
+      "y": 38.67353463005374
+    },
+    {
+      "id": 90,
+      "title": "Research Paper 90",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 93.67299887367345,
+      "y": 13.752094414599325
+    },
+    {
+      "id": 91,
+      "title": "Research Paper 91",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 34.10663510502585,
+      "y": 11.347352124058908
+    },
+    {
+      "id": 92,
+      "title": "Research Paper 92",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 92.46936182785628,
+      "y": 87.7339353380981
+    },
+    {
+      "id": 93,
+      "title": "Research Paper 93",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 25.79416277151556,
+      "y": 65.99840460341791
+    },
+    {
+      "id": 94,
+      "title": "Research Paper 94",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 81.72222002012158,
+      "y": 55.52008115994623
+    },
+    {
+      "id": 95,
+      "title": "Research Paper 95",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 52.965057835600646,
+      "y": 24.18522909004517
+    },
+    {
+      "id": 96,
+      "title": "Research Paper 96",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 9.310276780589922,
+      "y": 89.72157579533267
+    },
+    {
+      "id": 97,
+      "title": "Research Paper 97",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 90.04180571633304,
+      "y": 63.31014572732679
+    },
+    {
+      "id": 98,
+      "title": "Research Paper 98",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 33.90297910487007,
+      "y": 34.92095746126609
+    },
+    {
+      "id": 99,
+      "title": "Research Paper 99",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 72.59556788702393,
+      "y": 89.71102599525771
+    },
+    {
+      "id": 100,
+      "title": "Research Paper 100",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 88.70864242651173,
+      "y": 77.98755458576238
+    },
+    {
+      "id": 101,
+      "title": "Research Paper 101",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 64.20316461542878,
+      "y": 8.413996499504883
+    },
+    {
+      "id": 102,
+      "title": "Research Paper 102",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 16.162871409461378,
+      "y": 89.85541885270793
+    },
+    {
+      "id": 103,
+      "title": "Research Paper 103",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 60.642905965958995,
+      "y": 0.9197051616629648
+    },
+    {
+      "id": 104,
+      "title": "Research Paper 104",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 10.147154286603211,
+      "y": 66.35017691080559
+    },
+    {
+      "id": 105,
+      "title": "Research Paper 105",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 0.5061583846218687,
+      "y": 16.080805141749867
+    },
+    {
+      "id": 106,
+      "title": "Research Paper 106",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 54.87337893665861,
+      "y": 69.18951976926932
+    },
+    {
+      "id": 107,
+      "title": "Research Paper 107",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 65.19612595026005,
+      "y": 22.42693094605598
+    },
+    {
+      "id": 108,
+      "title": "Research Paper 108",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 71.2179221347536,
+      "y": 23.724908749680008
+    },
+    {
+      "id": 109,
+      "title": "Research Paper 109",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 32.539969815926774,
+      "y": 74.64914051180241
+    },
+    {
+      "id": 110,
+      "title": "Research Paper 110",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 64.96328990472146,
+      "y": 84.9223410494178
+    },
+    {
+      "id": 111,
+      "title": "Research Paper 111",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 65.76128923003434,
+      "y": 56.830860333547164
+    },
+    {
+      "id": 112,
+      "title": "Research Paper 112",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 9.367476782809248,
+      "y": 36.77158030594335
+    },
+    {
+      "id": 113,
+      "title": "Research Paper 113",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 26.520236768172545,
+      "y": 24.398964337908357
+    },
+    {
+      "id": 114,
+      "title": "Research Paper 114",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 97.30105547524455,
+      "y": 39.30977246667604
+    },
+    {
+      "id": 115,
+      "title": "Research Paper 115",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 89.20465551771133,
+      "y": 63.11386259972629
+    },
+    {
+      "id": 116,
+      "title": "Research Paper 116",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 79.48113035416485,
+      "y": 50.26370931051921
+    },
+    {
+      "id": 117,
+      "title": "Research Paper 117",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 57.69038846263591,
+      "y": 49.25176938188639
+    },
+    {
+      "id": 118,
+      "title": "Research Paper 118",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 19.52429877980445,
+      "y": 72.24521152615053
+    },
+    {
+      "id": 119,
+      "title": "Research Paper 119",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 28.07723624408558,
+      "y": 2.431596643145384
+    },
+    {
+      "id": 120,
+      "title": "Research Paper 120",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 64.54722959071678,
+      "y": 17.711067940704893
+    },
+    {
+      "id": 121,
+      "title": "Research Paper 121",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 94.04585843529144,
+      "y": 95.39285770025873
+    },
+    {
+      "id": 122,
+      "title": "Research Paper 122",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 91.48643902204485,
+      "y": 37.01587002554444
+    },
+    {
+      "id": 123,
+      "title": "Research Paper 123",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 1.5456616528867428,
+      "y": 92.83185625877253
+    },
+    {
+      "id": 124,
+      "title": "Research Paper 124",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 42.81841483173143,
+      "y": 96.66548190436696
+    },
+    {
+      "id": 125,
+      "title": "Research Paper 125",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 96.36199770892529,
+      "y": 85.300945546736
+    },
+    {
+      "id": 126,
+      "title": "Research Paper 126",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 29.444889206958567,
+      "y": 38.50977286019253
+    },
+    {
+      "id": 127,
+      "title": "Research Paper 127",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 85.11366715168569,
+      "y": 31.692200515627768
+    },
+    {
+      "id": 128,
+      "title": "Research Paper 128",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 16.94927466860925,
+      "y": 55.68012624583501
+    },
+    {
+      "id": 129,
+      "title": "Research Paper 129",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 93.6154774160781,
+      "y": 69.6029796674973
+    },
+    {
+      "id": 130,
+      "title": "Research Paper 130",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 57.0061170089365,
+      "y": 9.717649377076853
+    },
+    {
+      "id": 131,
+      "title": "Research Paper 131",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 61.500722669916975,
+      "y": 99.00538501042632
+    },
+    {
+      "id": 132,
+      "title": "Research Paper 132",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 14.008401523652402,
+      "y": 51.832965236373674
+    },
+    {
+      "id": 133,
+      "title": "Research Paper 133",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 87.73730719279554,
+      "y": 74.07686177542044
+    },
+    {
+      "id": 134,
+      "title": "Research Paper 134",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 69.7015740995268,
+      "y": 70.24840839871092
+    },
+    {
+      "id": 135,
+      "title": "Research Paper 135",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 35.94911512197552,
+      "y": 29.359184426449335
+    },
+    {
+      "id": 136,
+      "title": "Research Paper 136",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 80.93611554785136,
+      "y": 81.01133946791808
+    },
+    {
+      "id": 137,
+      "title": "Research Paper 137",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 86.70723185801037,
+      "y": 91.32405525564712
+    },
+    {
+      "id": 138,
+      "title": "Research Paper 138",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 51.13423988609378,
+      "y": 50.15162946871996
+    },
+    {
+      "id": 139,
+      "title": "Research Paper 139",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 79.82951789667752,
+      "y": 64.99639307777652
+    },
+    {
+      "id": 140,
+      "title": "Research Paper 140",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 70.19668772577033,
+      "y": 79.57926694361011
+    },
+    {
+      "id": 141,
+      "title": "Research Paper 141",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 89.00053418175663,
+      "y": 33.79951568515358
+    },
+    {
+      "id": 142,
+      "title": "Research Paper 142",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 37.5582952639944,
+      "y": 9.3981939840869
+    },
+    {
+      "id": 143,
+      "title": "Research Paper 143",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 57.8280140996174,
+      "y": 3.5942273796742086
+    },
+    {
+      "id": 144,
+      "title": "Research Paper 144",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 46.55980181324602,
+      "y": 54.26446347075766
+    },
+    {
+      "id": 145,
+      "title": "Research Paper 145",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 28.65412521282844,
+      "y": 59.08332605690107
+    },
+    {
+      "id": 146,
+      "title": "Research Paper 146",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 3.050024993904943,
+      "y": 3.7348188749214417
+    },
+    {
+      "id": 147,
+      "title": "Research Paper 147",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 82.26005606596583,
+      "y": 36.019064141126286
+    },
+    {
+      "id": 148,
+      "title": "Research Paper 148",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 12.706051265188478,
+      "y": 52.224326005480435
+    },
+    {
+      "id": 149,
+      "title": "Research Paper 149",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 76.99935530986109,
+      "y": 21.582102749684317
+    },
+    {
+      "id": 150,
+      "title": "Research Paper 150",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 62.28904758190003,
+      "y": 8.5347464993768
+    },
+    {
+      "id": 151,
+      "title": "Research Paper 151",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 5.16817211686077,
+      "y": 53.1354631568148
+    },
+    {
+      "id": 152,
+      "title": "Research Paper 152",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 54.06351216101065,
+      "y": 63.742990149820656
+    },
+    {
+      "id": 153,
+      "title": "Research Paper 153",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 72.60913337226616,
+      "y": 97.58520794625346
+    },
+    {
+      "id": 154,
+      "title": "Research Paper 154",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 51.630034830119534,
+      "y": 32.2956472941246
+    },
+    {
+      "id": 155,
+      "title": "Research Paper 155",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 79.51861947687037,
+      "y": 27.083225126207424
+    },
+    {
+      "id": 156,
+      "title": "Research Paper 156",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 43.89714207056361,
+      "y": 7.845638134226595
+    },
+    {
+      "id": 157,
+      "title": "Research Paper 157",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 2.535074341545751,
+      "y": 96.26484146779251
+    },
+    {
+      "id": 158,
+      "title": "Research Paper 158",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 83.59801205122058,
+      "y": 69.59742060936979
+    },
+    {
+      "id": 159,
+      "title": "Research Paper 159",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 40.89529444142699,
+      "y": 17.329432007084577
+    },
+    {
+      "id": 160,
+      "title": "Research Paper 160",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 15.643704267108605,
+      "y": 25.024289816459532
+    },
+    {
+      "id": 161,
+      "title": "Research Paper 161",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 54.92266647061205,
+      "y": 71.45959227000624
+    },
+    {
+      "id": 162,
+      "title": "Research Paper 162",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 66.01973767177313,
+      "y": 27.993389694594285
+    },
+    {
+      "id": 163,
+      "title": "Research Paper 163",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 95.48652806631941,
+      "y": 73.78969166957685
+    },
+    {
+      "id": 164,
+      "title": "Research Paper 164",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 55.43540525114007,
+      "y": 61.17207462343522
+    },
+    {
+      "id": 165,
+      "title": "Research Paper 165",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 41.96000624277899,
+      "y": 24.773098950115745
+    },
+    {
+      "id": 166,
+      "title": "Research Paper 166",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 35.597267865126156,
+      "y": 75.78461104643691
+    },
+    {
+      "id": 167,
+      "title": "Research Paper 167",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 1.4393488629755868,
+      "y": 11.607264050691624
+    },
+    {
+      "id": 168,
+      "title": "Research Paper 168",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 4.600264202175275,
+      "y": 4.072880231897013
+    },
+    {
+      "id": 169,
+      "title": "Research Paper 169",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 85.54605840110072,
+      "y": 70.36578593800236
+    },
+    {
+      "id": 170,
+      "title": "Research Paper 170",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 47.41738290873252,
+      "y": 9.783416065100148
+    },
+    {
+      "id": 171,
+      "title": "Research Paper 171",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 49.16158751168324,
+      "y": 47.34717707805657
+    },
+    {
+      "id": 172,
+      "title": "Research Paper 172",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 17.320186991001517,
+      "y": 43.385164923797305
+    },
+    {
+      "id": 173,
+      "title": "Research Paper 173",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 39.85047343973734,
+      "y": 61.585009805221645
+    },
+    {
+      "id": 174,
+      "title": "Research Paper 174",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 63.50936508676438,
+      "y": 4.530400977204452
+    },
+    {
+      "id": 175,
+      "title": "Research Paper 175",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 37.46126146264712,
+      "y": 62.58599157142364
+    },
+    {
+      "id": 176,
+      "title": "Research Paper 176",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 50.31362585800877,
+      "y": 85.64898411883223
+    },
+    {
+      "id": 177,
+      "title": "Research Paper 177",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 65.8693631618945,
+      "y": 16.29344270814297
+    },
+    {
+      "id": 178,
+      "title": "Research Paper 178",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 7.056874740042984,
+      "y": 64.24192782063156
+    },
+    {
+      "id": 179,
+      "title": "Research Paper 179",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 2.6511310541621813,
+      "y": 58.57755812734633
+    },
+    {
+      "id": 180,
+      "title": "Research Paper 180",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 94.02302414249576,
+      "y": 57.5474177875879
+    },
+    {
+      "id": 181,
+      "title": "Research Paper 181",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 38.816992620652194,
+      "y": 64.32882184423532
+    },
+    {
+      "id": 182,
+      "title": "Research Paper 182",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 45.825289049151664,
+      "y": 54.56167893159349
+    },
+    {
+      "id": 183,
+      "title": "Research Paper 183",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 94.14648087765252,
+      "y": 38.610263780077425
+    },
+    {
+      "id": 184,
+      "title": "Research Paper 184",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 96.11905638239142,
+      "y": 90.53506419560637
+    },
+    {
+      "id": 185,
+      "title": "Research Paper 185",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 19.579113478929642,
+      "y": 6.9361300875165455
+    },
+    {
+      "id": 186,
+      "title": "Research Paper 186",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 10.077800137742665,
+      "y": 1.8221825651549728
+    },
+    {
+      "id": 187,
+      "title": "Research Paper 187",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 9.44429607559284,
+      "y": 68.30067734163569
+    },
+    {
+      "id": 188,
+      "title": "Research Paper 188",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 7.118864846022898,
+      "y": 31.89756302937613
+    },
+    {
+      "id": 189,
+      "title": "Research Paper 189",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 84.48753109694546,
+      "y": 2.3271935735825866
+    },
+    {
+      "id": 190,
+      "title": "Research Paper 190",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 81.44684825889358,
+      "y": 28.185477477339994
+    },
+    {
+      "id": 191,
+      "title": "Research Paper 191",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 11.816482762165625,
+      "y": 69.67371653641507
+    },
+    {
+      "id": 192,
+      "title": "Research Paper 192",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 62.8942846779884,
+      "y": 87.74720135270529
+    },
+    {
+      "id": 193,
+      "title": "Research Paper 193",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 73.50710438038858,
+      "y": 80.34809303848486
+    },
+    {
+      "id": 194,
+      "title": "Research Paper 194",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 28.203457257130648,
+      "y": 17.743954377972283
+    },
+    {
+      "id": 195,
+      "title": "Research Paper 195",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 75.06147516408583,
+      "y": 80.6834739267264
+    },
+    {
+      "id": 196,
+      "title": "Research Paper 196",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 99.05051420006733,
+      "y": 41.26176769114265
+    },
+    {
+      "id": 197,
+      "title": "Research Paper 197",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 37.201808579278314,
+      "y": 77.64129607419969
+    },
+    {
+      "id": 198,
+      "title": "Research Paper 198",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 34.08035402530179,
+      "y": 93.07573256035647
+    },
+    {
+      "id": 199,
+      "title": "Research Paper 199",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 85.84127518430118,
+      "y": 42.89940273750184
+    },
+    {
+      "id": 200,
+      "title": "Research Paper 200",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 75.08710677914974,
+      "y": 75.45428740846823
+    },
+    {
+      "id": 201,
+      "title": "Research Paper 201",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 10.31238688359326,
+      "y": 90.25529066795667
+    },
+    {
+      "id": 202,
+      "title": "Research Paper 202",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 50.525237244785714,
+      "y": 82.64574661077417
+    },
+    {
+      "id": 203,
+      "title": "Research Paper 203",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 32.00496010306117,
+      "y": 89.55232284962005
+    },
+    {
+      "id": 204,
+      "title": "Research Paper 204",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 38.92016787341631,
+      "y": 1.083765148029836
+    },
+    {
+      "id": 205,
+      "title": "Research Paper 205",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 90.53819764192636,
+      "y": 9.128667678613356
+    },
+    {
+      "id": 206,
+      "title": "Research Paper 206",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 31.93136375904149,
+      "y": 95.0061967050805
+    },
+    {
+      "id": 207,
+      "title": "Research Paper 207",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 95.06071469375561,
+      "y": 57.34378881232861
+    },
+    {
+      "id": 208,
+      "title": "Research Paper 208",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 63.183721216979926,
+      "y": 44.84455219783198
+    },
+    {
+      "id": 209,
+      "title": "Research Paper 209",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 29.321077169806454,
+      "y": 32.8664545369916
+    },
+    {
+      "id": 210,
+      "title": "Research Paper 210",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 67.25184560770384,
+      "y": 75.237452943768
+    },
+    {
+      "id": 211,
+      "title": "Research Paper 211",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 79.15790437258485,
+      "y": 78.96181427945538
+    },
+    {
+      "id": 212,
+      "title": "Research Paper 212",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 9.120610304869036,
+      "y": 49.442030470258146
+    },
+    {
+      "id": 213,
+      "title": "Research Paper 213",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 5.755876001664428,
+      "y": 54.95288823237355
+    },
+    {
+      "id": 214,
+      "title": "Research Paper 214",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 44.1530501373377,
+      "y": 88.77041827582998
+    },
+    {
+      "id": 215,
+      "title": "Research Paper 215",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 35.09150125520787,
+      "y": 11.706701642760587
+    },
+    {
+      "id": 216,
+      "title": "Research Paper 216",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 14.299168205283586,
+      "y": 76.15106317174723
+    },
+    {
+      "id": 217,
+      "title": "Research Paper 217",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 61.82180633162611,
+      "y": 10.112267612279025
+    },
+    {
+      "id": 218,
+      "title": "Research Paper 218",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 8.410680611499743,
+      "y": 70.096913145912
+    },
+    {
+      "id": 219,
+      "title": "Research Paper 219",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 7.276300636419353,
+      "y": 82.18600592903562
+    },
+    {
+      "id": 220,
+      "title": "Research Paper 220",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 70.62422271564962,
+      "y": 8.134878064189976
+    },
+    {
+      "id": 221,
+      "title": "Research Paper 221",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 8.483771408519193,
+      "y": 98.66395785011754
+    },
+    {
+      "id": 222,
+      "title": "Research Paper 222",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 37.427079575612034,
+      "y": 37.06421470668909
+    },
+    {
+      "id": 223,
+      "title": "Research Paper 223",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 81.27995672575025,
+      "y": 94.72485773838586
+    },
+    {
+      "id": 224,
+      "title": "Research Paper 224",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 98.6001063822871,
+      "y": 75.33781852589416
+    },
+    {
+      "id": 225,
+      "title": "Research Paper 225",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 37.62595855309158,
+      "y": 8.350071669866876
+    },
+    {
+      "id": 226,
+      "title": "Research Paper 226",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 77.71469159274368,
+      "y": 55.840424973580504
+    },
+    {
+      "id": 227,
+      "title": "Research Paper 227",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 42.42220092469763,
+      "y": 90.6354385094736
+    },
+    {
+      "id": 228,
+      "title": "Research Paper 228",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 11.119748230615134,
+      "y": 49.262510429085914
+    },
+    {
+      "id": 229,
+      "title": "Research Paper 229",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 1.1353644767419069,
+      "y": 46.86606419941263
+    },
+    {
+      "id": 230,
+      "title": "Research Paper 230",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 5.630327568183735,
+      "y": 11.881791626807193
+    },
+    {
+      "id": 231,
+      "title": "Research Paper 231",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 11.752624677710488,
+      "y": 64.92103021160635
+    },
+    {
+      "id": 232,
+      "title": "Research Paper 232",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 74.60448792654233,
+      "y": 58.336876509715964
+    },
+    {
+      "id": 233,
+      "title": "Research Paper 233",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 96.21725484745419,
+      "y": 37.48705795237041
+    },
+    {
+      "id": 234,
+      "title": "Research Paper 234",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 28.571208628186074,
+      "y": 86.85991281894603
+    },
+    {
+      "id": 235,
+      "title": "Research Paper 235",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 22.359583851945263,
+      "y": 96.32225394406113
+    },
+    {
+      "id": 236,
+      "title": "Research Paper 236",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 1.2154474689816341,
+      "y": 96.98788267076391
+    },
+    {
+      "id": 237,
+      "title": "Research Paper 237",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 4.315991195057611,
+      "y": 89.11431136980711
+    },
+    {
+      "id": 238,
+      "title": "Research Paper 238",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 52.77011090862999,
+      "y": 99.29647961193004
+    },
+    {
+      "id": 239,
+      "title": "Research Paper 239",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 7.379656473539886,
+      "y": 55.38542844013208
+    },
+    {
+      "id": 240,
+      "title": "Research Paper 240",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 96.9302535619099,
+      "y": 52.30978441701488
+    },
+    {
+      "id": 241,
+      "title": "Research Paper 241",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 62.93986381352625,
+      "y": 69.57486889846172
+    },
+    {
+      "id": 242,
+      "title": "Research Paper 242",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 45.454106476777326,
+      "y": 62.75580800840635
+    },
+    {
+      "id": 243,
+      "title": "Research Paper 243",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 58.43143119231002,
+      "y": 90.11580104909889
+    },
+    {
+      "id": 244,
+      "title": "Research Paper 244",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 4.5446380341457875,
+      "y": 28.096318959223034
+    },
+    {
+      "id": 245,
+      "title": "Research Paper 245",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 95.04114840765587,
+      "y": 89.02637838909163
+    },
+    {
+      "id": 246,
+      "title": "Research Paper 246",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 45.56567527857129,
+      "y": 62.013259780153675
+    },
+    {
+      "id": 247,
+      "title": "Research Paper 247",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 27.738118298113267,
+      "y": 18.81211597237613
+    },
+    {
+      "id": 248,
+      "title": "Research Paper 248",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 46.36984049399822,
+      "y": 35.33522280260528
+    },
+    {
+      "id": 249,
+      "title": "Research Paper 249",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 58.365611185087204,
+      "y": 7.773463696498483
+    },
+    {
+      "id": 250,
+      "title": "Research Paper 250",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 97.43948076661665,
+      "y": 98.62107444796028
+    },
+    {
+      "id": 251,
+      "title": "Research Paper 251",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 69.81617140197451,
+      "y": 53.60963663441204
+    },
+    {
+      "id": 252,
+      "title": "Research Paper 252",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 30.952761628632775,
+      "y": 81.37950197069486
+    },
+    {
+      "id": 253,
+      "title": "Research Paper 253",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 68.47311725538793,
+      "y": 16.26169393448913
+    },
+    {
+      "id": 254,
+      "title": "Research Paper 254",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 91.09271844938425,
+      "y": 82.2537242923169
+    },
+    {
+      "id": 255,
+      "title": "Research Paper 255",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 94.9799913291924,
+      "y": 72.571950838836
+    },
+    {
+      "id": 256,
+      "title": "Research Paper 256",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 61.34151959357899,
+      "y": 41.82430362906189
+    },
+    {
+      "id": 257,
+      "title": "Research Paper 257",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 93.27284833540132,
+      "y": 86.60638895004084
+    },
+    {
+      "id": 258,
+      "title": "Research Paper 258",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 4.521867010618941,
+      "y": 2.6366974497252005
+    },
+    {
+      "id": 259,
+      "title": "Research Paper 259",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 37.64633668780496,
+      "y": 81.0553330781833
+    },
+    {
+      "id": 260,
+      "title": "Research Paper 260",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 98.72761293149445,
+      "y": 15.041689110352818
+    },
+    {
+      "id": 261,
+      "title": "Research Paper 261",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 59.41307153521351,
+      "y": 38.08908566310215
+    },
+    {
+      "id": 262,
+      "title": "Research Paper 262",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 96.99143978146031,
+      "y": 84.21189231357087
+    },
+    {
+      "id": 263,
+      "title": "Research Paper 263",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 83.83287047111378,
+      "y": 46.86931597949703
+    },
+    {
+      "id": 264,
+      "title": "Research Paper 264",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 41.48195023376652,
+      "y": 27.340707193070624
+    },
+    {
+      "id": 265,
+      "title": "Research Paper 265",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 5.6375496650927115,
+      "y": 86.47223762550531
+    },
+    {
+      "id": 266,
+      "title": "Research Paper 266",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 81.29010091300776,
+      "y": 99.97176732861305
+    },
+    {
+      "id": 267,
+      "title": "Research Paper 267",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 99.66368370739053,
+      "y": 55.543170560262745
+    },
+    {
+      "id": 268,
+      "title": "Research Paper 268",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 76.89874151805105,
+      "y": 94.47657298824281
+    },
+    {
+      "id": 269,
+      "title": "Research Paper 269",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 84.96473906774115,
+      "y": 24.734810174319765
+    },
+    {
+      "id": 270,
+      "title": "Research Paper 270",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 45.05441353100935,
+      "y": 12.915941515149498
+    },
+    {
+      "id": 271,
+      "title": "Research Paper 271",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 95.40510272587224,
+      "y": 60.617463445088006
+    },
+    {
+      "id": 272,
+      "title": "Research Paper 272",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 22.864280550346272,
+      "y": 67.17006844058567
+    },
+    {
+      "id": 273,
+      "title": "Research Paper 273",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 61.81282404578958,
+      "y": 35.81627180328405
+    },
+    {
+      "id": 274,
+      "title": "Research Paper 274",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 11.355759219962902,
+      "y": 67.15731955927996
+    },
+    {
+      "id": 275,
+      "title": "Research Paper 275",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 52.03077009037933,
+      "y": 77.23183917356393
+    },
+    {
+      "id": 276,
+      "title": "Research Paper 276",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 52.01635011119934,
+      "y": 85.21815003185401
+    },
+    {
+      "id": 277,
+      "title": "Research Paper 277",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 55.190683877448556,
+      "y": 56.093797153538624
+    },
+    {
+      "id": 278,
+      "title": "Research Paper 278",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 87.66536026583451,
+      "y": 40.3482866212397
+    },
+    {
+      "id": 279,
+      "title": "Research Paper 279",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 13.401522845064074,
+      "y": 2.8782676313338973
+    },
+    {
+      "id": 280,
+      "title": "Research Paper 280",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 75.5137255673619,
+      "y": 62.03095513534647
+    },
+    {
+      "id": 281,
+      "title": "Research Paper 281",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 70.40797680992236,
+      "y": 21.296416150891073
+    },
+    {
+      "id": 282,
+      "title": "Research Paper 282",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 13.637147558676975,
+      "y": 1.4544665667881929
+    },
+    {
+      "id": 283,
+      "title": "Research Paper 283",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 35.058755880659696,
+      "y": 58.991768685463306
+    },
+    {
+      "id": 284,
+      "title": "Research Paper 284",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 39.22440450997323,
+      "y": 43.747492202372904
+    },
+    {
+      "id": 285,
+      "title": "Research Paper 285",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 90.41586944937484,
+      "y": 34.82554670233004
+    },
+    {
+      "id": 286,
+      "title": "Research Paper 286",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 51.39894891598108,
+      "y": 78.3653012741143
+    },
+    {
+      "id": 287,
+      "title": "Research Paper 287",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 39.65427823212701,
+      "y": 62.20867002278735
+    },
+    {
+      "id": 288,
+      "title": "Research Paper 288",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 86.23637087467452,
+      "y": 94.9520623657642
+    },
+    {
+      "id": 289,
+      "title": "Research Paper 289",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 14.707348092903793,
+      "y": 92.65876251614944
+    },
+    {
+      "id": 290,
+      "title": "Research Paper 290",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 49.21162930795382,
+      "y": 25.824438829895836
+    },
+    {
+      "id": 291,
+      "title": "Research Paper 291",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 45.913575623826134,
+      "y": 98.0032575285477
+    },
+    {
+      "id": 292,
+      "title": "Research Paper 292",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 49.26180939928696,
+      "y": 32.875161028750824
+    },
+    {
+      "id": 293,
+      "title": "Research Paper 293",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 63.34008543167258,
+      "y": 24.014561877819308
+    },
+    {
+      "id": 294,
+      "title": "Research Paper 294",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 7.586332810866391,
+      "y": 12.887972191064922
+    },
+    {
+      "id": 295,
+      "title": "Research Paper 295",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 12.804583895777244,
+      "y": 15.190269351229436
+    },
+    {
+      "id": 296,
+      "title": "Research Paper 296",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 13.882717264941014,
+      "y": 64.08747448032146
+    },
+    {
+      "id": 297,
+      "title": "Research Paper 297",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 18.188008439914483,
+      "y": 34.56672833238632
+    },
+    {
+      "id": 298,
+      "title": "Research Paper 298",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 89.67884099060119,
+      "y": 47.39616402628724
+    },
+    {
+      "id": 299,
+      "title": "Research Paper 299",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 66.75577385210272,
+      "y": 17.231987120162984
+    },
+    {
+      "id": 300,
+      "title": "Research Paper 300",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 19.228901880867078,
+      "y": 4.086861626647886
+    },
+    {
+      "id": 301,
+      "title": "Research Paper 301",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 16.893506307216455,
+      "y": 27.85903390319586
+    },
+    {
+      "id": 302,
+      "title": "Research Paper 302",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 17.70104842767468,
+      "y": 8.87025337570556
+    },
+    {
+      "id": 303,
+      "title": "Research Paper 303",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 12.06358711006008,
+      "y": 46.077876803272574
+    },
+    {
+      "id": 304,
+      "title": "Research Paper 304",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 20.63337184057925,
+      "y": 36.42698610480755
+    },
+    {
+      "id": 305,
+      "title": "Research Paper 305",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 50.34172708548569,
+      "y": 69.03948286293652
+    },
+    {
+      "id": 306,
+      "title": "Research Paper 306",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 3.9312139841098936,
+      "y": 79.94103989090426
+    },
+    {
+      "id": 307,
+      "title": "Research Paper 307",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 62.79003894909078,
+      "y": 8.17590319488719
+    },
+    {
+      "id": 308,
+      "title": "Research Paper 308",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 87.35786241067773,
+      "y": 92.08724005318132
+    },
+    {
+      "id": 309,
+      "title": "Research Paper 309",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 6.107795985486375,
+      "y": 27.687764814720374
+    },
+    {
+      "id": 310,
+      "title": "Research Paper 310",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 80.62012797930613,
+      "y": 74.82596903836584
+    },
+    {
+      "id": 311,
+      "title": "Research Paper 311",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 18.45210193563773,
+      "y": 20.93493233367103
+    },
+    {
+      "id": 312,
+      "title": "Research Paper 312",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 37.0472102791382,
+      "y": 48.45229851910213
+    },
+    {
+      "id": 313,
+      "title": "Research Paper 313",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 61.825477153029595,
+      "y": 36.891363956977244
+    },
+    {
+      "id": 314,
+      "title": "Research Paper 314",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 46.25347161331479,
+      "y": 74.74709381337566
+    },
+    {
+      "id": 315,
+      "title": "Research Paper 315",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 3.66832028905979,
+      "y": 25.243694434402077
+    },
+    {
+      "id": 316,
+      "title": "Research Paper 316",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 71.33495858845524,
+      "y": 89.52068376871993
+    },
+    {
+      "id": 317,
+      "title": "Research Paper 317",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 51.167744211566614,
+      "y": 53.211348526531566
+    },
+    {
+      "id": 318,
+      "title": "Research Paper 318",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 10.717201133977605,
+      "y": 44.741236682345466
+    },
+    {
+      "id": 319,
+      "title": "Research Paper 319",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 53.261726645502314,
+      "y": 24.247050363472965
+    },
+    {
+      "id": 320,
+      "title": "Research Paper 320",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 26.924323094938096,
+      "y": 37.728416310462265
+    },
+    {
+      "id": 321,
+      "title": "Research Paper 321",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 2.007119777772637,
+      "y": 32.20791655831783
+    },
+    {
+      "id": 322,
+      "title": "Research Paper 322",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 21.144800699654464,
+      "y": 32.74973521779147
+    },
+    {
+      "id": 323,
+      "title": "Research Paper 323",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 11.976213181925122,
+      "y": 89.0527280739895
+    },
+    {
+      "id": 324,
+      "title": "Research Paper 324",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 59.359245355404866,
+      "y": 67.91023191444896
+    },
+    {
+      "id": 325,
+      "title": "Research Paper 325",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 78.91712386073382,
+      "y": 49.84421989290573
+    },
+    {
+      "id": 326,
+      "title": "Research Paper 326",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 8.69202880874237,
+      "y": 53.71065418185478
+    },
+    {
+      "id": 327,
+      "title": "Research Paper 327",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 58.68411180208791,
+      "y": 74.54394741843299
+    },
+    {
+      "id": 328,
+      "title": "Research Paper 328",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 43.16595462296794,
+      "y": 12.758030279556376
+    },
+    {
+      "id": 329,
+      "title": "Research Paper 329",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 28.377590579872447,
+      "y": 36.30822963986351
+    },
+    {
+      "id": 330,
+      "title": "Research Paper 330",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 64.59172413316013,
+      "y": 57.077830466891186
+    },
+    {
+      "id": 331,
+      "title": "Research Paper 331",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 35.60967258978462,
+      "y": 98.65152487929797
+    },
+    {
+      "id": 332,
+      "title": "Research Paper 332",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 60.577481935688716,
+      "y": 23.72267917359945
+    },
+    {
+      "id": 333,
+      "title": "Research Paper 333",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 10.178247262040374,
+      "y": 15.285913918433202
+    },
+    {
+      "id": 334,
+      "title": "Research Paper 334",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 24.595772838450813,
+      "y": 16.06813732595557
+    },
+    {
+      "id": 335,
+      "title": "Research Paper 335",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 18.656702405130577,
+      "y": 28.50951686938471
+    },
+    {
+      "id": 336,
+      "title": "Research Paper 336",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 17.33735952947548,
+      "y": 89.67654246264252
+    },
+    {
+      "id": 337,
+      "title": "Research Paper 337",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 8.023374566164222,
+      "y": 52.451138957025464
+    },
+    {
+      "id": 338,
+      "title": "Research Paper 338",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 41.03968269896615,
+      "y": 98.23786169086064
+    },
+    {
+      "id": 339,
+      "title": "Research Paper 339",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 11.203890216805235,
+      "y": 39.785559904574164
+    },
+    {
+      "id": 340,
+      "title": "Research Paper 340",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 96.94704332753689,
+      "y": 86.55071258939803
+    },
+    {
+      "id": 341,
+      "title": "Research Paper 341",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 81.707207094928,
+      "y": 25.790282704493983
+    },
+    {
+      "id": 342,
+      "title": "Research Paper 342",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 17.088758739006582,
+      "y": 66.8643219924431
+    },
+    {
+      "id": 343,
+      "title": "Research Paper 343",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 92.93759891275857,
+      "y": 55.67628930139298
+    },
+    {
+      "id": 344,
+      "title": "Research Paper 344",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 57.161268946989985,
+      "y": 27.997909366028416
+    },
+    {
+      "id": 345,
+      "title": "Research Paper 345",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 76.94929331919369,
+      "y": 18.704374855752338
+    },
+    {
+      "id": 346,
+      "title": "Research Paper 346",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 32.367923640424365,
+      "y": 42.54364386164168
+    },
+    {
+      "id": 347,
+      "title": "Research Paper 347",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 50.7610378684455,
+      "y": 24.240973241508023
+    },
+    {
+      "id": 348,
+      "title": "Research Paper 348",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 11.483682473920354,
+      "y": 61.06200424416326
+    },
+    {
+      "id": 349,
+      "title": "Research Paper 349",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 28.863055324025577,
+      "y": 58.123822142261226
+    },
+    {
+      "id": 350,
+      "title": "Research Paper 350",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 15.436271527420232,
+      "y": 48.114010185481746
+    },
+    {
+      "id": 351,
+      "title": "Research Paper 351",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 53.258943255158584,
+      "y": 5.182353682242691
+    },
+    {
+      "id": 352,
+      "title": "Research Paper 352",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 33.660427819392055,
+      "y": 13.441467693897424
+    },
+    {
+      "id": 353,
+      "title": "Research Paper 353",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 6.337497047276774,
+      "y": 98.99602323899452
+    },
+    {
+      "id": 354,
+      "title": "Research Paper 354",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 32.235384497472296,
+      "y": 80.98744458546349
+    },
+    {
+      "id": 355,
+      "title": "Research Paper 355",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 25.464065476376383,
+      "y": 68.15027222239293
+    },
+    {
+      "id": 356,
+      "title": "Research Paper 356",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 76.02278598896865,
+      "y": 59.56387406078443
+    },
+    {
+      "id": 357,
+      "title": "Research Paper 357",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 47.15761885501584,
+      "y": 41.18409141472685
+    },
+    {
+      "id": 358,
+      "title": "Research Paper 358",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 34.88682665429953,
+      "y": 92.95291442478259
+    },
+    {
+      "id": 359,
+      "title": "Research Paper 359",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 83.06194077877291,
+      "y": 96.50269106665125
+    },
+    {
+      "id": 360,
+      "title": "Research Paper 360",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 12.429722348554472,
+      "y": 73.08674752036443
+    },
+    {
+      "id": 361,
+      "title": "Research Paper 361",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 93.83404568210378,
+      "y": 18.123306616566015
+    },
+    {
+      "id": 362,
+      "title": "Research Paper 362",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 6.6496267366777495,
+      "y": 74.11206492900591
+    },
+    {
+      "id": 363,
+      "title": "Research Paper 363",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 57.44731131799119,
+      "y": 84.1828776758272
+    },
+    {
+      "id": 364,
+      "title": "Research Paper 364",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 13.97723766262895,
+      "y": 79.52673118598902
+    },
+    {
+      "id": 365,
+      "title": "Research Paper 365",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 20.162732004774455,
+      "y": 16.36559428657045
+    },
+    {
+      "id": 366,
+      "title": "Research Paper 366",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 16.426579793099293,
+      "y": 81.45747202313821
+    },
+    {
+      "id": 367,
+      "title": "Research Paper 367",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 66.51972206962002,
+      "y": 52.30654247691193
+    },
+    {
+      "id": 368,
+      "title": "Research Paper 368",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 35.88304841235025,
+      "y": 87.72005408131082
+    },
+    {
+      "id": 369,
+      "title": "Research Paper 369",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 39.244510742263536,
+      "y": 81.65994394715771
+    },
+    {
+      "id": 370,
+      "title": "Research Paper 370",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 43.91349085702184,
+      "y": 37.69444294249076
+    },
+    {
+      "id": 371,
+      "title": "Research Paper 371",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 46.26797856696064,
+      "y": 30.13778741641421
+    },
+    {
+      "id": 372,
+      "title": "Research Paper 372",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 74.76093801762511,
+      "y": 50.27203900924791
+    },
+    {
+      "id": 373,
+      "title": "Research Paper 373",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 23.22126951468173,
+      "y": 89.95745732745685
+    },
+    {
+      "id": 374,
+      "title": "Research Paper 374",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 38.38912213732114,
+      "y": 54.35528611139886
+    },
+    {
+      "id": 375,
+      "title": "Research Paper 375",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 90.6472110964547,
+      "y": 62.42379959139921
+    },
+    {
+      "id": 376,
+      "title": "Research Paper 376",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 11.689804070836407,
+      "y": 93.98321236134751
+    },
+    {
+      "id": 377,
+      "title": "Research Paper 377",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 62.770805307141785,
+      "y": 33.49056146570861
+    },
+    {
+      "id": 378,
+      "title": "Research Paper 378",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 13.927207266338726,
+      "y": 79.4025189270296
+    },
+    {
+      "id": 379,
+      "title": "Research Paper 379",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 62.00727559285135,
+      "y": 53.34610919763215
+    },
+    {
+      "id": 380,
+      "title": "Research Paper 380",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 89.38925830509577,
+      "y": 78.85972112245308
+    },
+    {
+      "id": 381,
+      "title": "Research Paper 381",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 15.167487973275119,
+      "y": 31.172206779554823
+    },
+    {
+      "id": 382,
+      "title": "Research Paper 382",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 24.848913981446575,
+      "y": 74.3946292572677
+    },
+    {
+      "id": 383,
+      "title": "Research Paper 383",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 3.353243473577938,
+      "y": 56.98896848713165
+    },
+    {
+      "id": 384,
+      "title": "Research Paper 384",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 76.24586857406905,
+      "y": 87.67656367617495
+    },
+    {
+      "id": 385,
+      "title": "Research Paper 385",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 34.20817487159075,
+      "y": 82.12573046720128
+    },
+    {
+      "id": 386,
+      "title": "Research Paper 386",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 11.063173695520723,
+      "y": 84.64522917345182
+    },
+    {
+      "id": 387,
+      "title": "Research Paper 387",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 12.748866233198243,
+      "y": 39.72872905603673
+    },
+    {
+      "id": 388,
+      "title": "Research Paper 388",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 79.72953657795536,
+      "y": 14.991742734877377
+    },
+    {
+      "id": 389,
+      "title": "Research Paper 389",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 22.92513952326415,
+      "y": 72.22525683930662
+    },
+    {
+      "id": 390,
+      "title": "Research Paper 390",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 72.00365365460743,
+      "y": 64.11476328852973
+    },
+    {
+      "id": 391,
+      "title": "Research Paper 391",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 69.39484444671,
+      "y": 54.27244433475962
+    },
+    {
+      "id": 392,
+      "title": "Research Paper 392",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 25.179905890695274,
+      "y": 34.56959935039195
+    },
+    {
+      "id": 393,
+      "title": "Research Paper 393",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 18.159771680142565,
+      "y": 90.84505613336283
+    },
+    {
+      "id": 394,
+      "title": "Research Paper 394",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 58.339179476612046,
+      "y": 40.08514167636399
+    },
+    {
+      "id": 395,
+      "title": "Research Paper 395",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 46.20058036441327,
+      "y": 94.72833396118153
+    },
+    {
+      "id": 396,
+      "title": "Research Paper 396",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 15.33514031160802,
+      "y": 58.62298320167972
+    },
+    {
+      "id": 397,
+      "title": "Research Paper 397",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 50.5888678884466,
+      "y": 61.14542354346478
+    },
+    {
+      "id": 398,
+      "title": "Research Paper 398",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 1.8110183820840509,
+      "y": 87.21239089441515
+    },
+    {
+      "id": 399,
+      "title": "Research Paper 399",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 93.21182824836124,
+      "y": 56.51331835892089
+    },
+    {
+      "id": 400,
+      "title": "Research Paper 400",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 69.66508238768922,
+      "y": 92.24993811772957
+    },
+    {
+      "id": 401,
+      "title": "Research Paper 401",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 70.72386343133986,
+      "y": 15.253904291426135
+    },
+    {
+      "id": 402,
+      "title": "Research Paper 402",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 57.62883601668132,
+      "y": 60.67150463828559
+    },
+    {
+      "id": 403,
+      "title": "Research Paper 403",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 42.4130671302386,
+      "y": 73.64442356247228
+    },
+    {
+      "id": 404,
+      "title": "Research Paper 404",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 93.43670147690149,
+      "y": 92.55685129067763
+    },
+    {
+      "id": 405,
+      "title": "Research Paper 405",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 45.08393714041321,
+      "y": 11.323804584075525
+    },
+    {
+      "id": 406,
+      "title": "Research Paper 406",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 98.48411989623345,
+      "y": 83.88980864459342
+    },
+    {
+      "id": 407,
+      "title": "Research Paper 407",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 12.466268120326685,
+      "y": 92.08418826173724
+    },
+    {
+      "id": 408,
+      "title": "Research Paper 408",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 86.98963620621282,
+      "y": 51.88380571260721
+    },
+    {
+      "id": 409,
+      "title": "Research Paper 409",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 59.127543574492925,
+      "y": 39.90027038701302
+    },
+    {
+      "id": 410,
+      "title": "Research Paper 410",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 5.476163882203133,
+      "y": 33.519724164590095
+    },
+    {
+      "id": 411,
+      "title": "Research Paper 411",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 80.28534485980114,
+      "y": 0.4632023004602859
+    },
+    {
+      "id": 412,
+      "title": "Research Paper 412",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 33.34991716911442,
+      "y": 39.81686935909433
+    },
+    {
+      "id": 413,
+      "title": "Research Paper 413",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 53.73956029379229,
+      "y": 91.98556164127605
+    },
+    {
+      "id": 414,
+      "title": "Research Paper 414",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 34.634599436596126,
+      "y": 34.69532018962277
+    },
+    {
+      "id": 415,
+      "title": "Research Paper 415",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 73.75012481097484,
+      "y": 45.221794088980715
+    },
+    {
+      "id": 416,
+      "title": "Research Paper 416",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 22.460482293998197,
+      "y": 45.24395161326934
+    },
+    {
+      "id": 417,
+      "title": "Research Paper 417",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 14.085702037979985,
+      "y": 17.63869865062233
+    },
+    {
+      "id": 418,
+      "title": "Research Paper 418",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 49.83677727394797,
+      "y": 41.89254495045479
+    },
+    {
+      "id": 419,
+      "title": "Research Paper 419",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 91.48459010681,
+      "y": 36.23938991166331
+    },
+    {
+      "id": 420,
+      "title": "Research Paper 420",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 58.05883502780434,
+      "y": 63.22642879195304
+    },
+    {
+      "id": 421,
+      "title": "Research Paper 421",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 1.3094456588333636,
+      "y": 66.35373720167107
+    },
+    {
+      "id": 422,
+      "title": "Research Paper 422",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 17.803596686975144,
+      "y": 96.10703174694551
+    },
+    {
+      "id": 423,
+      "title": "Research Paper 423",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 14.866272775311295,
+      "y": 41.462412372702374
+    },
+    {
+      "id": 424,
+      "title": "Research Paper 424",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 8.534966807864386,
+      "y": 99.68742518459473
+    },
+    {
+      "id": 425,
+      "title": "Research Paper 425",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 50.21950103312426,
+      "y": 59.53850173200438
+    },
+    {
+      "id": 426,
+      "title": "Research Paper 426",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 6.7076477388427485,
+      "y": 74.99604703991778
+    },
+    {
+      "id": 427,
+      "title": "Research Paper 427",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 20.990559309558577,
+      "y": 89.80542894407138
+    },
+    {
+      "id": 428,
+      "title": "Research Paper 428",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 20.513964048200716,
+      "y": 19.068772066366655
+    },
+    {
+      "id": 429,
+      "title": "Research Paper 429",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 3.654966784809488,
+      "y": 47.206694510999924
+    },
+    {
+      "id": 430,
+      "title": "Research Paper 430",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 56.48411332626164,
+      "y": 6.570863942835237
+    },
+    {
+      "id": 431,
+      "title": "Research Paper 431",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 77.55276166950105,
+      "y": 45.32888347480276
+    },
+    {
+      "id": 432,
+      "title": "Research Paper 432",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 52.439026932758004,
+      "y": 44.07627469382282
+    },
+    {
+      "id": 433,
+      "title": "Research Paper 433",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 40.0763060875326,
+      "y": 55.96403313082179
+    },
+    {
+      "id": 434,
+      "title": "Research Paper 434",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 15.52402459307125,
+      "y": 18.19281304952711
+    },
+    {
+      "id": 435,
+      "title": "Research Paper 435",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 86.17856210135173,
+      "y": 94.61154621336327
+    },
+    {
+      "id": 436,
+      "title": "Research Paper 436",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 37.330931627975296,
+      "y": 27.074467314355378
+    },
+    {
+      "id": 437,
+      "title": "Research Paper 437",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 64.39995432390158,
+      "y": 40.87341710980964
+    },
+    {
+      "id": 438,
+      "title": "Research Paper 438",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 2.538635566034486,
+      "y": 15.615259736619036
+    },
+    {
+      "id": 439,
+      "title": "Research Paper 439",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 71.59722288473975,
+      "y": 65.89239419101514
+    },
+    {
+      "id": 440,
+      "title": "Research Paper 440",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 2.709599250348349,
+      "y": 22.197216193294945
+    },
+    {
+      "id": 441,
+      "title": "Research Paper 441",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 23.10747965880714,
+      "y": 67.18927435987284
+    },
+    {
+      "id": 442,
+      "title": "Research Paper 442",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 1.9710537754364155,
+      "y": 10.410858198457385
+    },
+    {
+      "id": 443,
+      "title": "Research Paper 443",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 79.99160853731894,
+      "y": 17.85446620543336
+    },
+    {
+      "id": 444,
+      "title": "Research Paper 444",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 65.27461078518748,
+      "y": 23.81827810467265
+    },
+    {
+      "id": 445,
+      "title": "Research Paper 445",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 9.944139275934516,
+      "y": 24.317219099945408
+    },
+    {
+      "id": 446,
+      "title": "Research Paper 446",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 72.22669318556592,
+      "y": 85.56964681062857
+    },
+    {
+      "id": 447,
+      "title": "Research Paper 447",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 83.02198645669915,
+      "y": 39.71835296184548
+    },
+    {
+      "id": 448,
+      "title": "Research Paper 448",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 66.80851365706462,
+      "y": 20.498429541582098
+    },
+    {
+      "id": 449,
+      "title": "Research Paper 449",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 29.314773026101328,
+      "y": 89.63358185211197
+    },
+    {
+      "id": 450,
+      "title": "Research Paper 450",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 1.3001923510736035,
+      "y": 8.550853085446807
+    },
+    {
+      "id": 451,
+      "title": "Research Paper 451",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 20.78862551460273,
+      "y": 2.6532203873819715
+    },
+    {
+      "id": 452,
+      "title": "Research Paper 452",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 18.143543508979732,
+      "y": 58.304156096969216
+    },
+    {
+      "id": 453,
+      "title": "Research Paper 453",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 42.1424550592498,
+      "y": 89.26717110769748
+    },
+    {
+      "id": 454,
+      "title": "Research Paper 454",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 81.7443561738441,
+      "y": 34.1817351697876
+    },
+    {
+      "id": 455,
+      "title": "Research Paper 455",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 25.94234334312925,
+      "y": 37.96924081672669
+    },
+    {
+      "id": 456,
+      "title": "Research Paper 456",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 59.02949425148078,
+      "y": 26.806364082287626
+    },
+    {
+      "id": 457,
+      "title": "Research Paper 457",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 62.4148907849134,
+      "y": 40.941165219124045
+    },
+    {
+      "id": 458,
+      "title": "Research Paper 458",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 55.204718085198024,
+      "y": 43.61265291353167
+    },
+    {
+      "id": 459,
+      "title": "Research Paper 459",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 29.44657595419177,
+      "y": 94.84533069621567
+    },
+    {
+      "id": 460,
+      "title": "Research Paper 460",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 76.36057941597608,
+      "y": 14.011317576645254
+    },
+    {
+      "id": 461,
+      "title": "Research Paper 461",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 86.84679758979128,
+      "y": 48.743119824951364
+    },
+    {
+      "id": 462,
+      "title": "Research Paper 462",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 89.45522268940914,
+      "y": 79.98552559473153
+    },
+    {
+      "id": 463,
+      "title": "Research Paper 463",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 42.52135044692334,
+      "y": 2.24693083201174
+    },
+    {
+      "id": 464,
+      "title": "Research Paper 464",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 26.867735938494608,
+      "y": 54.16342146608669
+    },
+    {
+      "id": 465,
+      "title": "Research Paper 465",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 63.347821982614725,
+      "y": 25.788768543320227
+    },
+    {
+      "id": 466,
+      "title": "Research Paper 466",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 13.935607407282413,
+      "y": 83.4930236799299
+    },
+    {
+      "id": 467,
+      "title": "Research Paper 467",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 98.44021807035521,
+      "y": 52.56901823026858
+    },
+    {
+      "id": 468,
+      "title": "Research Paper 468",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 17.16792858483035,
+      "y": 27.230732651936897
+    },
+    {
+      "id": 469,
+      "title": "Research Paper 469",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 1.8390676547466733,
+      "y": 91.4298806560499
+    },
+    {
+      "id": 470,
+      "title": "Research Paper 470",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 11.775108289014113,
+      "y": 57.651647551425356
+    },
+    {
+      "id": 471,
+      "title": "Research Paper 471",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 27.4055220687206,
+      "y": 55.417800251579344
+    },
+    {
+      "id": 472,
+      "title": "Research Paper 472",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 65.14203883518643,
+      "y": 82.97418037072016
+    },
+    {
+      "id": 473,
+      "title": "Research Paper 473",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 20.64212717606032,
+      "y": 1.0995828658480478
+    },
+    {
+      "id": 474,
+      "title": "Research Paper 474",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 13.688563006880727,
+      "y": 90.00186418481051
+    },
+    {
+      "id": 475,
+      "title": "Research Paper 475",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 87.38900775625153,
+      "y": 59.74131021703083
+    },
+    {
+      "id": 476,
+      "title": "Research Paper 476",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 60.051686043365336,
+      "y": 66.50366745462554
+    },
+    {
+      "id": 477,
+      "title": "Research Paper 477",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 17.53712786234496,
+      "y": 91.44119459249598
+    },
+    {
+      "id": 478,
+      "title": "Research Paper 478",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 41.87705248920731,
+      "y": 38.31385282494975
+    },
+    {
+      "id": 479,
+      "title": "Research Paper 479",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 51.89177052828376,
+      "y": 4.696596677505505
+    },
+    {
+      "id": 480,
+      "title": "Research Paper 480",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 16.628336875607943,
+      "y": 73.80336164263704
+    },
+    {
+      "id": 481,
+      "title": "Research Paper 481",
+      "researcher_name": "Researcher 1",
+      "year": 2020,
+      "cluster": 0,
+      "x": 8.279866792512646,
+      "y": 60.31521094663882
+    },
+    {
+      "id": 482,
+      "title": "Research Paper 482",
+      "researcher_name": "Researcher 2",
+      "year": 2021,
+      "cluster": 1,
+      "x": 24.534910968132095,
+      "y": 38.929561404197656
+    },
+    {
+      "id": 483,
+      "title": "Research Paper 483",
+      "researcher_name": "Researcher 3",
+      "year": 2022,
+      "cluster": 2,
+      "x": 28.869373677069987,
+      "y": 35.567271646494916
+    },
+    {
+      "id": 484,
+      "title": "Research Paper 484",
+      "researcher_name": "Researcher 4",
+      "year": 2023,
+      "cluster": 3,
+      "x": 71.90459051842456,
+      "y": 29.7121715623175
+    },
+    {
+      "id": 485,
+      "title": "Research Paper 485",
+      "researcher_name": "Researcher 5",
+      "year": 2020,
+      "cluster": 4,
+      "x": 56.64046402968972,
+      "y": 47.60504021990997
+    },
+    {
+      "id": 486,
+      "title": "Research Paper 486",
+      "researcher_name": "Researcher 6",
+      "year": 2021,
+      "cluster": 0,
+      "x": 66.36711653626482,
+      "y": 93.6829739324758
+    },
+    {
+      "id": 487,
+      "title": "Research Paper 487",
+      "researcher_name": "Researcher 7",
+      "year": 2022,
+      "cluster": 1,
+      "x": 73.25720972102503,
+      "y": 21.494037859075675
+    },
+    {
+      "id": 488,
+      "title": "Research Paper 488",
+      "researcher_name": "Researcher 8",
+      "year": 2023,
+      "cluster": 2,
+      "x": 3.1183135061284672,
+      "y": 26.22640442998251
+    },
+    {
+      "id": 489,
+      "title": "Research Paper 489",
+      "researcher_name": "Researcher 9",
+      "year": 2020,
+      "cluster": 3,
+      "x": 59.507793070025485,
+      "y": 5.1425813484250344
+    },
+    {
+      "id": 490,
+      "title": "Research Paper 490",
+      "researcher_name": "Researcher 10",
+      "year": 2021,
+      "cluster": 4,
+      "x": 49.636624720123635,
+      "y": 59.68428489168892
+    },
+    {
+      "id": 491,
+      "title": "Research Paper 491",
+      "researcher_name": "Researcher 1",
+      "year": 2022,
+      "cluster": 0,
+      "x": 33.424389081696084,
+      "y": 77.09122037458219
+    },
+    {
+      "id": 492,
+      "title": "Research Paper 492",
+      "researcher_name": "Researcher 2",
+      "year": 2023,
+      "cluster": 1,
+      "x": 10.65982531337718,
+      "y": 7.513778173580876
+    },
+    {
+      "id": 493,
+      "title": "Research Paper 493",
+      "researcher_name": "Researcher 3",
+      "year": 2020,
+      "cluster": 2,
+      "x": 72.81887562036033,
+      "y": 49.549131620619846
+    },
+    {
+      "id": 494,
+      "title": "Research Paper 494",
+      "researcher_name": "Researcher 4",
+      "year": 2021,
+      "cluster": 3,
+      "x": 68.84023964277361,
+      "y": 43.48273386037462
+    },
+    {
+      "id": 495,
+      "title": "Research Paper 495",
+      "researcher_name": "Researcher 5",
+      "year": 2022,
+      "cluster": 4,
+      "x": 24.640203323910683,
+      "y": 81.91023176741997
+    },
+    {
+      "id": 496,
+      "title": "Research Paper 496",
+      "researcher_name": "Researcher 6",
+      "year": 2023,
+      "cluster": 0,
+      "x": 79.94158789689793,
+      "y": 69.46964708544267
+    },
+    {
+      "id": 497,
+      "title": "Research Paper 497",
+      "researcher_name": "Researcher 7",
+      "year": 2020,
+      "cluster": 1,
+      "x": 27.21451372299627,
+      "y": 59.023066686908706
+    },
+    {
+      "id": 498,
+      "title": "Research Paper 498",
+      "researcher_name": "Researcher 8",
+      "year": 2021,
+      "cluster": 2,
+      "x": 36.09738969400268,
+      "y": 9.158207332663416
+    },
+    {
+      "id": 499,
+      "title": "Research Paper 499",
+      "researcher_name": "Researcher 9",
+      "year": 2022,
+      "cluster": 3,
+      "x": 91.73135754622427,
+      "y": 13.68186309189614
+    },
+    {
+      "id": 500,
+      "title": "Research Paper 500",
+      "researcher_name": "Researcher 10",
+      "year": 2023,
+      "cluster": 4,
+      "x": 95.02373538208025,
+      "y": 44.600577295795574
+    }
+  ],
+  "clusters": [
+    {
+      "id": 0,
+      "name": "Cluster 0",
+      "color": "#000000"
+    },
+    {
+      "id": 1,
+      "name": "Cluster 1",
+      "color": "#321e46"
+    },
+    {
+      "id": 2,
+      "name": "Cluster 2",
+      "color": "#643c8c"
+    },
+    {
+      "id": 3,
+      "name": "Cluster 3",
+      "color": "#965ad2"
+    },
+    {
+      "id": 4,
+      "name": "Cluster 4",
+      "color": "#c878118"
+    }
+  ],
+  "metadata": {
+    "total_works": 500,
+    "total_clusters": 5,
+    "generated_for": "ci_testing",
+    "version": "1.0"
+  },
+  "researchers": [
+    {
+      "id": 1,
+      "name": "Dr. Test Researcher 1",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 2,
+      "name": "Dr. Test Researcher 2",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 3,
+      "name": "Dr. Test Researcher 3",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 4,
+      "name": "Dr. Test Researcher 4",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 5,
+      "name": "Dr. Test Researcher 5",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 6,
+      "name": "Dr. Test Researcher 6",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 7,
+      "name": "Dr. Test Researcher 7",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 8,
+      "name": "Dr. Test Researcher 8",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 9,
+      "name": "Dr. Test Researcher 9",
+      "department": "Computer Science",
+      "works_count": 50
+    },
+    {
+      "id": 10,
+      "name": "Dr. Test Researcher 10",
+      "department": "Computer Science",
+      "works_count": 50
+    }
+  ]
+}

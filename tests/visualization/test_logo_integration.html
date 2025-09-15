@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADS Logo Integration Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            background: #2a2a2a;
+            border: 1px solid #555;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: #1b5e20;
+            border: 1px solid #4caf50;
+        }
+        
+        .status.error {
+            background: #b71c1c;
+            border: 1px solid #f44336;
+        }
+        
+        .status.info {
+            background: #1565c0;
+            border: 1px solid #2196f3;
+        }
+        
+        .logo-preview {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+            background: rgba(42, 42, 42, 0.95);
+            border: 1px solid #555;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .logo-preview img {
+            height: 32px;
+            width: auto;
+            object-fit: contain;
+        }
+        
+        .logo-preview .title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .test-results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 CADS Logo Integration Test</h1>
+    <p>This page tests the CADS logo integration in the visualization system.</p>
+    
+    <div class="test-section">
+        <h2>🖼️ Logo File Test</h2>
+        <div id="logo-file-status">Testing logo file accessibility...</div>
+        
+        <div class="logo-preview">
+            <img id="test-logo" src="../public/cads_logo.png" alt="CADS Logo" onerror="handleLogoError()">
+            <div class="title">Research Explorer</div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📱 Responsive Design Test</h2>
+        <div id="responsive-status">Testing responsive behavior...</div>
+        
+        <div style="margin: 15px 0;">
+            <h4>Desktop Size (32px height):</h4>
+            <div class="logo-preview">
+                <img src="../public/cads_logo.png" alt="CADS Logo" style="height: 32px;">
+                <div class="title">Research Explorer</div>
+            </div>
+        </div>
+        
+        <div style="margin: 15px 0;">
+            <h4>Mobile Size (28px height):</h4>
+            <div class="logo-preview">
+                <img src="../public/cads_logo.png" alt="CADS Logo" style="height: 28px;">
+                <div class="title" style="font-size: 16px;">Research Explorer</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔗 Integration Test</h2>
+        <div id="integration-status">Testing main visualization integration...</div>
+        
+        <div style="margin: 15px 0;">
+            <a href="../public/index.html" target="_blank" style="color: #007acc; text-decoration: none;">
+                🚀 Open Main Visualization (New Tab)
+            </a>
+        </div>
+        
+        <div style="margin: 15px 0; font-size: 14px; color: #ccc;">
+            Check that:
+            <ul>
+                <li>✅ Logo appears in the top-left panel header</li>
+                <li>✅ Logo is properly sized and aligned</li>
+                <li>✅ "Research Explorer" title appears next to logo</li>
+                <li>✅ No "Built by Saksham Adhikari" text at bottom</li>
+                <li>✅ Page title includes "CADS Research Visualization"</li>
+                <li>✅ Favicon shows CADS logo</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📊 Test Results</h2>
+        <div id="test-results" class="test-results">
+            <!-- Results will be populated by JavaScript -->
+        </div>
+    </div>
+    
+    <script>
+        let testResults = [];
+        
+        function addResult(message, type = 'info') {
+            testResults.push({ message, type, timestamp: new Date().toLocaleTimeString() });
+            updateResults();
+        }
+        
+        function updateResults() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = testResults.map(result => `
+                <div class="status ${result.type}">
+                    <strong>${result.message}</strong><br>
+                    <small>${result.timestamp}</small>
+                </div>
+            `).join('');
+        }
+        
+        function handleLogoError() {
+            addResult('❌ Logo file failed to load - check file path and permissions', 'error');
+            document.getElementById('logo-file-status').innerHTML = 
+                '<div class="status error">❌ Logo file not accessible</div>';
+        }
+        
+        function testLogoFile() {
+            const img = document.getElementById('test-logo');
+            
+            img.onload = function() {
+                addResult('✅ Logo file loaded successfully', 'success');
+                addResult(`✅ Logo dimensions: ${img.naturalWidth}x${img.naturalHeight}px`, 'info');
+                document.getElementById('logo-file-status').innerHTML = 
+                    '<div class="status success">✅ Logo file accessible and valid</div>';
+            };
+            
+            img.onerror = function() {
+                addResult('❌ Logo file failed to load', 'error');
+                document.getElementById('logo-file-status').innerHTML = 
+                    '<div class="status error">❌ Logo file not found or invalid</div>';
+            };
+        }
+        
+        function testResponsiveDesign() {
+            // Test if CSS media queries would work
+            const mediaQuery = window.matchMedia('(max-width: 768px)');
+            
+            if (mediaQuery.matches) {
+                addResult('📱 Mobile viewport detected - logo should be 28px height', 'info');
+            } else {
+                addResult('🖥️ Desktop viewport detected - logo should be 32px height', 'info');
+            }
+            
+            document.getElementById('responsive-status').innerHTML = 
+                '<div class="status success">✅ Responsive design test completed</div>';
+        }
+        
+        function testIntegration() {
+            // Test if main visualization file exists
+            fetch('../public/index.html')
+                .then(response => {
+                    if (response.ok) {
+                        return response.text();
+                    }
+                    throw new Error(`HTTP ${response.status}`);
+                })
+                .then(html => {
+                    // Check for logo integration
+                    if (html.includes('cads_logo.png')) {
+                        addResult('✅ Logo reference found in main HTML', 'success');
+                    } else {
+                        addResult('❌ Logo reference not found in main HTML', 'error');
+                    }
+                    
+                    // Check for removed credit text
+                    if (!html.includes('Built by Saksham Adhikari')) {
+                        addResult('✅ Credit text successfully removed', 'success');
+                    } else {
+                        addResult('❌ Credit text still present', 'error');
+                    }
+                    
+                    // Check for updated title
+                    if (html.includes('Research Explorer')) {
+                        addResult('✅ Updated panel title found', 'success');
+                    } else {
+                        addResult('❌ Panel title not updated', 'error');
+                    }
+                    
+                    document.getElementById('integration-status').innerHTML = 
+                        '<div class="status success">✅ Integration test completed</div>';
+                })
+                .catch(error => {
+                    addResult(`❌ Integration test failed: ${error.message}`, 'error');
+                    document.getElementById('integration-status').innerHTML = 
+                        '<div class="status error">❌ Integration test failed</div>';
+                });
+        }
+        
+        // Run tests when page loads
+        window.addEventListener('load', () => {
+            addResult('🧪 Starting CADS logo integration tests...', 'info');
+            
+            setTimeout(() => {
+                testLogoFile();
+                testResponsiveDesign();
+                testIntegration();
+            }, 500);
+        });
+    </script>
+</body>
+</html>

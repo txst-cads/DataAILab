@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip Debug Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+        }
+        
+        .test-area {
+            width: 100vw;
+            height: 50vh;
+            background: linear-gradient(135deg, rgba(215, 189, 138, 0.2), rgba(172, 145, 85, 0.2));
+            position: relative;
+            border: 1px solid #555;
+            margin: 20px 0;
+        }
+        
+        .test-point {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #007acc;
+            border-radius: 50%;
+            cursor: pointer;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        /* Test tooltip - exact same styles as main app */
+        #tooltip {
+            position: fixed;
+            top: 20px;
+            right: 340px;
+            background: #501214;
+            border: 2px solid #AC9155;
+            border-radius: 8px;
+            padding: 16px;
+            width: 320px;
+            max-height: 400px;
+            z-index: 300;
+            pointer-events: none;
+            display: none;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            overflow-y: auto;
+            opacity: 1;
+        }
+
+        #tooltip.visible {
+            display: block !important;
+        }
+
+        .tooltip-header {
+            border-bottom: 1px solid #AC9155;
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+        }
+
+        .tooltip-title {
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #D7BD8A;
+            font-size: 16px;
+            line-height: 1.3;
+            word-wrap: break-word;
+        }
+
+        .tooltip-authors {
+            font-size: 13px;
+            color: #ffffff;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .tooltip-year {
+            font-size: 12px;
+            color: #AC9155;
+            font-weight: 600;
+        }
+
+        .tooltip-details {
+            font-size: 13px;
+            color: #ffffff;
+            line-height: 1.5;
+            margin-bottom: 12px;
+        }
+
+        .tooltip-abstract {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.4;
+            margin-bottom: 12px;
+            max-height: 120px;
+            overflow-y: auto;
+            padding-right: 8px;
+        }
+
+        .tooltip-meta {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(172, 145, 85, 0.3);
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.4;
+        }
+
+        .tooltip-meta-item {
+            margin-bottom: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .tooltip-meta-label {
+            color: #AC9155;
+            font-weight: 600;
+        }
+
+        .tooltip-meta-value {
+            color: #ffffff;
+        }
+        
+        .debug-info {
+            background: #333;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 4px solid #007acc;
+        }
+        
+        .controls {
+            margin: 20px 0;
+        }
+        
+        button {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        button:hover {
+            background: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Tooltip Debug Test</h1>
+    
+    <div class="debug-info">
+        <h3>Instructions:</h3>
+        <p>1. Hover over the blue dot to test tooltip</p>
+        <p>2. Use buttons below to manually show/hide tooltip</p>
+        <p>3. Check if tooltip appears as solid window or blur</p>
+    </div>
+    
+    <div class="controls">
+        <button onclick="showTestTooltip()">Show Tooltip</button>
+        <button onclick="hideTestTooltip()">Hide Tooltip</button>
+        <button onclick="toggleTooltip()">Toggle Tooltip</button>
+    </div>
+    
+    <div class="test-area">
+        <div class="test-point" 
+             onmouseenter="showTestTooltip()" 
+             onmouseleave="hideTestTooltip()"
+             title="Hover to test tooltip"></div>
+    </div>
+    
+    <!-- Test tooltip with same structure as main app -->
+    <div id="tooltip">
+        <div class="tooltip-header">
+            <div class="tooltip-title" id="tooltip-title">Test Research Paper Title</div>
+            <div class="tooltip-authors" id="tooltip-authors">Dr. Test Author, Dr. Another Author</div>
+            <div class="tooltip-year" id="tooltip-year">2024</div>
+        </div>
+        
+        <div class="tooltip-details" id="tooltip-details">Journal of Test Research</div>
+        <div class="tooltip-abstract" id="tooltip-abstract">This is a test abstract for debugging the tooltip display. It should appear as a solid window with clear text, not as a blur. The text should be readable and the background should be solid maroon color.</div>
+        
+        <div class="tooltip-meta" id="tooltip-meta">
+            <div class="tooltip-meta-item">
+                <span class="tooltip-meta-label">Citations:</span>
+                <span class="tooltip-meta-value" id="tooltip-citations">42</span>
+            </div>
+            <div class="tooltip-meta-item">
+                <span class="tooltip-meta-label">Research Theme:</span>
+                <span class="tooltip-meta-value" id="tooltip-theme">Test Research Theme</span>
+            </div>
+            <div class="tooltip-meta-item">
+                <span class="tooltip-meta-label">DOI:</span>
+                <span class="tooltip-meta-value" id="tooltip-doi">10.1000/test.doi</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Debug Information:</h3>
+        <div id="debug-output">Ready for testing...</div>
+    </div>
+    
+    <script>
+        let isVisible = false;
+        
+        function showTestTooltip() {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'block';
+            tooltip.classList.add('visible');
+            isVisible = true;
+            
+            updateDebug('Tooltip shown - should be visible as solid window');
+            console.log('Tooltip shown');
+        }
+        
+        function hideTestTooltip() {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.style.display = 'none';
+            tooltip.classList.remove('visible');
+            isVisible = false;
+            
+            updateDebug('Tooltip hidden');
+            console.log('Tooltip hidden');
+        }
+        
+        function toggleTooltip() {
+            if (isVisible) {
+                hideTestTooltip();
+            } else {
+                showTestTooltip();
+            }
+        }
+        
+        function updateDebug(message) {
+            const debugOutput = document.getElementById('debug-output');
+            const timestamp = new Date().toLocaleTimeString();
+            debugOutput.innerHTML += `<br>[${timestamp}] ${message}`;
+        }
+        
+        // Test on page load
+        window.addEventListener('load', () => {
+            updateDebug('Page loaded - tooltip test ready');
+            
+            // Auto-show tooltip for 3 seconds to test
+            setTimeout(() => {
+                showTestTooltip();
+                updateDebug('Auto-showing tooltip for testing');
+                
+                setTimeout(() => {
+                    hideTestTooltip();
+                    updateDebug('Auto-hiding tooltip');
+                }, 3000);
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

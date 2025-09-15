@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADS Minimal Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a1a;
+            color: #ffffff;
+        }
+        
+        #ui-panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 320px;
+            height: 100vh;
+            background: #501214;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        #map-container {
+            width: calc(100vw - 320px);
+            height: 100vh;
+            margin-left: 320px;
+            background: #1a1a1a;
+            position: relative;
+        }
+        
+        #map-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(215, 189, 138, 0.2), rgba(172, 145, 85, 0.2));
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .cads-logo {
+            height: 48px;
+            width: auto;
+            background: #D7BD8A;
+            border-radius: 50%;
+            padding: 8px;
+        }
+        
+        .panel-title {
+            color: #D7BD8A;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+        
+        .test-content {
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui-panel">
+        <img src="../public/cads_logo.png" alt="CADS Logo" class="cads-logo">
+        <div class="panel-title">CADS Atlas</div>
+        <div style="color: #D7BD8A; margin-top: 20px;">
+            Minimal test version
+        </div>
+        
+        <!-- Basic form elements to test -->
+        <div style="margin-top: 30px;">
+            <input type="text" id="researcher-input" placeholder="Test input" style="width: 100%; padding: 8px; margin: 5px 0;">
+            <div id="theme-checklist" style="background: rgba(0,0,0,0.3); padding: 10px; margin: 5px 0;">
+                Test checklist area
+            </div>
+            <input type="range" id="year-filter" min="2010" max="2024" value="2020" style="width: 100%; margin: 5px 0;">
+            <span id="year-display">2020</span>
+        </div>
+        
+        <div id="visible-papers" style="display: none;">0</div>
+        <div id="total-papers" style="display: none;">0</div>
+        <div id="total-researchers" style="display: none;">0</div>
+        <div id="total-clusters" style="display: none;">0</div>
+    </div>
+    
+    <div id="map-container">
+        <div class="test-content">
+            <h2>Visualization Area</h2>
+            <p>This is where the deck.gl visualization would appear.</p>
+            <p>Gold overlay should be visible as a subtle tint.</p>
+        </div>
+    </div>
+    
+    <!-- Required elements for app.js -->
+    <div id="loading" style="display: none;"></div>
+    <div id="loading-progress" style="display: none;"></div>
+    <div id="error-message" style="display: none;">
+        <div class="error-title"></div>
+        <div id="error-details"></div>
+    </div>
+    <div id="tooltip" style="display: none;">
+        <div id="tooltip-title"></div>
+        <div id="tooltip-details"></div>
+        <div id="tooltip-meta"></div>
+    </div>
+    <div id="keywords-input" style="display: none;"></div>
+    <div id="add-keyword-btn" style="display: none;"></div>
+    <div id="keywords-logic" style="display: none;"></div>
+    <div id="keywords-tags" style="display: none;"></div>
+    
+    <script>
+        console.log('🧪 Minimal CADS test starting...');
+        
+        // Test basic functionality
+        document.getElementById('year-filter').addEventListener('input', function(e) {
+            document.getElementById('year-display').textContent = e.target.value;
+            console.log('Year filter working:', e.target.value);
+        });
+        
+        // Test if we can load the main app.js without errors
+        const script = document.createElement('script');
+        script.src = '../public/app.js';
+        script.onload = function() {
+            console.log('✅ app.js loaded successfully');
+        };
+        script.onerror = function(error) {
+            console.error('❌ app.js failed to load:', error);
+        };
+        
+        // Add error handlers
+        window.addEventListener('error', function(event) {
+            console.error('JavaScript Error:', event.message, 'at', event.filename + ':' + event.lineno);
+        });
+        
+        window.addEventListener('unhandledrejection', function(event) {
+            console.error('Promise Rejection:', event.reason);
+        });
+        
+        console.log('🎯 Minimal test setup complete');
+        
+        // Don't load app.js automatically - let's test manually first
+        // document.head.appendChild(script);
+    </script>
+</body>
+</html>

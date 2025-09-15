@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="191d1b14-868a-45e7-8250-7d69b8219807" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-coin-analyzer-haiku.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-coin-analyzer-opus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-coin-analyzer-sonnet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-investment-plays-haiku.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-investment-plays-opus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-investment-plays-sonnet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-market-agent-haiku.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-market-agent-opus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-market-agent-sonnet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/crypto-movers-haiku.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/macro-crypto-correlation-scanner-haiku.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/macro-crypto-correlation-scanner-opus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/crypto/macro-crypto-correlation-scanner-sonnet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/hello-world-agent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/llm-ai-agents-and-eng-research.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/meta-agent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/agents/work-completion-summary.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/agent_prompts/crypto_coin_analyzer_agent_prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/agent_prompts/crypto_investment_plays_agent_prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/agent_prompts/crypto_market_agent_prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/agent_prompts/crypto_movers_agent_prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/agent_prompts/crypto_news_scanner_agent_prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/agent_prompts/crypto_price_check_agent_prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/agent_prompts/macro_crypto_correlation_scanner_agent_prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/all_tools.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/cook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/cook_research_only.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/crypto_research.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/crypto_research_haiku.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/git_status.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/prime.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/prime_tts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/question.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/sentient.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/commands/update_status_line.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/data/sessions/22be0ec5-370e-4129-a1d0-4d7cee3c7fb4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/data/sessions/b75d6612-637b-4dd9-b677-01f94c37af1d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/data/sessions/e2f134e1-03a7-4a71-8e54-1f684075052e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/data/sessions/fe3c1b91-57b8-475f-9fd8-e4691dad7daf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/notification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/post_tool_use.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/pre_compact.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/pre_tool_use.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/session_start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/stop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/subagent_stop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/user_prompt_submit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/utils/llm/anth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/utils/llm/oai.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/utils/llm/ollama.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/utils/tts/elevenlabs_tts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/utils/tts/openai_tts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/hooks/utils/tts/pyttsx3_tts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/bullet-points.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/genui.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/html-structured.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/markdown-focused.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/productivity-colab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/table-based.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/tts-summary.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/ultra-concise.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/output-styles/yaml-structured.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/status_lines/status_line.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/status_lines/status_line_v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/status_lines/status_line_v3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/status_lines/status_line_v4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/hooks/markdown-file-organizer.kiro.hook" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/settings/mcp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/code-cleanup-and-documentation/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/code-cleanup-and-documentation/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/comprehensive-test-suite-enhancement/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/comprehensive-test-suite-enhancement/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/comprehensive-test-suite-enhancement/tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/database/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/database/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/database/tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/final-touch/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/final-touch/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/final-touch/tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/loading-and-search/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/loading-and-search/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/loading-and-search/tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/openalex-topics-integration/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/openalex-topics-integration/researchers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/sustainable-cicd-system/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/sustainable-cicd-system/requirements.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/specs/sustainable-cicd-system/tasks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/steering/github.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/steering/mcp-best-practices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/steering/product.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/steering/python-best-practices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/steering/structure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/steering/tech.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.kiro/steering/testing-best-practices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/data/cluster_themes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/data/clustering_results.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/data/clustering_results.json.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/data/processing_summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/data/umap_coordinates.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/data/umap_coordinates.json.backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/models/hdbscan_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/cads/models/umap_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/visuals/data/cluster_themes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/visuals/data/clustering_results.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/visuals/data/umap_coordinates.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/visuals/models/hdbscan_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup_before_cleanup/visuals/models/umap_model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/chat.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/notification.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/post_tool_use.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/pre_tool_use.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/session_start.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/status_line.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/stop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/subagent_stop.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/user_prompt_submit.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="32NUwngwjfHRPTaV56GgHAbllbI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="191d1b14-868a-45e7-8250-7d69b8219807" name="Changes" comment="" />
+      <created>1757260764634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757260764634</updated>
+      <workItem from="1757260782636" duration="6685000" />
+      <workItem from="1757553773853" duration="1252000" />
+      <workItem from="1757834951441" duration="3395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+.vercel
+.env
+.env.local
+.env.*.local
+
+# Prevent data duplication
+__pycache__/
+*.pyc
+.DS_Store
+
+# Centralized data - don't duplicate
+cads/data/
+cads/models/
+visuals/data/
+visuals/models/
+
+# Keep production data
+!visuals/public/data/
+
+# Backup directories with git repos (prevent submodule confusion)
+backup_reorganization_*
+backup_before_cleanup
+
+# Sentry configuration (use environment variables instead)
+.sentryclirc
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Claude Code and AI tooling directories
+.claude/
+.kiro/
+logs/

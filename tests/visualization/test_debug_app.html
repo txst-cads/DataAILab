@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADS Debug Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: white;
+        }
+        
+        .debug-info {
+            background: #333;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 4px solid #007acc;
+        }
+        
+        .error {
+            border-left-color: #ff4444;
+            background: #441111;
+        }
+        
+        .success {
+            border-left-color: #44ff44;
+            background: #114411;
+        }
+        
+        pre {
+            background: #222;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 CADS Application Debug Test</h1>
+    
+    <div class="debug-info">
+        <h3>Step 1: Basic HTML Structure Test</h3>
+        <div id="html-test">Testing...</div>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Step 2: JavaScript Loading Test</h3>
+        <div id="js-test">Testing...</div>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Step 3: Element Availability Test</h3>
+        <div id="element-test">Testing...</div>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Step 4: Console Output</h3>
+        <pre id="console-output">Waiting for output...</pre>
+    </div>
+    
+    <div class="debug-info">
+        <h3>Step 5: Manual Test</h3>
+        <button onclick="testMainApp()" style="background: #007acc; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer;">
+            Load Main Application
+        </button>
+        <div id="manual-test"></div>
+    </div>
+    
+    <script>
+        let consoleOutput = [];
+        
+        // Capture console output
+        const originalLog = console.log;
+        const originalError = console.error;
+        const originalWarn = console.warn;
+        
+        function captureConsole(type, args) {
+            const message = `[${type.toUpperCase()}] ${args.join(' ')}`;
+            consoleOutput.push(message);
+            updateConsoleOutput();
+        }
+        
+        console.log = function(...args) {
+            captureConsole('log', args);
+            originalLog.apply(console, args);
+        };
+        
+        console.error = function(...args) {
+            captureConsole('error', args);
+            originalError.apply(console, args);
+        };
+        
+        console.warn = function(...args) {
+            captureConsole('warn', args);
+            originalWarn.apply(console, args);
+        };
+        
+        function updateConsoleOutput() {
+            const output = document.getElementById('console-output');
+            output.textContent = consoleOutput.slice(-20).join('\n');
+        }
+        
+        function updateTest(id, message, isError = false) {
+            const element = document.getElementById(id);
+            element.innerHTML = `<span style="color: ${isError ? '#ff4444' : '#44ff44'}">${message}</span>`;
+            element.parentElement.className = `debug-info ${isError ? 'error' : 'success'}`;
+        }
+        
+        // Step 1: Test basic HTML structure
+        function testHTML() {
+            try {
+                const requiredElements = [
+                    'loading', 'error-message', 'map-container', 'ui-panel',
+                    'researcher-input', 'theme-checklist', 'year-filter'
+                ];
+                
+                let missingElements = [];
+                
+                // Create a temporary iframe to test the main HTML
+                const iframe = document.createElement('iframe');
+                iframe.src = '../public/index.html';
+                iframe.style.display = 'none';
+                document.body.appendChild(iframe);
+                
+                iframe.onload = function() {
+                    try {
+                        const doc = iframe.contentDocument || iframe.contentWindow.document;
+                        
+                        requiredElements.forEach(id => {
+                            const element = doc.getElementById(id);
+                            if (!element) {
+                                missingElements.push(id);
+                            }
+                        });
+                        
+                        if (missingElements.length === 0) {
+                            updateTest('html-test', '✅ All required HTML elements found');
+                        } else {
+                            updateTest('html-test', `❌ Missing elements: ${missingElements.join(', ')}`, true);
+                        }
+                        
+                        // Test JavaScript loading
+                        testJavaScript(doc);
+                        
+                    } catch (error) {
+                        updateTest('html-test', `❌ Error accessing iframe: ${error.message}`, true);
+                    }
+                    
+                    document.body.removeChild(iframe);
+                };
+                
+                iframe.onerror = function() {
+                    updateTest('html-test', '❌ Failed to load main HTML file', true);
+                    document.body.removeChild(iframe);
+                };
+                
+            } catch (error) {
+                updateTest('html-test', `❌ Error: ${error.message}`, true);
+            }
+        }
+        
+        // Step 2: Test JavaScript loading
+        function testJavaScript(doc) {
+            try {
+                const scripts = doc.querySelectorAll('script[src]');
+                const scriptSources = Array.from(scripts).map(s => s.src);
+                
+                updateTest('js-test', `✅ Found ${scripts.length} script tags: ${scriptSources.map(s => s.split('/').pop()).join(', ')}`);
+                
+                // Test if deck.gl is referenced
+                const deckScript = Array.from(scripts).find(s => s.src.includes('deck.gl'));
+                if (deckScript) {
+                    console.log('✅ Deck.gl script found:', deckScript.src);
+                } else {
+                    console.warn('⚠️ Deck.gl script not found');
+                }
+                
+            } catch (error) {
+                updateTest('js-test', `❌ Error: ${error.message}`, true);
+            }
+        }
+        
+        // Step 3: Test element availability
+        function testElements() {
+            // This will be called after the main app loads
+            updateTest('element-test', '⏳ Waiting for main app test...');
+        }
+        
+        // Step 5: Manual test
+        function testMainApp() {
+            updateTest('manual-test', '🚀 Opening main application...');
+            
+            try {
+                const newWindow = window.open('../public/index.html', '_blank');
+                if (newWindow) {
+                    updateTest('manual-test', '✅ Main application opened in new tab - check console for errors');
+                    
+                    // Try to access the new window after a delay
+                    setTimeout(() => {
+                        try {
+                            if (newWindow.console) {
+                                console.log('✅ New window accessible');
+                            }
+                        } catch (e) {
+                            console.log('ℹ️ New window not accessible (normal for cross-origin)');
+                        }
+                    }, 2000);
+                } else {
+                    updateTest('manual-test', '❌ Failed to open new window (popup blocked?)', true);
+                }
+            } catch (error) {
+                updateTest('manual-test', `❌ Error: ${error.message}`, true);
+            }
+        }
+        
+        // Global error handlers
+        window.addEventListener('error', function(event) {
+            console.error('Global Error:', event.message, 'at', event.filename + ':' + event.lineno);
+        });
+        
+        window.addEventListener('unhandledrejection', function(event) {
+            console.error('Unhandled Promise Rejection:', event.reason);
+        });
+        
+        // Start tests
+        console.log('🔍 Starting debug tests...');
+        
+        setTimeout(() => {
+            testHTML();
+            testElements();
+        }, 500);
+    </script>
+</body>
+</html>

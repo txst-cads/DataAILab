@@ -1,0 +1,28 @@
+{
+  "name": "cads-visualizer",
+  "version": "1.0.0",
+  "description": "CADS Research Visualization - Interactive visualization of Texas State University CADS research landscape",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Build process - static files ready'",
+    "install-deps": "npm install",
+    "serve": "python3 -m http.server 8000 --directory visuals/public-prod"
+  },
+  "dependencies": {
+    "@sentry/browser": "^7.100.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tar-ive/CADS-Visualizer.git"
+  },
+  "keywords": [
+    "visualization",
+    "research",
+    "cads",
+    "texas-state",
+    "deckgl",
+    "sentry"
+  ],
+  "author": "Texas State University CADS Team",
+  "license": "MIT"
+}

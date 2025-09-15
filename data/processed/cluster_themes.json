@@ -1,0 +1,52 @@
+{
+  "0": {
+    "theme": "Machine Learning and AI",
+    "description": "Research focused on artificial intelligence and machine learning algorithms",
+    "keywords": [
+      "machine learning",
+      "artificial intelligence",
+      "neural networks"
+    ],
+    "color": "#FF6B6B"
+  },
+  "1": {
+    "theme": "Software Engineering",
+    "description": "Software development methodologies and engineering practices",
+    "keywords": [
+      "software engineering",
+      "development",
+      "programming"
+    ],
+    "color": "#4ECDC4"
+  },
+  "2": {
+    "theme": "Data Science and Analytics",
+    "description": "Data analysis, visualization, and statistical methods",
+    "keywords": [
+      "data science",
+      "analytics",
+      "statistics"
+    ],
+    "color": "#45B7D1"
+  },
+  "3": {
+    "theme": "Computer Systems and Networks",
+    "description": "Computer systems, networking, and distributed computing",
+    "keywords": [
+      "systems",
+      "networks",
+      "distributed computing"
+    ],
+    "color": "#96CEB4"
+  },
+  "4": {
+    "theme": "Human-Computer Interaction",
+    "description": "User interface design and human-computer interaction research",
+    "keywords": [
+      "HCI",
+      "user interface",
+      "usability"
+    ],
+    "color": "#FFEAA7"
+  }
+}

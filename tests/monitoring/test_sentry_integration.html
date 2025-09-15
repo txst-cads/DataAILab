@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="version" content="1.0.0-test">
+    <title>Sentry Integration Test - CADS Visualization</title>
+    
+    <!-- Sentry Error Tracking -->
+    <script
+        src="https://js.sentry-cdn.com/859c6ba713b1af67c44c0b217300cd9a.min.js"
+        crossorigin="anonymous"
+    ></script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            background: #2a2a2a;
+            border: 1px solid #555;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        button {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 8px;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+        
+        button:hover {
+            background: #005a9e;
+        }
+        
+        button.danger {
+            background: #d32f2f;
+        }
+        
+        button.danger:hover {
+            background: #b71c1c;
+        }
+        
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: #1b5e20;
+            border: 1px solid #4caf50;
+        }
+        
+        .status.error {
+            background: #b71c1c;
+            border: 1px solid #f44336;
+        }
+        
+        .status.info {
+            background: #1565c0;
+            border: 1px solid #2196f3;
+        }
+        
+        pre {
+            background: #333;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 12px;
+            border: 1px solid #555;
+        }
+        
+        .warning {
+            background: #e65100;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        
+        .instructions {
+            background: #1565c0;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Sentry Integration Test</h1>
+    <p>This page will help you verify that Sentry is properly configured and receiving errors from your CADS Research Visualization.</p>
+    
+    <div class="instructions">
+        <h3>📋 Instructions:</h3>
+        <ol>
+            <li>Make sure you've updated the Sentry DSN in your HTML files</li>
+            <li>Click the test buttons below to trigger different types of errors</li>
+            <li>Check your Sentry dashboard for the errors (they should appear within 1-2 minutes)</li>
+            <li>Check your email for Sentry notifications (if alerts are configured)</li>
+        </ol>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔧 Sentry Configuration Status</h2>
+        <div id="sentry-status"></div>
+        <button onclick="checkSentryStatus()">Check Sentry Status</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>🚨 Error Tests</h2>
+        <p>Click these buttons to trigger different types of errors. Each should appear in your Sentry dashboard:</p>
+        
+        <button class="danger" onclick="triggerJavaScriptError()">
+            🔥 Trigger JavaScript Error
+        </button>
+        
+        <button class="danger" onclick="triggerPromiseRejection()">
+            ⚡ Trigger Promise Rejection
+        </button>
+        
+        <button class="danger" onclick="triggerCustomError()">
+            🎯 Trigger Custom Error
+        </button>
+        
+        <button class="danger" onclick="triggerNetworkError()">
+            🌐 Trigger Network Error
+        </button>
+        
+        <button onclick="triggerInfoMessage()">
+            ℹ️ Send Info Message
+        </button>
+        
+        <button onclick="triggerWarningMessage()">
+            ⚠️ Send Warning Message
+        </button>
+    </div>
+    
+    <div class="test-section">
+        <h2>📊 Performance Test</h2>
+        <p>Test performance monitoring:</p>
+        
+        <button onclick="triggerSlowOperation()">
+            🐌 Trigger Slow Operation
+        </button>
+        
+        <button onclick="triggerPerformanceTransaction()">
+            ⏱️ Test Performance Transaction
+        </button>
+    </div>
+    
+    <div class="test-section">
+        <h2>👤 User Context Test</h2>
+        <p>Test user context and tags:</p>
+        
+        <button onclick="setUserContext()">
+            👤 Set User Context
+        </button>
+        
+        <button onclick="addBreadcrumbs()">
+            🍞 Add Breadcrumbs
+        </button>
+        
+        <button onclick="triggerErrorWithContext()">
+            🔥 Error with Context
+        </button>
+    </div>
+    
+    <div class="test-section">
+        <h2>📈 Test Results</h2>
+        <div id="test-results"></div>
+        <button onclick="clearResults()">Clear Results</button>
+    </div>
+    
+    <div class="warning">
+        <strong>⚠️ Important:</strong> These are test errors for monitoring verification. 
+        They will appear in your Sentry dashboard as real errors. 
+        You can filter them out using the "test" tag or delete them after verification.
+    </div>
+    
+    <script>
+        let testCount = 0;
+        
+        // Sentry should auto-initialize with your project-specific script
+        // Just set some test context
+        if (typeof Sentry !== 'undefined') {
+            console.log('✅ Sentry SDK loaded successfully');
+            
+            // Set initial context for testing
+            Sentry.setContext('test_session', {
+                session_id: Date.now().toString(),
+                test_page: 'sentry-integration-test',
+                timestamp: new Date().toISOString()
+            });
+            
+            // Add test tags to all events
+            Sentry.configureScope((scope) => {
+                scope.setTag('test', true);
+                scope.setTag('source', 'sentry-integration-test');
+            });
+        } else {
+            console.error('❌ Sentry SDK not loaded');
+        }
+        
+        function addTestResult(message, type = 'info') {
+            testCount++;
+            const resultsDiv = document.getElementById('test-results');
+            const resultDiv = document.createElement('div');
+            resultDiv.className = `status ${type}`;
+            resultDiv.innerHTML = `
+                <strong>Test ${testCount}:</strong> ${message}<br>
+                <small>${new Date().toLocaleTimeString()}</small>
+            `;
+            resultsDiv.appendChild(resultDiv);
+            
+            // Scroll to bottom
+            resultDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function clearResults() {
+            document.getElementById('test-results').innerHTML = '';
+            testCount = 0;
+        }
+        
+        function checkSentryStatus() {
+            const statusDiv = document.getElementById('sentry-status');
+            
+            if (typeof Sentry === 'undefined') {
+                statusDiv.innerHTML = '<div class="status error">❌ Sentry SDK not loaded</div>';
+                return;
+            }
+            
+            const hub = Sentry.getCurrentHub();
+            const client = hub.getClient();
+            
+            if (!client) {
+                statusDiv.innerHTML = '<div class="status error">❌ Sentry client not initialized</div>';
+                return;
+            }
+            
+            const options = client.getOptions();
+            const dsn = options.dsn;
+            
+            if (!dsn || dsn.includes('your-sentry-dsn')) {
+                statusDiv.innerHTML = `
+                    <div class="status error">
+                        ❌ Sentry DSN not configured properly<br>
+                        <small>Please update the DSN in this test file</small>
+                    </div>
+                `;
+                return;
+            }
+            
+            statusDiv.innerHTML = `
+                <div class="status success">
+                    ✅ Sentry is properly configured<br>
+                    <small>DSN: ${dsn.substring(0, 50)}...</small><br>
+                    <small>Environment: ${options.environment}</small><br>
+                    <small>Release: ${options.release}</small>
+                </div>
+            `;
+            
+            addTestResult('Sentry configuration verified', 'success');
+        }
+        
+        // Error test functions
+        function triggerJavaScriptError() {
+            addTestResult('Triggering JavaScript error...', 'info');
+            
+            setTimeout(() => {
+                throw new Error('Test JavaScript error from Sentry integration test');
+            }, 100);
+        }
+        
+        function triggerPromiseRejection() {
+            addTestResult('Triggering promise rejection...', 'info');
+            
+            Promise.reject(new Error('Test promise rejection from Sentry integration test'));
+        }
+        
+        function triggerCustomError() {
+            addTestResult('Triggering custom error...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                Sentry.captureException(new Error('Test custom error from Sentry integration test'), {
+                    tags: {
+                        test_type: 'custom_error',
+                        triggered_by: 'user_action'
+                    },
+                    extra: {
+                        test_data: 'This is test data for the custom error',
+                        timestamp: new Date().toISOString()
+                    }
+                });
+                addTestResult('Custom error sent to Sentry', 'success');
+            } else {
+                addTestResult('Sentry not available for custom error', 'error');
+            }
+        }
+        
+        function triggerNetworkError() {
+            addTestResult('Triggering network error...', 'info');
+            
+            fetch('https://nonexistent-domain-for-testing-12345.com/api/test')
+                .catch(error => {
+                    console.error('Network error (expected):', error);
+                    addTestResult('Network error triggered (check Sentry dashboard)', 'info');
+                });
+        }
+        
+        function triggerInfoMessage() {
+            addTestResult('Sending info message...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                Sentry.captureMessage('Test info message from Sentry integration test', 'info');
+                addTestResult('Info message sent to Sentry', 'success');
+            }
+        }
+        
+        function triggerWarningMessage() {
+            addTestResult('Sending warning message...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                Sentry.captureMessage('Test warning message from Sentry integration test', 'warning');
+                addTestResult('Warning message sent to Sentry', 'success');
+            }
+        }
+        
+        function triggerSlowOperation() {
+            addTestResult('Starting slow operation...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                const transaction = Sentry.startTransaction({
+                    name: 'test-slow-operation',
+                    op: 'test'
+                });
+                
+                Sentry.getCurrentHub().configureScope(scope => scope.setSpan(transaction));
+                
+                // Simulate slow operation
+                setTimeout(() => {
+                    const span = transaction.startChild({
+                        op: 'slow-computation',
+                        description: 'Test slow computation'
+                    });
+                    
+                    // Simulate work
+                    const start = Date.now();
+                    while (Date.now() - start < 2000) {
+                        // Busy wait for 2 seconds
+                        Math.random();
+                    }
+                    
+                    span.finish();
+                    transaction.finish();
+                    
+                    addTestResult('Slow operation completed (2s) - check Performance tab in Sentry', 'success');
+                }, 100);
+            }
+        }
+        
+        function triggerPerformanceTransaction() {
+            addTestResult('Creating performance transaction...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                const transaction = Sentry.startTransaction({
+                    name: 'test-performance-transaction',
+                    op: 'navigation'
+                });
+                
+                // Simulate multiple operations
+                const span1 = transaction.startChild({
+                    op: 'data-loading',
+                    description: 'Test data loading'
+                });
+                
+                setTimeout(() => {
+                    span1.finish();
+                    
+                    const span2 = transaction.startChild({
+                        op: 'rendering',
+                        description: 'Test rendering'
+                    });
+                    
+                    setTimeout(() => {
+                        span2.finish();
+                        transaction.finish();
+                        
+                        addTestResult('Performance transaction completed - check Performance tab in Sentry', 'success');
+                    }, 500);
+                }, 1000);
+            }
+        }
+        
+        function setUserContext() {
+            addTestResult('Setting user context...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                Sentry.setUser({
+                    id: 'test-user-123',
+                    email: 'test@example.com',
+                    username: 'test-user',
+                    ip_address: '{{auto}}'
+                });
+                
+                Sentry.setTag('user_type', 'test_user');
+                Sentry.setTag('feature_flag', 'monitoring_test');
+                
+                addTestResult('User context and tags set', 'success');
+            }
+        }
+        
+        function addBreadcrumbs() {
+            addTestResult('Adding breadcrumbs...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                Sentry.addBreadcrumb({
+                    message: 'User clicked test button',
+                    category: 'ui.click',
+                    level: 'info',
+                    data: {
+                        button: 'add-breadcrumbs',
+                        timestamp: Date.now()
+                    }
+                });
+                
+                Sentry.addBreadcrumb({
+                    message: 'Test breadcrumb added',
+                    category: 'test',
+                    level: 'info'
+                });
+                
+                addTestResult('Breadcrumbs added', 'success');
+            }
+        }
+        
+        function triggerErrorWithContext() {
+            addTestResult('Triggering error with full context...', 'info');
+            
+            if (typeof Sentry !== 'undefined') {
+                // Add some breadcrumbs first
+                Sentry.addBreadcrumb({
+                    message: 'About to trigger test error',
+                    category: 'test',
+                    level: 'info'
+                });
+                
+                // Set additional context
+                Sentry.setContext('test_context', {
+                    test_id: 'context-error-test',
+                    browser: navigator.userAgent,
+                    viewport: `${window.innerWidth}x${window.innerHeight}`,
+                    timestamp: new Date().toISOString()
+                });
+                
+                // Trigger error with full context
+                setTimeout(() => {
+                    throw new Error('Test error with full context and breadcrumbs');
+                }, 100);
+            }
+        }
+        
+        // Auto-check status when page loads
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                checkSentryStatus();
+                addTestResult('Page loaded - ready for testing', 'info');
+            }, 1000);
+        });
+        
+        // Add some automatic breadcrumbs
+        if (typeof Sentry !== 'undefined') {
+            Sentry.addBreadcrumb({
+                message: 'Sentry test page loaded',
+                category: 'navigation',
+                level: 'info'
+            });
+        }
+    </script>
+</body>
+</html>

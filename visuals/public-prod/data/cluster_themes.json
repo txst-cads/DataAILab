@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "total_clusters": 33,
+    "generation_stats": {
+      "total_requests": 33,
+      "total_tokens": 12970,
+      "model": "llama3-8b-8192"
+    },
+    "generated_at": "2025-07-31T19:42:33.842607"
+  },
+  "themes": {
+    "0": "Innovative Concrete Materials And Structures",
+    "1": "Cancer Molecular Characterization Data",
+    "2": "Numerical Methods For Partial Differential",
+    "3": "Gravitational Theory And Phenomena",
+    "4": "Gravitational Wave Detection And Analysis",
+    "5": "Environmental Impact Of Human Activities",
+    "6": "Healthcare Fraud Detection And Analysis",
+    "7": "Antenna Design And Development",
+    "8": "Conference Proceedings Organization",
+    "9": "Snow And Soil Hydrology Research",
+    "10": "Energy-Efficient Computing Strategies",
+    "11": "Neural Connectivity And Brain Function",
+    "12": "Reliability And Maintenance Optimization",
+    "13": "Sustainable Energy Systems Management",
+    "14": "Microbial Interactions And Ecology",
+    "15": "Cancer Immune And Genetic Research",
+    "16": "Antifungal Susceptibility Testing Methods",
+    "17": "Biological Systems And Disease Prevention",
+    "18": "Protein Phase Separation Mechanisms",
+    "19": "Rna-Binding Protein Structure And Function",
+    "20": "Traffic Safety And Risk Analysis",
+    "21": "Therapeutic Storytelling Applications",
+    "22": "Rehabilitation And Injury Recovery",
+    "23": "Sexual Health And Adolescent Wellbeing",
+    "24": "Smoking Cessation And Risk Factors",
+    "25": "Deep Learning And Neural Networks",
+    "26": "Multimodal Health And Activity Analysis",
+    "27": "Healthcare Technology Security And Trust",
+    "28": "Stimulant Misuse And Substance Abuse",
+    "29": "Prescription Drug Misuse Patterns",
+    "30": "Mental Health Treatment And Assessment",
+    "31": "Psychometric Modeling And Analysis",
+    "32": "Workforce Development And Knowledge Management"
+  }
+}

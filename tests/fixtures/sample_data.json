@@ -1,0 +1,70 @@
+{
+  "sample_works": [
+    {
+      "id": 1,
+      "title": "Machine Learning Applications in Computer Science Education",
+      "researcher_id": 1,
+      "publication_year": 2023,
+      "abstract": "This paper explores the use of machine learning techniques in computer science education.",
+      "embedding": "[0.1, 0.2, 0.3, 0.4, 0.5]",
+      "doi": "10.1000/sample1",
+      "venue": "Journal of Computer Science Education"
+    },
+    {
+      "id": 2,
+      "title": "Data Visualization Techniques for Large Datasets",
+      "researcher_id": 2,
+      "publication_year": 2022,
+      "abstract": "A comprehensive study of visualization techniques for handling large datasets.",
+      "embedding": "[0.6, 0.7, 0.8, 0.9, 1.0]",
+      "doi": "10.1000/sample2",
+      "venue": "IEEE Transactions on Visualization"
+    },
+    {
+      "id": 3,
+      "title": "Clustering Algorithms for Research Data Analysis",
+      "researcher_id": 1,
+      "publication_year": 2021,
+      "abstract": "An analysis of different clustering algorithms for research data.",
+      "embedding": "[0.2, 0.4, 0.6, 0.8, 1.0]",
+      "doi": "10.1000/sample3",
+      "venue": "Data Mining Conference"
+    }
+  ],
+  "sample_researchers": [
+    {
+      "id": 1,
+      "full_name": "Dr. Jane Smith",
+      "department": "Computer Science",
+      "openalex_id": "A123456789",
+      "institution": "Texas State University"
+    },
+    {
+      "id": 2,
+      "full_name": "Dr. John Doe",
+      "department": "Computer Science", 
+      "openalex_id": "A987654321",
+      "institution": "Texas State University"
+    }
+  ],
+  "sample_topics": [
+    {
+      "id": 1,
+      "display_name": "Machine Learning",
+      "level": 1,
+      "score": 0.95
+    },
+    {
+      "id": 2,
+      "display_name": "Data Visualization",
+      "level": 1,
+      "score": 0.88
+    },
+    {
+      "id": 3,
+      "display_name": "Clustering",
+      "level": 2,
+      "score": 0.76
+    }
+  ]
+}

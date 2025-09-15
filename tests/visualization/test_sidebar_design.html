@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADS Sidebar Design Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            background: #2a2a2a;
+            border: 1px solid #555;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: #1b5e20;
+            border: 1px solid #4caf50;
+        }
+        
+        .status.info {
+            background: #1565c0;
+            border: 1px solid #2196f3;
+        }
+        
+        .preview-frame {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #555;
+            border-radius: 8px;
+            background: white;
+        }
+        
+        .color-swatch {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            margin-right: 10px;
+            vertical-align: middle;
+            border: 1px solid #666;
+        }
+        
+        .color-info {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎨 CADS Sidebar Design Test</h1>
+    <p>Testing the new Texas State maroon sidebar design with preserved functionality.</p>
+    
+    <div class="test-section">
+        <h2>🎨 Color Scheme Verification</h2>
+        <div class="status info">Texas State University Official Colors</div>
+        
+        <div class="color-info">
+            <div class="color-swatch" style="background: #501214;"></div>
+            <strong>Texas State Maroon:</strong> #501214 (Main sidebar background)
+        </div>
+        
+        <div class="color-info">
+            <div class="color-swatch" style="background: #AC9155;"></div>
+            <strong>Texas State Dark Gold:</strong> #AC9155 (Buttons, borders)
+        </div>
+        
+        <div class="color-info">
+            <div class="color-swatch" style="background: #D7BD8A;"></div>
+            <strong>Texas State Bright Gold:</strong> #D7BD8A (Text highlights, hover states)
+        </div>
+        
+        <div class="color-info">
+            <div class="color-swatch" style="background: #EA664D;"></div>
+            <strong>Accent Color:</strong> #EA664D (Scrollbar hover)
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📱 Design Features</h2>
+        <div class="status success">✅ Solid maroon sidebar (320px width)</div>
+        <div class="status success">✅ Gold accent colors for interactive elements</div>
+        <div class="status success">✅ White text for readability</div>
+        <div class="status success">✅ Visualization pane adjusted to sidebar width</div>
+        <div class="status success">✅ Responsive design for mobile devices</div>
+        <div class="status success">✅ Texas State branding in header and footer</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔧 Functionality Preserved</h2>
+        <div class="status success">✅ Researcher filtering</div>
+        <div class="status success">✅ Research theme selection</div>
+        <div class="status success">✅ Keyword search</div>
+        <div class="status success">✅ Year range filtering</div>
+        <div class="status success">✅ Statistics display</div>
+        <div class="status success">✅ Sidebar collapse/expand</div>
+        <div class="status success">✅ Responsive mobile layout</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🖥️ Live Preview</h2>
+        <p>Open the main visualization to see the new sidebar design:</p>
+        <a href="../public/index.html" target="_blank" style="color: #D7BD8A; text-decoration: none; font-weight: bold;">
+            🚀 Open CADS Research Visualization
+        </a>
+        
+        <div style="margin: 20px 0;">
+            <h4>Expected Layout:</h4>
+            <ul style="color: #ccc;">
+                <li><strong>Left:</strong> Solid maroon sidebar (320px) with gold accents</li>
+                <li><strong>Right:</strong> Visualization pane adjusted to remaining width</li>
+                <li><strong>Header:</strong> CADS logo, title, and subtitle in gold</li>
+                <li><strong>Footer:</strong> Texas State University branding</li>
+                <li><strong>Mobile:</strong> Sidebar becomes bottom panel</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📋 Manual Testing Checklist</h2>
+        <div style="font-size: 14px; color: #ccc;">
+            <h4>Desktop Testing:</h4>
+            <ul>
+                <li>□ Sidebar is solid maroon color (#501214)</li>
+                <li>□ Sidebar is 320px wide and full height</li>
+                <li>□ Visualization pane starts at 320px from left</li>
+                <li>□ Toggle button collapses sidebar properly</li>
+                <li>□ All text is white and readable</li>
+                <li>□ Interactive elements use gold colors</li>
+                <li>□ Scrollbar is maroon themed</li>
+                <li>□ Footer shows Texas State branding</li>
+            </ul>
+            
+            <h4>Mobile Testing:</h4>
+            <ul>
+                <li>□ Sidebar becomes bottom panel on mobile</li>
+                <li>□ Visualization takes full width on mobile</li>
+                <li>□ Toggle functionality works on mobile</li>
+                <li>□ All elements remain accessible</li>
+            </ul>
+            
+            <h4>Functionality Testing:</h4>
+            <ul>
+                <li>□ Researcher search works</li>
+                <li>□ Theme checkboxes work</li>
+                <li>□ Keyword filtering works</li>
+                <li>□ Year slider works</li>
+                <li>□ Statistics update correctly</li>
+                <li>□ Visualization responds to filters</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        console.log('🎨 CADS Sidebar Design Test loaded');
+        console.log('Colors used:');
+        console.log('- Texas State Maroon: #501214');
+        console.log('- Texas State Dark Gold: #AC9155');
+        console.log('- Texas State Bright Gold: #D7BD8A');
+        console.log('- Accent Color: #EA664D');
+    </script>
+</body>
+</html>

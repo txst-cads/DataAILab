@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Server Test - CADS Visualization</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        
+        .status {
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: #1b5e20;
+            border: 1px solid #4caf50;
+        }
+        
+        .status.error {
+            background: #b71c1c;
+            border: 1px solid #f44336;
+        }
+        
+        .status.info {
+            background: #1565c0;
+            border: 1px solid #2196f3;
+        }
+        
+        pre {
+            background: #333;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 12px;
+            border: 1px solid #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Basic Server Test - CADS Visualization</h1>
+    <p>This page tests basic server functionality and data accessibility.</p>
+    
+    <div id="status">Loading...</div>
+    <div id="test-results"></div>
+    
+    <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
+    <script>
+        let testResults = [];
+        
+        function addResult(message, type = 'info') {
+            testResults.push({ message, type, timestamp: new Date().toLocaleTimeString() });
+            updateDisplay();
+        }
+        
+        function updateDisplay() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = testResults.map(result => `
+                <div class="status ${result.type}">
+                    <strong>${result.message}</strong><br>
+                    <small>${result.timestamp}</small>
+                </div>
+            `).join('');
+        }
+        
+        console.log('🧪 Starting basic server tests...');
+        
+        // Test 1: Deck.gl availability
+        if (typeof deck !== 'undefined') {
+            addResult('✅ Deck.gl loaded successfully! Version: ' + (deck.VERSION || 'Unknown'), 'success');
+            console.log('✅ Deck.gl is available:', deck);
+        } else {
+            addResult('❌ Deck.gl failed to load', 'error');
+            console.error('❌ Deck.gl is not available');
+        }
+        
+        // Test 2: Data file accessibility
+        const dataFiles = [
+            'data/visualization-data.json',
+            'data/cluster_themes.json',
+            'data/clustering_results.json',
+            'data/search-index.json'
+        ];
+        
+        let completedTests = 0;
+        const totalTests = dataFiles.length;
+        
+        dataFiles.forEach(dataFile => {
+            fetch(dataFile)
+                .then(response => {
+                    completedTests++;
+                    if (response.ok) {
+                        addResult(`✅ ${dataFile} - Accessible (${response.status})`, 'success');
+                        return response.json();
+                    } else {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                })
+                .then(data => {
+                    if (data && typeof data === 'object') {
+                        const dataSize = JSON.stringify(data).length;
+                        addResult(`✅ ${dataFile} - Valid JSON (${dataSize} chars)`, 'success');
+                    }
+                })
+                .catch(error => {
+                    addResult(`❌ ${dataFile} - Failed: ${error.message}`, 'error');
+                    console.error(`❌ Data loading failed for ${dataFile}:`, error);
+                })
+                .finally(() => {
+                    if (completedTests === totalTests) {
+                        addResult('🎉 All basic server tests completed', 'info');
+                    }
+                });
+        });
+        
+        // Test 3: Basic DOM elements
+        setTimeout(() => {
+            const requiredElements = ['map-container', 'ui-panel'];
+            let foundElements = 0;
+            
+            requiredElements.forEach(elementId => {
+                const element = document.getElementById(elementId);
+                if (element) {
+                    foundElements++;
+                    addResult(`✅ Found DOM element: #${elementId}`, 'success');
+                } else {
+                    addResult(`⚠️ Missing DOM element: #${elementId} (expected for full app)`, 'info');
+                }
+            });
+            
+            if (foundElements === 0) {
+                addResult('ℹ️ This is a basic test page - DOM elements not expected', 'info');
+            }
+        }, 1000);
+        
+        // Update initial status
+        document.getElementById('status').innerHTML = '🔄 Running tests...';
+    </script>
+</body>
+</html>
