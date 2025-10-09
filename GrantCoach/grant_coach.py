@@ -1,172 +1,416 @@
+"""
+Grant Coach - Main Application Entry Point
+
+Orchestrates all modules for comprehensive grant proposal evaluation.
+Follows Single Responsibility Principle by focusing only on workflow orchestration.
+"""
+
 import argparse
 import os
 import json
-import re
-import fitz  # PyMuPDF
-from typing import List, Dict, Tuple
+import sys
+from datetime import datetime
+from typing import Dict, Optional
 
-def chunk_text(text: str, chunk_size: int = 200, overlap: int = 50) -> List[str]:
+# Import modules
+from document_processor import DocumentProcessor
+from similarity_analyzer import SimilarityAnalyzer
+from llm_evaluator import LLMEvaluator
+from report_generator import ReportGenerator
+
+
+class GrantCoach:
     """
-    Split text into overlapping chunks for better processing.
+    Main Grant Coach application that orchestrates all analysis modules.
     """
-    words = text.split()
-    chunks = []
 
-    for i in range(0, len(words), chunk_size - overlap):
-        chunk = ' '.join(words[i:i + chunk_size])
-        chunks.append(chunk)
+    def __init__(self, use_mock_llm: bool = False):
+        """
+        Initialize Grant Coach with all modules.
 
-        if i + chunk_size >= len(words):
-            break
+        Args:
+            use_mock_llm: Whether to use mock LLM responses for testing
+        """
+        self.document_processor = DocumentProcessor()
+        self.similarity_analyzer = SimilarityAnalyzer()
+        self.llm_evaluator = LLMEvaluator(use_mock_llm=use_mock_llm)
+        self.report_generator = ReportGenerator()
+        self.analysis_results = {}
 
-    return chunks
+    def analyze_proposals(self, solicitation_path: str, proposal_path: str,
+                         save_intermediate: bool = True,
+                         output_format: str = "both") -> Dict:
+        """
+        Perform complete analysis of grant proposal against solicitation.
 
-def extract_sections(text: str, doc_type: str) -> Dict[str, str]:
-    """
-    Extract sections from document text based on common patterns.
-    """
-    sections = {}
+        Args:
+            solicitation_path: Path to solicitation PDF
+            proposal_path: Path to proposal PDF
+            save_intermediate: Whether to save intermediate results
+            output_format: Output format ('json', 'txt', 'both')
 
-    if doc_type == "solicitation":
-        # Common solicitation section patterns
-        section_patterns = [
-            (r'(?i)program\s*description', 'Program Description'),
-            (r'(?i)eligibility\s*information', 'Eligibility'),
-            (r'(?i)award\s*information', 'Award Information'),
-            (r'(?i)review\s*criteria', 'Review Criteria'),
-            (r'(?i)proposal\s*preparation', 'Proposal Preparation'),
-            (r'(?i)deadlines', 'Deadlines'),
-            (r'(?i)contact\s*information', 'Contact Information'),
-        ]
-    else:  # proposal
-        # Common proposal section patterns
-        section_patterns = [
-            (r'(?i)project\s*summary', 'Project Summary'),
-            (r'(?i)project\s*description', 'Project Description'),
-            (r'(?i)intellectual\s*merit', 'Intellectual Merit'),
-            (r'(?i)broader\s*impacts', 'Broader Impacts'),
-            (r'(?i)biographical\s*sketches?', 'Biographical Sketches'),
-            (r'(?i)budget\s*justification', 'Budget Justification'),
-            (r'(?i)facilities\s*and\s*equipment', 'Facilities and Equipment'),
-            (r'(?i)data\s*management', 'Data Management'),
-            (r'(?i)mentoring\s*plan', 'Mentoring Plan'),
-            (r'(?i)references\s*cited', 'References'),
-        ]
+        Returns:
+            Complete analysis results dictionary
+        """
+        print("🚀 Starting Grant Coach Analysis...")
+        print(f"📄 Solicitation: {solicitation_path}")
+        print(f"📝 Proposal: {proposal_path}")
+        print("="*60)
 
-    # Find section boundaries
-    section_positions = []
-    for pattern, section_name in section_patterns:
-        match = re.search(pattern, text)
-        if match:
-            section_positions.append((match.start(), section_name))
-
-    # Sort by position
-    section_positions.sort()
-
-    # Extract sections
-    for i, (start_pos, section_name) in enumerate(section_positions):
-        end_pos = section_positions[i + 1][0] if i + 1 < len(section_positions) else len(text)
-        section_text = text[start_pos:end_pos].strip()
-
-        if section_text:
-            sections[section_name] = section_text
-
-    # If no sections found, treat as single section
-    if not sections:
-        sections['Full Document'] = text
-
-    return sections
-
-def extract_raw_text(solicitation_path, proposal_path):
-    """
-    Extract raw text from solicitation and proposal PDFs using PyMuPDF.
-    Returns a dictionary with raw text and parsed sections for each document.
-    """
-    # Validate file paths
-    for path, doc_type in [(solicitation_path, "solicitation"), (proposal_path, "proposal")]:
-        if not path.endswith(".pdf"):
-            raise ValueError(f"Invalid PDF path for {doc_type}: {path}")
-        if not os.path.exists(path):
-            raise ValueError(f"File not found for {doc_type}: {path}")
-
-    # Initialize output dictionary
-    result = {
-        "raw_texts": {"solicitation": "", "proposal": ""},
-        "sections": {"solicitation": {}, "proposal": {}},
-        "chunks": {"solicitation": [], "proposal": []}
-    }
-
-    # Process each PDF
-    for path, doc_type in [(solicitation_path, "solicitation"), (proposal_path, "proposal")]:
+        # Step 1: Document Processing
+        print("📋 Step 1: Processing documents...")
         try:
-            # Open PDF
-            doc = fitz.open(path)
-            raw_text = ""
-            # Extract text from each page
-            for page in doc:
-                raw_text += page.get_text("text") + " "
-            doc.close()  # Free memory
+            processed_data = self.document_processor.process_documents(
+                solicitation_path, proposal_path
+            )
 
-            # Basic whitespace cleaning
-            raw_text = re.sub(r'\s+', ' ', raw_text.strip())
+            # Add processing timestamp
+            processed_data["metadata"]["processing_date"] = datetime.now().isoformat()
 
-            # Validate non-empty
-            if not raw_text:
-                raise ValueError(f"No text extracted from {doc_type}")
+            # Generate document statistics
+            stats = self.document_processor.get_document_statistics(processed_data)
+            processed_data["statistics"] = stats
 
-            result["raw_texts"][doc_type] = raw_text
+            # Validate NSF requirements
+            nsf_validation = self.document_processor.validate_nsf_requirements(
+                processed_data["sections"]["proposal"]
+            )
 
-            # Extract sections
-            sections = extract_sections(raw_text, doc_type)
-            result["sections"][doc_type] = sections
+            print(f"  ✓ Solicitation: {stats['solicitation']['char_count']} chars, "
+                  f"{stats['solicitation']['section_count']} sections, "
+                  f"{stats['solicitation']['chunk_count']} chunks")
+            print(f"  ✓ Proposal: {stats['proposal']['char_count']} chars, "
+                  f"{stats['proposal']['section_count']} sections, "
+                  f"{stats['proposal']['chunk_count']} chunks")
+            print(f"  ✓ Total chunks for analysis: {stats['total_chunks']}")
+            print(f"  ✓ NSF requirements: {'✓' if all(nsf_validation.values()) else '⚠'}")
 
-            # Create chunks from each section
-            all_chunks = []
-            for section_name, section_text in sections.items():
-                section_chunks = chunk_text(section_text)
-                for i, chunk in enumerate(section_chunks):
-                    all_chunks.append({
-                        "text": chunk,
-                        "section": section_name,
-                        "chunk_id": f"{section_name}_{i}"
-                    })
-
-            result["chunks"][doc_type] = all_chunks
+            if save_intermediate:
+                self._save_intermediate_results("processed_data", processed_data)
 
         except Exception as e:
-            raise ValueError(f"Failed to process {doc_type} PDF: {str(e)}")
+            print(f"  ❌ Document processing failed: {e}")
+            raise
 
-    # Save to disk for debugging
-    with open("data/processed_texts.json", "w") as f:
-        json.dump(result, f, indent=2)
+        # Step 2: Similarity Analysis
+        print("\n🔍 Step 2: Performing similarity analysis...")
+        try:
+            # Build similarity index
+            self.similarity_analyzer.build_index(
+                processed_data["chunks"]["solicitation"],
+                processed_data["chunks"]["proposal"]
+            )
 
-    return result
+            # Analyze proposal-solicitation alignment
+            alignment_results = self.similarity_analyzer.analyze_proposal_solicitation_alignment(
+                processed_data
+            )
+
+            # Find gaps in proposal coverage
+            gaps_analysis = self.similarity_analyzer.find_gaps_in_proposal(processed_data)
+
+            # Calculate overall alignment score
+            overall_alignment = sum(
+                result['score'] for result in alignment_results.values()
+            ) / len(alignment_results) if alignment_results else 0.0
+
+            print(f"  ✓ Index built with {stats['total_chunks']} chunks")
+            print(f"  ✓ Overall alignment score: {overall_alignment:.3f}")
+            print(f"  ✓ Sections analyzed: {len(alignment_results)}")
+            print(f"  ✓ Coverage gaps identified: {len(gaps_analysis)}")
+
+            if save_intermediate:
+                self._save_intermediate_results("alignment_analysis", {
+                    "alignment_results": alignment_results,
+                    "gaps_analysis": gaps_analysis,
+                    "overall_alignment": overall_alignment
+                })
+
+        except Exception as e:
+            print(f"  ❌ Similarity analysis failed: {e}")
+            raise
+
+        # Step 3: LLM Evaluation
+        print("\n🤖 Step 3: Evaluating proposal quality...")
+        try:
+            # Extract faculty information
+            faculty_info = self.llm_evaluator.extract_faculty_information(
+                processed_data["sections"]["proposal"]
+            )
+
+            # Evaluate proposal quality
+            evaluation_results = self.llm_evaluator.evaluate_proposal_quality(
+                processed_data["sections"]["proposal"],
+                alignment_results
+            )
+
+            # Generate evaluation summary
+            evaluation_summary = self.llm_evaluator.generate_evaluation_summary(
+                evaluation_results
+            )
+
+            overall_score = evaluation_summary["overall_score"]
+
+            print(f"  ✓ Faculty information extracted")
+            print(f"  ✓ Proposal quality evaluated")
+            print(f"  ✓ Overall quality score: {overall_score:.2f}/10.0")
+            print(f"  ✓ Assessment category: {evaluation_summary['category']}")
+
+            if save_intermediate:
+                self._save_intermediate_results("llm_evaluation", {
+                    "faculty_info": faculty_info,
+                    "evaluation_results": [
+                        {
+                            "criterion": result.criterion,
+                            "score": result.score,
+                            "justification": result.justification,
+                            "strengths": result.strengths,
+                            "weaknesses": result.weaknesses,
+                            "recommendations": result.recommendations
+                        }
+                        for result in evaluation_results
+                    ],
+                    "evaluation_summary": evaluation_summary
+                })
+
+        except Exception as e:
+            print(f"  ❌ LLM evaluation failed: {e}")
+            raise
+
+        # Step 4: Report Generation
+        print("\n📊 Step 4: Generating comprehensive report...")
+        try:
+            # Generate comprehensive report
+            report = self.report_generator.generate_comprehensive_report(
+                processed_data,
+                alignment_results,
+                evaluation_results,
+                faculty_info,
+                gaps_analysis
+            )
+
+            # Generate quick summary for console
+            quick_summary = self.report_generator.generate_quick_summary(report)
+
+            print(f"  ✓ Comprehensive report generated")
+            print(f"  ✓ Quick summary prepared")
+
+            # Save reports
+            self._save_final_reports(report, output_format)
+
+            # Print summary to console
+            print(f"\n{quick_summary}")
+
+        except Exception as e:
+            print(f"  ❌ Report generation failed: {e}")
+            raise
+
+        # Step 5: Save final results
+        print("\n💾 Step 5: Saving final results...")
+        try:
+            # Save index for future use
+            index_path = "data/final_document_index.faiss"
+            self.similarity_analyzer.save_index(index_path)
+            print(f"  ✓ FAISS index saved to {index_path}")
+
+            # Compile final results
+            final_results = {
+                "metadata": {
+                    "analysis_timestamp": datetime.now().isoformat(),
+                    "solicitation_file": solicitation_path,
+                    "proposal_file": proposal_path,
+                    "overall_score": float(overall_score),
+                    "alignment_score": float(overall_alignment),
+                    "assessment_category": evaluation_summary["category"]
+                },
+                "document_statistics": stats,
+                "nsf_compliance": nsf_validation,
+                "alignment_analysis": alignment_results,
+                "evaluation_summary": evaluation_summary,
+                "recommendations": [
+                    {"text": rec.text, "priority": rec.priority, "category": rec.category}
+                    for rec in report["detailed_recommendations"][:5]
+                ]
+            }
+
+            # Save final summary
+            with open("data/final_analysis_summary.json", "w") as f:
+                json.dump(final_results, f, indent=2, default=str)
+
+            print("  ✓ Final analysis summary saved")
+
+        except Exception as e:
+            print(f"  ❌ Final results saving failed: {e}")
+            raise
+
+        print("\n✅ Analysis completed successfully!")
+        print("="*60)
+
+        return {
+            "processed_data": processed_data,
+            "alignment_results": alignment_results,
+            "evaluation_results": evaluation_results,
+            "faculty_info": faculty_info,
+            "gaps_analysis": gaps_analysis,
+            "report": report,
+            "final_summary": final_results
+        }
+
+    def _save_intermediate_results(self, name: str, data: Dict):
+        """Save intermediate analysis results."""
+        filepath = f"data/intermediate_{name}.json"
+        with open(filepath, "w") as f:
+            json.dump(data, f, indent=2)
+        print(f"    💾 Saved to {filepath}")
+
+    def _save_final_reports(self, report: Dict, output_format: str):
+        """Save final reports in specified format(s)."""
+        if output_format in ["json", "both"]:
+            self.report_generator.save_report_to_file(
+                report, "data/final_report.json", "json"
+            )
+            print(f"    💾 JSON report saved to data/final_report.json")
+
+        if output_format in ["txt", "both"]:
+            self.report_generator.save_report_to_file(
+                report, "data/final_report.txt", "txt"
+            )
+            print(f"    💾 Text report saved to data/final_report.txt")
+
+    def validate_inputs(self, solicitation_path: str, proposal_path: str) -> bool:
+        """
+        Validate input file paths.
+
+        Args:
+            solicitation_path: Path to solicitation PDF
+            proposal_path: Path to proposal PDF
+
+        Returns:
+            True if inputs are valid, False otherwise
+        """
+        if not os.path.exists(solicitation_path):
+            print(f"❌ Solicitation file not found: {solicitation_path}")
+            return False
+
+        if not solicitation_path.lower().endswith('.pdf'):
+            print(f"❌ Solicitation must be a PDF file: {solicitation_path}")
+            return False
+
+        if not os.path.exists(proposal_path):
+            print(f"❌ Proposal file not found: {proposal_path}")
+            return False
+
+        if not proposal_path.lower().endswith('.pdf'):
+            print(f"❌ Proposal must be a PDF file: {proposal_path}")
+            return False
+
+        return True
+
 
 def main():
-    # Parse command-line arguments
-    parser = argparse.ArgumentParser(description="Grant Coach MVP")
-    parser.add_argument("solicitation", help="Path to solicitation PDF")
-    parser.add_argument("proposal", help="Path to proposal PDF")
+    """Main entry point for Grant Coach application."""
+    parser = argparse.ArgumentParser(
+        description="Grant Coach - AI-powered grant proposal evaluation tool",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python grant_coach.py solicitation.pdf proposal.pdf
+  python grant_coach.py solicitation.pdf proposal.pdf --save-intermediate
+  python grant_coach.py solicitation.pdf proposal.pdf --format json
+  python grant_coach.py solicitation.pdf proposal.pdf --mock-llm
+        """
+    )
+
+    parser.add_argument(
+        "solicitation",
+        help="Path to solicitation PDF file"
+    )
+
+    parser.add_argument(
+        "proposal",
+        help="Path to proposal PDF file"
+    )
+
+    parser.add_argument(
+        "--save-intermediate",
+        action="store_true",
+        help="Save intermediate analysis results"
+    )
+
+    parser.add_argument(
+        "--format",
+        choices=["json", "txt", "both"],
+        default="both",
+        help="Output format for final report (default: both)"
+    )
+
+    parser.add_argument(
+        "--mock-llm",
+        action="store_true",
+        help="Use mock LLM responses for testing"
+    )
+
+    parser.add_argument(
+        "--verbose",
+        "-v",
+        action="store_true",
+        help="Enable verbose output"
+    )
+
     args = parser.parse_args()
 
-    # Extract processed text
-    processed_data = extract_raw_text(args.solicitation, args.proposal)
+    # Create data directory if it doesn't exist
+    os.makedirs("data", exist_ok=True)
 
-    # Print summary for verification
-    print(f"Solicitation text length: {len(processed_data['raw_texts']['solicitation'])} characters")
-    print(f"Proposal text length: {len(processed_data['raw_texts']['proposal'])} characters")
-    print(f"Solicitation sections found: {len(processed_data['sections']['solicitation'])}")
-    print(f"Proposal sections found: {len(processed_data['sections']['proposal'])}")
-    print(f"Solicitation chunks: {len(processed_data['chunks']['solicitation'])}")
-    print(f"Proposal chunks: {len(processed_data['chunks']['proposal'])}")
+    # Initialize Grant Coach
+    try:
+        grant_coach = GrantCoach(use_mock_llm=args.mock_llm)
 
-    # Print section names for verification
-    print("\nSolicitation sections:")
-    for section in processed_data['sections']['solicitation'].keys():
-        print(f"  - {section}")
-    print("\nProposal sections:")
-    for section in processed_data['sections']['proposal'].keys():
-        print(f"  - {section}")
+        if args.verbose:
+            print("🔧 Grant Coach initialized successfully")
+            print(f"  - Mock LLM: {'Enabled' if args.mock_llm else 'Disabled'}")
+            print(f"  - Output format: {args.format}")
+            print(f"  - Save intermediate: {args.save_intermediate}")
+
+    except Exception as e:
+        print(f"❌ Failed to initialize Grant Coach: {e}")
+        sys.exit(1)
+
+    # Validate inputs
+    if not grant_coach.validate_inputs(args.solicitation, args.proposal):
+        sys.exit(1)
+
+    # Perform analysis
+    try:
+        results = grant_coach.analyze_proposals(
+            solicitation_path=args.solicitation,
+            proposal_path=args.proposal,
+            save_intermediate=args.save_intermediate,
+            output_format=args.format
+        )
+
+        if args.verbose:
+            print("\n📈 Analysis Summary:")
+            print(f"  - Overall Score: {results['final_summary']['metadata']['overall_score']:.2f}/10.0")
+            print(f"  - Alignment Score: {results['final_summary']['metadata']['alignment_score']:.3f}")
+            print(f"  - Category: {results['final_summary']['metadata']['assessment_category']}")
+            print(f"  - Recommendations: {len(results['final_summary']['recommendations'])}")
+
+        print(f"\n📁 Results saved to:")
+        print(f"  - data/final_report.json")
+        print(f"  - data/final_report.txt")
+        print(f"  - data/final_analysis_summary.json")
+
+    except KeyboardInterrupt:
+        print("\n❌ Analysis interrupted by user")
+        sys.exit(1)
+    except Exception as e:
+        print(f"❌ Analysis failed: {e}")
+        if args.verbose:
+            import traceback
+            traceback.print_exc()
+        sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

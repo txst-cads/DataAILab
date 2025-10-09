@@ -1,6 +1,6 @@
 import unittest
 import os
-from grant_coach import extract_raw_text, extract_sections, chunk_text
+from document_processor import DocumentProcessor
 
 class TestSectionParsing(unittest.TestCase):
 
@@ -8,11 +8,12 @@ class TestSectionParsing(unittest.TestCase):
         # Paths for valid test files
         self.solicitation_path = "/Users/quamos/Desktop/CADS/DataAILab/GrantCoach/data/ExpandAI_Solicitation.pdf"
         self.proposal_path = "/Users/quamos/Desktop/CADS/DataAILab/GrantCoach/data/ExpandAI_Full_Proposal_TSU_Expanded.pdf"
+        self.processor = DocumentProcessor()
 
     def test_chunk_text(self):
         # Test basic chunking functionality
         test_text = "This is a test sentence with multiple words. It should be split into chunks. Each chunk should have overlapping content for better context preservation."
-        chunks = chunk_text(test_text, chunk_size=10, overlap=3)
+        chunks = self.processor.chunk_text(test_text, chunk_size=10, overlap=3)
 
         self.assertGreater(len(chunks), 1)
         self.assertTrue(all(len(chunk.split()) <= 10 for chunk in chunks))
@@ -30,7 +31,7 @@ class TestSectionParsing(unittest.TestCase):
         Review Criteria
         Proposals will be evaluated based on merit.
         """
-        sections = extract_sections(test_text, "solicitation")
+        sections = self.processor.extract_sections(test_text, "solicitation")
 
         self.assertIn("Program Description", sections)
         self.assertIn("Eligibility", sections)
@@ -48,7 +49,7 @@ class TestSectionParsing(unittest.TestCase):
         Broader Impacts
         The broader impacts include educational benefits.
         """
-        sections = extract_sections(test_text, "proposal")
+        sections = self.processor.extract_sections(test_text, "proposal")
 
         self.assertIn("Project Summary", sections)
         self.assertIn("Intellectual Merit", sections)
@@ -59,7 +60,7 @@ class TestSectionParsing(unittest.TestCase):
         if not (os.path.exists(self.solicitation_path) and os.path.exists(self.proposal_path)):
             self.skipTest("Test PDFs not found.")
 
-        processed_data = extract_raw_text(self.solicitation_path, self.proposal_path)
+        processed_data = self.processor.process_documents(self.solicitation_path, self.proposal_path)
 
         # Verify structure
         self.assertIn("raw_texts", processed_data)
@@ -85,7 +86,7 @@ class TestSectionParsing(unittest.TestCase):
         if not (os.path.exists(self.solicitation_path) and os.path.exists(self.proposal_path)):
             self.skipTest("Test PDFs not found.")
 
-        processed_data = extract_raw_text(self.solicitation_path, self.proposal_path)
+        processed_data = self.processor.process_documents(self.solicitation_path, self.proposal_path)
         proposal_sections = processed_data["sections"]["proposal"]
 
         # Check for key NSF sections
