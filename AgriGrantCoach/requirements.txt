@@ -1,0 +1,24 @@
+# Core Dependencies
+python-dotenv==1.0.0
+groq>=0.14.0
+
+# Document Processing
+PyMuPDF>=1.24.0
+python-docx==1.1.0
+
+# Vector Search & Embeddings
+faiss-cpu>=1.9.0
+sentence-transformers>=2.2.2
+numpy>=1.24.3
+
+# Data Processing
+pandas>=2.2.0
+
+# API Integration (Optional - for OpenAlex)
+requests==2.31.0
+
+# CLI & Utilities
+tqdm==4.66.1
+
+# Future Streamlit Support
+streamlit==1.29.0

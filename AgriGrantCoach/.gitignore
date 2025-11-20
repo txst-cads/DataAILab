@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment Variables
+.env
+
+# Data (user will add their own documents)
+data/solicitation/*.pdf
+data/narrative/*.docx
+data/biosketches/*.pdf
+data/cps/*.pdf
+
+# But keep the directories
+!data/solicitation/.gitkeep
+!data/narrative/.gitkeep
+!data/biosketches/.gitkeep
+!data/cps/.gitkeep
+
+# Output
+output/*.md
+output/*.json
+output/*.txt
+
+# MacOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FAISS indices
+*.faiss
+*.index
+
+# Logs
+*.log
